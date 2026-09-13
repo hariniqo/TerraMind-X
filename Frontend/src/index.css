@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  /* App colour system — dark olive green + orange */
+  --color-app-bg:       #3B4A2C;
+  --color-app-surface:  #4A5A38;
+  --color-app-card:     #2D3C20;
+  --color-app-input:    #2A3A1C;
+  --color-app-border:   rgba(255,255,255,0.10);
+  --color-app-orange:   #E55C27;
+  --color-app-orange2:  #FF7043;
+  --color-app-amber:    #E8A830;
+  --color-app-white:    #FFFFFF;
+  --color-app-green:    #5C9A3C;
+  --color-app-red:      #D94F3D;
+  --color-app-sky:      #4A90D9;
+
+  --color-txt-primary:  #FFFFFF;
+  --color-txt-sub:      rgba(255,255,255,0.55);
+  --color-txt-muted:    rgba(255,255,255,0.35);
+  --color-txt-dark:     #1E2A14;
+  --color-txt-gray:     #6B7B5A;
+
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-mono: 'DM Mono', 'Courier New', monospace;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  background: #3B4A2C;
+  color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior: none;
+}
+
+/* ── Topographic contour background ── */
+.topo {
+  background-color: #3B4A2C;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='800'%3E%3Cpath d='M0,400 C80,320 160,380 240,360 C320,340 400,280 480,300 C560,320 640,380 720,360 C760,350 800,340 800,340' fill='none' stroke='%23FFFFFF' stroke-width='1' opacity='0.07'/%3E%3Cpath d='M0,440 C80,360 160,420 240,400 C320,380 400,320 480,340 C560,360 640,420 720,400 C760,390 800,380 800,380' fill='none' stroke='%23FFFFFF' stroke-width='1' opacity='0.07'/%3E%3Cpath d='M0,480 C80,400 160,460 240,440 C320,420 400,360 480,380 C560,400 640,460 720,440 C760,430 800,420 800,420' fill='none' stroke='%23FFFFFF' stroke-width='1' opacity='0.06'/%3E%3Cpath d='M0,360 C80,280 160,340 240,320 C320,300 400,240 480,260 C560,280 640,340 720,320 C760,310 800,300 800,300' fill='none' stroke='%23FFFFFF' stroke-width='1' opacity='0.06'/%3E%3Cpath d='M0,320 C80,240 160,300 240,280 C320,260 400,200 480,220 C560,240 640,300 720,280 C760,270 800,260 800,260' fill='none' stroke='%23FFFFFF' stroke-width='1' opacity='0.05'/%3E%3Cpath d='M0,280 C80,200 160,260 240,240 C320,220 400,160 480,180 C560,200 640,260 720,240 C760,230 800,220 800,220' fill='none' stroke='%23FFFFFF' stroke-width='1' opacity='0.05'/%3E%3Cpath d='M0,520 C100,450 200,500 300,480 C400,460 500,410 600,430 C680,445 740,470 800,460' fill='none' stroke='%23FFFFFF' stroke-width='1' opacity='0.06'/%3E%3Cpath d='M0,560 C100,490 200,540 300,520 C400,500 500,450 600,470 C680,485 740,510 800,500' fill='none' stroke='%23FFFFFF' stroke-width='1' opacity='0.05'/%3E%3Cpath d='M0,600 C100,530 200,580 300,560 C400,540 500,490 600,510 C680,525 740,550 800,540' fill='none' stroke='%23FFFFFF' stroke-width='1' opacity='0.04'/%3E%3Cpath d='M200,0 C180,80 220,160 200,240 C180,320 140,400 160,480 C180,560 220,640 200,720 C190,760 180,800 180,800' fill='none' stroke='%23FFFFFF' stroke-width='1' opacity='0.05'/%3E%3Cpath d='M400,0 C380,80 420,160 400,240 C380,320 340,400 360,480 C380,560 420,640 400,720 C390,760 380,800 380,800' fill='none' stroke='%23FFFFFF' stroke-width='1' opacity='0.05'/%3E%3Cpath d='M600,0 C580,80 620,160 600,240 C580,320 540,400 560,480 C580,560 620,640 600,720 C590,760 580,800 580,800' fill='none' stroke='%23FFFFFF' stroke-width='1' opacity='0.04'/%3E%3C/svg%3E");
+  background-size: 800px 800px;
+}
+
+/* White card system */
+.card-white {
+  background: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.14);
+}
+.card-dark {
+  background: #2D3C20;
+  border-radius: 20px;
+}
+.card-surface {
+  background: #4A5A38;
+  border-radius: 20px;
+}
+
+/* Input fields */
+.input-dark {
+  background: #2A3A1C;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 14px;
+  color: #FFFFFF;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  padding: 14px 18px;
+  width: 100%;
+  outline: none;
+  font-size: 15px;
+  transition: border-color 0.2s;
+}
+.input-dark::placeholder { color: rgba(255,255,255,0.38); }
+.input-dark:focus { border-color: rgba(255,255,255,0.30); }
+
+/* Orange pill badge */
+.pill-orange {
+  background: #E55C27;
+  color: #FFFFFF;
+  border-radius: 999px;
+  padding: 4px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  display: inline-block;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Priority tags */
+.tag-urgent  { background: #E55C27; color: #fff; }
+.tag-medium  { background: #E8A830; color: #fff; }
+.tag-normal  { background: #4A5A38; color: rgba(255,255,255,0.8); }
+.tag-low     { background: #2D3C20; color: rgba(255,255,255,0.6); }
+.tag-good    { background: #3A6B28; color: #fff; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 0; height: 0; }
+* { scrollbar-width: none; }
+
+/* Animations */
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes wave-bar {
+  0%, 100% { transform: scaleY(0.35); }
+  50%       { transform: scaleY(1); }
+}
+@keyframes pulse-ring {
+  0%   { transform: scale(0.9); opacity: 0.8; }
+  100% { transform: scale(1.5); opacity: 0; }
+}
+.animate-slide-up  { animation: slide-up 0.3s ease forwards; }
+.animate-pulse-ring { animation: pulse-ring 1.6s ease-out infinite; }
+
+@keyframes avatar-float {
+  0%, 100% { transform: translateY(0px) rotate(-1deg); }
+  50%       { transform: translateY(-6px) rotate(1deg); }
+}
+@keyframes avatar-think {
+  0%, 100% { transform: translateY(0) scale(1); }
+  25%       { transform: translateY(-3px) scale(1.03) rotate(-2deg); }
+  75%       { transform: translateY(-3px) scale(1.03) rotate(2deg); }
+}
+@keyframes avatar-speak {
+  0%, 100% { transform: scale(1) translateY(0); }
+  30%       { transform: scale(1.06) translateY(-4px); }
+  60%       { transform: scale(0.97) translateY(2px); }
+}
+@keyframes avatar-listen-ring {
+  0%   { transform: scale(1); opacity: 0.6; }
+  100% { transform: scale(1.6); opacity: 0; }
+}
+@keyframes screen-bg-fade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.avatar-idle    { animation: avatar-float 3.2s ease-in-out infinite; }
+.avatar-think   { animation: avatar-think 1.1s ease-in-out infinite; }
+.avatar-speak   { animation: avatar-speak 0.7s ease-in-out infinite; }
+.screen-bg-img  { animation: screen-bg-fade 0.6s ease forwards; }
+
+.wbar { animation: wave-bar 0.65s ease-in-out infinite; transform-origin: bottom; }
+.wbar:nth-child(2) { animation-delay: 0.10s; }
+.wbar:nth-child(3) { animation-delay: 0.20s; }
+.wbar:nth-child(4) { animation-delay: 0.30s; }
+.wbar:nth-child(5) { animation-delay: 0.15s; }
+
+/* Safe areas */
+.pb-nav { padding-bottom: calc(72px + env(safe-area-inset-bottom)); }
