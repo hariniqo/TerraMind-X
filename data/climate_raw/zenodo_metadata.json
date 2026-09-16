@@ -1,0 +1,185 @@
+{
+  "created": "2020-08-17T06:10:43.436950+00:00",
+  "modified": "2020-08-17T12:59:26.603883+00:00",
+  "id": 3987736,
+  "conceptrecid": "3873028",
+  "doi": "10.5281/zenodo.3987736",
+  "conceptdoi": "10.5281/zenodo.3873028",
+  "doi_url": "https://doi.org/10.5281/zenodo.3987736",
+  "metadata": {
+    "title": "Bias Corrected Climate Projections from CMIP6 Models for South Asia",
+    "doi": "10.5281/zenodo.3987736",
+    "publication_date": "2020-06-01",
+    "description": "<p>Bias-corrected data of precipitation, maximum temperature, and minimum temperature are developed for six countries in South Asia.&nbsp;Each zipped country file contains 13 models, and each model includes five scenarios (historical, ssp126, ssp245, ssp370, and ssp585). Inside a scenario folder, a file named PrecipData can be read as the first three columns from the 3rd row contain year month and day numbers. 1st two rows from the 3rd column represent the longitude and latitude.</p>\n\n<p>Separate ObservedData.zip file contains daily observed precipitation (mm), maximum temperature (deg C), and minimum temperature (deg C) data in each grid file.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Vimal Mishra",
+        "affiliation": "Civil Engineering, Indian Institute of Technology (IIT) Gandhinagar",
+        "orcid": "0000-0001-7498-9905"
+      },
+      {
+        "name": "Udit Bhatia",
+        "affiliation": "Civil Engineering, Indian Institute of Technology (IIT) Gandhinagar"
+      },
+      {
+        "name": "Amar Deep Tiwari",
+        "affiliation": "Civil Engineering, Indian Institute of Technology (IIT) Gandhinagar",
+        "orcid": "0000-0003-1649-8889"
+      }
+    ],
+    "keywords": [
+      "CMIP6, Precipitation, Maximum Temperature, Minimum Temperature, Bias correction, Climate Impacts, Climate Change"
+    ],
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 2,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "3873028"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Bias Corrected Climate Projections from CMIP6 Models for South Asia",
+  "links": {
+    "self": "https://zenodo.org/api/records/3987736",
+    "self_html": "https://zenodo.org/records/3987736",
+    "preview_html": "https://zenodo.org/records/3987736?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.3987736",
+    "self_doi": "https://doi.org/10.5281/zenodo.3987736",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.3987736",
+    "reserve_doi": "https://zenodo.org/api/records/3987736/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/3873028",
+    "parent_html": "https://zenodo.org/records/3873028",
+    "parent_doi": "https://doi.org/10.5281/zenodo.3873028",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.3873028",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:3987736/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:3987736/sequence/default",
+    "files": "https://zenodo.org/api/records/3987736/files",
+    "media_files": "https://zenodo.org/api/records/3987736/media-files",
+    "archive": "https://zenodo.org/api/records/3987736/files-archive",
+    "archive_media": "https://zenodo.org/api/records/3987736/media-files-archive",
+    "latest": "https://zenodo.org/api/records/3987736/versions/latest",
+    "latest_html": "https://zenodo.org/records/3987736/latest",
+    "versions": "https://zenodo.org/api/records/3987736/versions",
+    "draft": "https://zenodo.org/api/records/3987736/draft",
+    "access_links": "https://zenodo.org/api/records/3987736/access/links",
+    "access_grants": "https://zenodo.org/api/records/3987736/access/grants",
+    "access_users": "https://zenodo.org/api/records/3987736/access/users",
+    "access_request": "https://zenodo.org/api/records/3987736/access/request",
+    "access": "https://zenodo.org/api/records/3987736/access",
+    "communities": "https://zenodo.org/api/records/3987736/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/3987736/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/3987736/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/3987736/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/3987736/quota-increase",
+    "requests": "https://zenodo.org/api/records/3987736/requests"
+  },
+  "updated": "2020-08-17T12:59:26.603883+00:00",
+  "recid": "3987736",
+  "revision": 2,
+  "files": [
+    {
+      "id": "11dd8ae8-4473-4e75-b366-bc660a5b1ee2",
+      "key": "India.tar.xz",
+      "size": 31458098500,
+      "checksum": "md5:d81e73ab1c27f1876d6c33c750cd6917",
+      "links": {
+        "self": "https://zenodo.org/api/records/3987736/files/India.tar.xz/content"
+      }
+    },
+    {
+      "id": "d4186999-e314-4f03-a26b-e1e6e6ea04a8",
+      "key": "Srilanka.tar.xz",
+      "size": 533378408,
+      "checksum": "md5:2d503912264610bf8afc478a49b6f310",
+      "links": {
+        "self": "https://zenodo.org/api/records/3987736/files/Srilanka.tar.xz/content"
+      }
+    },
+    {
+      "id": "c4c81b92-bf14-458b-a3cc-29583f5cecb2",
+      "key": "ObservedData.zip",
+      "size": 1432001964,
+      "checksum": "md5:10a767606d3e1a2202fb43fab71a7c28",
+      "links": {
+        "self": "https://zenodo.org/api/records/3987736/files/ObservedData.zip/content"
+      }
+    },
+    {
+      "id": "0278ae63-8d7e-4969-b2fa-b2bea0069765",
+      "key": "Nepal.tar.xz",
+      "size": 1548735960,
+      "checksum": "md5:2864cbbbedc0871dcdd5548141b632ed",
+      "links": {
+        "self": "https://zenodo.org/api/records/3987736/files/Nepal.tar.xz/content"
+      }
+    },
+    {
+      "id": "4cfbf6ec-706d-4c8c-96d8-7a75ab3f2850",
+      "key": "Pakistan.tar.xz",
+      "size": 7215455500,
+      "checksum": "md5:4544a8cdb20323743e911bfb964af71f",
+      "links": {
+        "self": "https://zenodo.org/api/records/3987736/files/Pakistan.tar.xz/content"
+      }
+    },
+    {
+      "id": "a60e62de-ee70-41d8-9500-6cd1d6874afb",
+      "key": "Bhutan.tar.xz",
+      "size": 427829584,
+      "checksum": "md5:0c3ae21186e32025034c39f30a876f67",
+      "links": {
+        "self": "https://zenodo.org/api/records/3987736/files/Bhutan.tar.xz/content"
+      }
+    },
+    {
+      "id": "4d724323-305d-4247-b8bf-7577d8c80459",
+      "key": "Bangladesh.tar.xz",
+      "size": 1073576856,
+      "checksum": "md5:5e6710850c385849301c89217ba436a6",
+      "links": {
+        "self": "https://zenodo.org/api/records/3987736/files/Bangladesh.tar.xz/content"
+      }
+    },
+    {
+      "id": "415566e5-8c57-43a8-ae56-f46f3e19afe0",
+      "key": "01_ReadMeFile.docx",
+      "size": 11107,
+      "checksum": "md5:a154dc77a35fff8929c92b26d46e184c",
+      "links": {
+        "self": "https://zenodo.org/api/records/3987736/files/01_ReadMeFile.docx/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "104187"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 28233,
+    "unique_downloads": 12141,
+    "views": 19716,
+    "unique_views": 17847,
+    "version_downloads": 11058,
+    "version_unique_downloads": 6091,
+    "version_unique_views": 6749,
+    "version_views": 7522
+  },
+  "state": "done",
+  "submitted": true
+}

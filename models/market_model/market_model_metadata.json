@@ -1,0 +1,16 @@
+{
+  "model_name": "market_price_forecaster_gbr",
+  "version": "v1.2.0",
+  "training_date": "2026-09-01T16:21:46.880016",
+  "algorithm": "GradientBoostingRegressor",
+  "features": [
+    "rainfall_mm",
+    "temperature_c",
+    "nitrogen_kg_ha",
+    "phosphorus_kg_ha"
+  ],
+  "target": "modal_price_per_q",
+  "train_samples": 2688,
+  "train_r2": 0.8918,
+  "train_mae": 394.39
+}

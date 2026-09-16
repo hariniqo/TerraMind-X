@@ -1,0 +1,47 @@
+festival,state,district,crop,local_crop_name,demand_reason,evidence_type,price_arrival_change
+Gauri Ganpati (Jyeshtha Gauri),Maharashtra,Pune,Dill (Shepu),Shepu,Customary leafy vegetable offered as Bhaji-Bhakri on the first day of Gauri Avahan,Mandi Arrival Spikes,45.0
+Gauri Ganpati (Jyeshtha Gauri),Maharashtra,Kolhapur,Fenugreek (Methi),Methi,Leafy vegetable bundle for traditional Bhaji-Bhakri offering,Mandi Arrival Spikes,50.0
+Gauri Ganpati (Jyeshtha Gauri),Maharashtra,Statewide,Sorghum (Jowar),Jowar,Grains for preparing traditional Jowar Bhakri served with leafy vegetables during Avahan,Retail Price Surveys,10.0
+Gauri Ganpati (Jyeshtha Gauri),Maharashtra,Mumbai,Mixed Vegetables (16 Varieties),Mishra Bhaji,Offering of 16 seasonal mixed vegetables (wata) for Gauri Naivedya on the second day,Mandi Arrival Spikes,35.0
+Makar Sankranti (Bhogi),Maharashtra,Pune,Green Gram (Chana),Harbhara,Fresh winter green chana pods used in preparing Bhogi chi Bhaji,Mandi Arrival Spikes,30.0
+Makar Sankranti (Bhogi),Maharashtra,Kolhapur,Hyacinth Beans,Pavta,Fresh hyacinth bean pods used in preparing Bhogi chi Bhaji,Mandi Arrival Spikes,40.0
+Makar Sankranti (Bhogi),Maharashtra,Statewide,Brinjal,Wangi,Baby brinjals used in preparing winter Bhogi chi Bhaji,Retail Price Surveys,25.0
+Makar Sankranti (Bhogi),Maharashtra,Statewide,Carrot,Gajar,Red carrots added to the mixed winter bhaji for sweetness and texture,Retail Price Surveys,20.0
+Makar Sankranti (Bhogi),Maharashtra,Statewide,Sesame (Til),Til,"Sesame seeds coated on Bajra Bhakri during Bhogi, and used for making Til-Gul sweets",Retail Price Surveys,60.0
+Makar Sankranti (Bhogi),Maharashtra,Kolhapur,Jaggery,Gul,Sugar cane jaggery exchanged as Til-Gul to symbolise sweetness and friendship,Mandi Arrival Spikes,35.0
+Kojagiri Purnima (Sharad Purnima),Maharashtra,Statewide,Dairy Milk,Dudh,Exchanged and boiled in large copper pans in moonlight for Masala Milk feast,Retail Price Surveys,80.0
+Kojagiri Purnima (Sharad Purnima),Maharashtra,Mumbai,Almonds,Badam,Crushed nut topping for preparing traditional Kojagiri Masala Milk,Retail Price Surveys,15.0
+Nag Panchami,Maharashtra,Statewide,Sorghum (Jowar),Jowarichya Lahya,Offering of popped Jowar as a sacred offering (Lahya) to the snake deity,Cultural Custom Survey,50.0
+Nag Panchami,Maharashtra,Statewide,Turmeric Leaves,Haladiche Paan,Leaves used for wrapping and steaming traditional sweet dumplings like Patolya,Cultural Custom Survey,120.0
+Dussehra (Vijayadashami),Maharashtra,Pune,Marigold,Zendu,Yellow and orange flowers woven into garlands to decorate houses and vehicles,Mandi Arrival Spikes,250.0
+Dussehra (Vijayadashami),Maharashtra,Mumbai,Marigold,Zendu,Decorating door frames and businesses with fresh marigold garlands,Mandi Arrival Spikes,220.0
+Dussehra (Vijayadashami),Maharashtra,Pune,Apta Leaves,Sona (Aptyaachi Paane),Bauhinia racemosa leaves exchanged as symbolic gold (Sona) among relatives and friends,Cultural Custom Survey,300.0
+Gudi Padwa (New Year),Maharashtra,Pune,Mango Leaves,Ambyachi Paane,Mango leaves tied together with flowers to hang on the Gudi pole and front entrance,Cultural Custom Survey,80.0
+Gudi Padwa (New Year),Maharashtra,Statewide,Neem Leaves/Flowers,Kadulimbachi Paane,Bittersweet mixture of crushed neem and jaggery eaten as a spring health purification ritual,Cultural Custom Survey,150.0
+Sao Joao,Goa,South Goa,Jackfruit,Ponos,Traditional fruit platter (Vojem) sent to newlywed daughter's house in feast ceremony,Academic Ethnography,40.0
+Sao Joao,Goa,North Goa,Mango,Ambo,Fresh mangoes included in the bridal Vojem gift basket,Academic Ethnography,30.0
+Sao Joao,Goa,South Goa,Pineapple,Ananas,Fruit platter gift (Vojem) ingredient that drives up wholesale fruit arrivals,Academic Ethnography,50.0
+Sao Joao,Goa,North Goa,Turmeric Leaves,Haladiche Paan,Steaming Patoleo sweet rice cakes with coconut and jaggery inside fresh turmeric leaves,Academic Ethnography,90.0
+Chavath (Ganesh Chaturthi),Goa,Panaji,Citron,Maulinge,Ritual citrus fruit tied to the wooden Matoli canopy directly above the Ganesha idol,Academic Ethnography,120.0
+Chavath (Ganesh Chaturthi),Goa,South Goa,Pomelo,Toringe,Large round citrus fruit essential for Matoli canopy decorations,Academic Ethnography,100.0
+Chavath (Ganesh Chaturthi),Goa,South Goa,Banana,Kelle,Bunches of raw and ripe bananas suspended from the Matoli wooden canopy framework,Retail Price Surveys,45.0
+Ahmedabad Rath Yatra,Gujarat,Ahmedabad,Mung Beans,Sprouted Moong,Distribution of sprouted mung beans as cooling prasad to lakhs of temple devotees,Temple Procurement Records,20.0
+Ahmedabad Rath Yatra,Gujarat,Ahmedabad,Black Plum,Jamun,Seasonal summer fruit distributed alongside moong as cooling temple prasad,Temple Procurement Records,30.0
+Ahmedabad Rath Yatra,Gujarat,Ahmedabad,Cucumber,Kakdi,Summer cooling cucumbers distributed to devotees during the massive chariot procession,Temple Procurement Records,15.0
+Uttarayan (Makar Sankranti),Gujarat,Surat,Flat Beans,Surti Papdi,Flat bean pods essential for preparing the local baked winter Undhiyu vegetable dish,Mandi Arrival Spikes,85.0
+Uttarayan (Makar Sankranti),Gujarat,Surat,Pigeon Peas,Tuvar Lilva,Fresh tender green pigeon peas added to Undhiyu vegetable preparation,Mandi Arrival Spikes,60.0
+Uttarayan (Makar Sankranti),Gujarat,Ahmedabad,Purple Yam,Kand,Fried starchy purple yam chunks cooked in mixed Undhiyu winter pot,Mandi Arrival Spikes,70.0
+Uttarayan (Makar Sankranti),Gujarat,Statewide,Sesame (Til),Til,Exchanged as sweet brittle Til Chikki sweets for friendship on Makar Sankranti,Mandi Arrival Spikes,50.0
+Bathukamma,Telangana,Statewide,Tangedu Flowers,Tangedu Puvvu,Wild yellow Cassia auriculata flowers used to build concentric floral cones,Academic Ethnography,120.0
+Bathukamma,Telangana,Hyderabad,Marigold,Banti,Cultivated marigold garlands added to Bathukamma floral towers to enhance height and colors,Mandi Arrival Spikes,180.0
+Bathukamma,Telangana,Hyderabad,Chrysanthemum,Chamanti,Bright white and yellow cultivated chrysanthemums woven into the floral tiers,Mandi Arrival Spikes,200.0
+Varamahalakshmi Vrata,Karnataka,Bengaluru,Lotus,Tavare,Worshipping Goddess Lakshmi with auspicious twin pink lotuses (Lotus pairs),Mandi Arrival Spikes,300.0
+Varamahalakshmi Vrata,Karnataka,Bengaluru,Jasmine,Malle,Fragrant jasmine garlands offered to Goddess Lakshmi and worn by women,Mandi Arrival Spikes,250.0
+Varamahalakshmi Vrata,Karnataka,Statewide,Banana (Elaichi),Yelakki Bale,Sweet local Elaichi Bananas presented as fruit offering (Naivedya),Retail Price Surveys,50.0
+Hareli,Chhattisgarh,Statewide,Rice Flour,Cheela,Rice flour used to fry Cheela pancakes as ritual offering to farm machinery and cattle,Academic Ethnography,25.0
+Hareli,Chhattisgarh,Raipur,Bamboo,Bans (Gedi),Bamboo shafts cut to construct Gedi stilts for children to walk above muddy monsoon soil,Cultural Custom Survey,150.0
+Nuakhai/Navakhai,Chhattisgarh,Statewide,Rice (Paddy),Nua Dhan,First harvest grains cooked with milk and sugar as Kheer to thank earth deities,State Cultivation Campaigns,40.0
+Vishu Kani,Kerala,Ernakulam,Golden Shower Flower,Kani Konna,Bright yellow Cassia fistula flowers placed at center of Vishu Kani ritual mirror arrangement,Academic Ethnography,250.0
+Vishu Kani,Kerala,Kochi,Golden Cucumber,Kani Vellari,Auspicious yellow cucumber placed in Vishu Kani setting to represent prosperity,Mandi Arrival Spikes,120.0
+Onam,Kerala,Ernakulam,Yam,Chenai,Yam cultivated under Onathinorukkam scheme for preparing Sadya curry dishes like Avial,State Cultivation Campaigns,80.0
+Onam,Kerala,Statewide,Pumpkin,Mathanga,Local pumpkin harvested and sold in government fairs for Onam Sadya preparations,State Cultivation Campaigns,70.0

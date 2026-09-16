@@ -1,0 +1,53 @@
+{
+    "crop_suitability_model": {
+        "model_name": "crop_xgboost",
+        "model_version": "1.0.0",
+        "trained_at": "2026-08-21T07:18:47.785935",
+        "dataset_version": "agronomy_processed_v1",
+        "features": [
+            "N",
+            "P",
+            "K",
+            "pH",
+            "temperature",
+            "humidity",
+            "rainfall",
+            "soil_type_encoded",
+            "season_encoded"
+        ],
+        "classes": [
+            "tomato",
+            "onion",
+            "chilli",
+            "paddy",
+            "banana",
+            "groundnut"
+        ]
+    },
+    "yield_prediction_model": {
+        "model_name": "yield_xgboost",
+        "model_version": "1.0.0",
+        "trained_at": "2026-08-21T07:28:57.931846",
+        "dataset_version": "agronomy_processed_v1",
+        "features": [
+            "crop_encoded",
+            "soil_type_encoded",
+            "N",
+            "P",
+            "K",
+            "pH",
+            "temperature",
+            "humidity",
+            "rainfall",
+            "season_encoded",
+            "NDVI"
+        ]
+    },
+    "stress_model": {
+        "model_name": "stress_xgboost_fallback",
+        "model_version": "0.0.0",
+        "status": "insufficient_data",
+        "fallback_type": "rule_based_fallback",
+        "registered_at": "2026-08-21T07:30:53.343982"
+    }
+}

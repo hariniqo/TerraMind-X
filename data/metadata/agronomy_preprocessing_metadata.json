@@ -1,0 +1,63 @@
+{
+    "timestamp": "2026-08-21T07:18:21.194886",
+    "initial_row_count": 1515,
+    "missing_values": {
+        "pH": 30,
+        "soil_moisture": 30
+    },
+    "duplicates": 15,
+    "impossible_values": {
+        "N": {
+            "count": 1,
+            "indices": [
+                10
+            ]
+        },
+        "pH": {
+            "count": 1,
+            "indices": [
+                5
+            ]
+        },
+        "temperature": {
+            "count": 1,
+            "indices": [
+                15
+            ]
+        },
+        "rainfall": {
+            "count": 6,
+            "indices": [
+                20,
+                142,
+                1107,
+                1138,
+                1332,
+                1460
+            ]
+        },
+        "soil_moisture": {
+            "count": 3,
+            "indices": [
+                52,
+                298,
+                619
+            ]
+        },
+        "NDVI": {
+            "count": 8,
+            "indices": [
+                80,
+                285,
+                541,
+                578,
+                597,
+                816,
+                1318,
+                1320
+            ]
+        }
+    },
+    "dropped_impossible_rows": 20,
+    "final_row_count": 1480
+}

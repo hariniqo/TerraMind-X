@@ -1,0 +1,64 @@
+[
+  {
+    "id": "land",
+    "name": "Land Intelligence",
+    "status": "Completed",
+    "score": 87,
+    "details": {
+      "Soil Suitability": 91,
+      "Climate Suitability": 84,
+      "Water Suitability": 79,
+      "Terrain Suitability": 88,
+      "Historical Crop Fit": 86
+    }
+  },
+  {
+    "id": "soil",
+    "name": "Soil Guardian",
+    "status": "Completed",
+    "score": 82,
+    "details": {
+      "pH": 6.7,
+      "Organic Carbon": 91,
+      "NPK Balance": 80,
+      "Soil Moisture": 84,
+      "Conductivity": 88
+    }
+  },
+  {
+    "id": "agronomy",
+    "name": "Agronomy Intelligence",
+    "status": "Completed",
+    "score": 88,
+    "details": {
+      "Seed Sowing Window": 92,
+      "Pest/Disease Resilience": 85,
+      "Crop Rotational Fit": 90,
+      "Sowing Depth Suitability": 86
+    }
+  },
+  {
+    "id": "market",
+    "name": "Market Intelligence",
+    "status": "Completed",
+    "score": 84,
+    "details": {
+      "Price Stability Index": 88,
+      "Oversupply Risk Avoidance": 21,
+      "Local Procurement Demand": 79,
+      "Export Potential": 65
+    }
+  },
+  {
+    "id": "sustainability",
+    "name": "Sustainability Intelligence",
+    "status": "Completed",
+    "score": 89,
+    "details": {
+      "Water Efficiency": 92,
+      "Soil Protection": 87,
+      "Biodiversity": 84,
+      "Carbon Footprint Impact": 91
+    }
+  }
+]

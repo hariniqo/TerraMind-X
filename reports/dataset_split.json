@@ -1,0 +1,27 @@
+{
+  "train_ratio": 0.8,
+  "test_ratio": 0.2,
+  "random_state": 42,
+  "split_strategy": "stratified_by_crop",
+  "train_samples": 2688,
+  "test_samples": 672,
+  "total_samples": 3360,
+  "train_crops": {
+    "Cotton": 672,
+    "Soybean": 336,
+    "Tomato": 336,
+    "Groundnut": 336,
+    "Red Onion": 336,
+    "Sugarcane": 336,
+    "Banana": 336
+  },
+  "test_crops": {
+    "Cotton": 168,
+    "Groundnut": 84,
+    "Sugarcane": 84,
+    "Tomato": 84,
+    "Soybean": 84,
+    "Banana": 84,
+    "Red Onion": 84
+  }
+}

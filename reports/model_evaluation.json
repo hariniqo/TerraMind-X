@@ -1,0 +1,29 @@
+{
+  "evaluation_timestamp": "2026-09-01T16:21:49.564001",
+  "test_dataset": "data\\test\\test.csv",
+  "test_samples": 672,
+  "crop_recommendation_model": {
+    "model_name": "crop_recommendation_rf",
+    "version": "v1.2.0",
+    "test_accuracy": 0.9658,
+    "test_precision": 0.9661,
+    "test_recall": 0.9658,
+    "test_f1": 0.9658,
+    "classes": [
+      "Banana",
+      "Cotton",
+      "Groundnut",
+      "Red Onion",
+      "Soybean",
+      "Sugarcane",
+      "Tomato"
+    ]
+  },
+  "market_price_model": {
+    "model_name": "market_price_forecaster_gbr",
+    "version": "v1.2.0",
+    "test_r2": 0.83,
+    "test_mae": 468.17,
+    "test_rmse": 815.67
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "dataset_name": "TerraMind-X Crop Production Training Dataset",
+    "data_mode": "DEMO_MODE",
+    "states": [
+        "Tamil Nadu",
+        "Kerala"
+    ],
+    "start_year": 2021,
+    "end_year": 2025,
+    "records": 300,
+    "sources": [
+        "TerraMind-X Synthetic Crop Production Generator"
+    ],
+    "validation_stats": {
+        "total": 300,
+        "valid": 300,
+        "invalid": 0,
+        "errors": []
+    },
+    "generated_at": "2026-08-12T19:26:29.596878"
+}

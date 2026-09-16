@@ -1,0 +1,21 @@
+{
+  "recommendedCrop": "Groundnut",
+  "confidence": 92,
+  "expectedYield": "1.8–2.2 tonnes/acre",
+  "marketRisk": "Low",
+  "waterRequirement": "Low",
+  "sustainabilityScore": 89,
+  "reasons": [
+    "Suitable soil pH and organic carbon level",
+    "Low water requirement aligns with sustainable groundwater usage",
+    "Favorable upcoming seasonal climate with moderate temperature",
+    "Low oversupply risk compared to tomato saturation in Madurai region"
+  ],
+  "reasoningBreakdown": {
+    "Land Suitability": 94,
+    "Soil Guardian": 82,
+    "Agronomy": 89,
+    "Market Intelligence": 84,
+    "Sustainability": 89
+  }
+}

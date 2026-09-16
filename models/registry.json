@@ -1,0 +1,60 @@
+{
+    "market_risk_model": {
+        "algorithm": "XGBoost",
+        "training_data_type": "synthetic",
+        "training_dataset": "market_training.parquet",
+        "status": "trained",
+        "version": "1.2.0",
+        "training_start": 2021,
+        "training_end": 2023,
+        "test_start": 2025,
+        "test_end": 2025,
+        "features": [
+            "price_lag_1",
+            "price_lag_2",
+            "price_lag_3",
+            "price_lag_4",
+            "arrival_lag_1",
+            "arrival_lag_2",
+            "arrival_lag_3",
+            "arrival_lag_4"
+        ],
+        "target": "oversupply_target",
+        "MAE": 0.0898,
+        "RMSE": 0.105,
+        "R2": -0.129,
+        "baseline_MAE": 0.0832,
+        "prediction_horizon": "next_period",
+        "feature_timestamp_rule": "max(feature_timestamp) < target_timestamp",
+        "target_definition": "oversupply_target shifted by -1",
+        "trained_at": "2026-08-12T19:29:38.416517"
+    },
+    "crop_suitability_model": {
+        "algorithm": "XGBoost",
+        "training_data_type": "synthetic",
+        "training_dataset": "crop_training.parquet",
+        "status": "trained",
+        "version": "1.2.0",
+        "training_start": 2021,
+        "training_end": 2023,
+        "test_start": 2025,
+        "test_end": 2025,
+        "features": [
+            "yield_lag_1",
+            "area_lag_1",
+            "production_lag_1",
+            "rainfall",
+            "temperature",
+            "humidity"
+        ],
+        "target": "suitability_target",
+        "MAE": 0.0978,
+        "RMSE": 0.1157,
+        "R2": -0.2097,
+        "baseline_MAE": 0.0911,
+        "prediction_horizon": "next_period",
+        "feature_timestamp_rule": "max(feature_timestamp) < target_timestamp",
+        "target_definition": "yield scaled to suitability_target",
+        "trained_at": "2026-08-12T19:34:52.909783"
+    }
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "source": "TerraMind-X Synthetic Market Generator",
+        "dataset": "market_training.parquet",
+        "state": "Tamil Nadu, Kerala",
+        "district": "All Supported",
+        "crop": "Tomato, Onion, Chilli",
+        "start_date": "2021-01-03",
+        "end_date": "2025-12-28",
+        "record_count": 7830,
+        "last_updated": "2026-08-12 19:21:40",
+        "data_status": "validated"
+    },
+    {
+        "source": "TerraMind-X Synthetic Crop Production Generator",
+        "dataset": "crop_training.parquet",
+        "state": "Tamil Nadu, Kerala",
+        "district": "All Supported",
+        "crop": "Tomato, Onion, Chilli, Paddy, Banana, Groundnut",
+        "start_date": "2021",
+        "end_date": "2025",
+        "record_count": 300,
+        "last_updated": "2026-08-12 19:26:29",
+        "data_status": "validated"
+    }
+]

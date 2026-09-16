@@ -1,0 +1,459 @@
+{
+  "buyers": [
+    {
+      "buyer_id": "BUY-AKL-001",
+      "name": "Akola Oilseed Processors & Solvent Extraction Ltd",
+      "buyer_type": "Processor / Oil Mill",
+      "district": "Akola",
+      "state": "Maharashtra",
+      "crops_purchased": ["Soybean", "Cotton", "Groundnut", "Sesame"],
+      "min_lot_size_kg": 1000.0,
+      "max_lot_size_kg": 50000.0,
+      "offered_price_per_q": 4890.0,
+      "payment_terms": "T+1 Direct Bank Transfer",
+      "pickup_available": true,
+      "storage_available": true,
+      "verification_status": "VERIFIED",
+      "reliability_score": 96.5,
+      "completed_transactions": 340,
+      "on_time_payment_rate_pct": 98.8,
+      "dispute_count": 1,
+      "quality_specs": {
+        "max_moisture_pct": 10.0,
+        "max_foreign_matter_pct": 2.0,
+        "min_oil_or_protein_pct": 18.5,
+        "grain_size_grade": "Medium/Bold"
+      }
+    },
+    {
+      "buyer_id": "BUY-NAG-002",
+      "name": "Vidarbha Agro-Industrial Processing Hub",
+      "buyer_type": "Institutional Buyer",
+      "district": "Nagpur",
+      "state": "Maharashtra",
+      "crops_purchased": ["Cotton", "Soybean", "Pigeonpea", "Mandarin Orange"],
+      "min_lot_size_kg": 2000.0,
+      "max_lot_size_kg": 100000.0,
+      "offered_price_per_q": 4920.0,
+      "payment_terms": "Instant UPI / e-NAM",
+      "pickup_available": true,
+      "storage_available": true,
+      "verification_status": "AUDITED",
+      "reliability_score": 98.2,
+      "completed_transactions": 512,
+      "on_time_payment_rate_pct": 99.4,
+      "dispute_count": 0,
+      "quality_specs": {
+        "max_moisture_pct": 10.0,
+        "max_foreign_matter_pct": 1.5,
+        "min_oil_or_protein_pct": 19.0,
+        "grain_size_grade": "Bold"
+      }
+    },
+    {
+      "buyer_id": "BUY-AMR-003",
+      "name": "Amravati Central Cotton Ginning & Oil Mill",
+      "buyer_type": "Processor / Oil Mill",
+      "district": "Amravati",
+      "state": "Maharashtra",
+      "crops_purchased": ["Cotton", "Soybean", "Green Gram"],
+      "min_lot_size_kg": 1500.0,
+      "max_lot_size_kg": 40000.0,
+      "offered_price_per_q": 4820.0,
+      "payment_terms": "T+1 Direct Bank Transfer",
+      "pickup_available": false,
+      "storage_available": true,
+      "verification_status": "VERIFIED",
+      "reliability_score": 94.0,
+      "completed_transactions": 210,
+      "on_time_payment_rate_pct": 96.5,
+      "dispute_count": 2,
+      "quality_specs": {
+        "max_moisture_pct": 11.0,
+        "max_foreign_matter_pct": 2.0,
+        "min_oil_or_protein_pct": 18.0,
+        "grain_size_grade": "Standard"
+      }
+    },
+    {
+      "buyer_id": "BUY-NSK-004",
+      "name": "Sahyadri Farmers Producer Company Ltd",
+      "buyer_type": "FPO Aggregator",
+      "district": "Nashik",
+      "state": "Maharashtra",
+      "crops_purchased": ["Table Grapes", "Onion", "Tomato", "Pomegranate"],
+      "min_lot_size_kg": 500.0,
+      "max_lot_size_kg": 60000.0,
+      "offered_price_per_q": 3200.0,
+      "payment_terms": "T+2 Secured Escrow",
+      "pickup_available": true,
+      "storage_available": true,
+      "verification_status": "AUDITED",
+      "reliability_score": 99.0,
+      "completed_transactions": 850,
+      "on_time_payment_rate_pct": 99.8,
+      "dispute_count": 0,
+      "quality_specs": {
+        "max_moisture_pct": 12.0,
+        "max_foreign_matter_pct": 1.0,
+        "min_oil_or_protein_pct": null,
+        "grain_size_grade": "Export Grade A"
+      }
+    },
+    {
+      "buyer_id": "BUY-PUN-005",
+      "name": "Pune Agri-Export & Retail Logistics Consortium",
+      "buyer_type": "Retail Aggregator",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "crops_purchased": ["Tomato", "Onion", "Chilli", "Banana", "Soybean"],
+      "min_lot_size_kg": 1000.0,
+      "max_lot_size_kg": 50000.0,
+      "offered_price_per_q": 2950.0,
+      "payment_terms": "Instant UPI / e-NAM",
+      "pickup_available": true,
+      "storage_available": true,
+      "verification_status": "VERIFIED",
+      "reliability_score": 97.0,
+      "completed_transactions": 460,
+      "on_time_payment_rate_pct": 98.9,
+      "dispute_count": 1,
+      "quality_specs": {
+        "max_moisture_pct": 10.0,
+        "max_foreign_matter_pct": 1.5,
+        "min_oil_or_protein_pct": null,
+        "grain_size_grade": "Grade A"
+      }
+    },
+    {
+      "buyer_id": "BUY-AHM-006",
+      "name": "Sangamner Milk & Vegetable Agro Federation",
+      "buyer_type": "Processor / Oil Mill",
+      "district": "Ahmednagar",
+      "state": "Maharashtra",
+      "crops_purchased": ["Onion", "Soybean", "Maize", "Groundnut"],
+      "min_lot_size_kg": 800.0,
+      "max_lot_size_kg": 35000.0,
+      "offered_price_per_q": 2880.0,
+      "payment_terms": "T+1 Direct Bank Transfer",
+      "pickup_available": false,
+      "storage_available": true,
+      "verification_status": "VERIFIED",
+      "reliability_score": 95.5,
+      "completed_transactions": 310,
+      "on_time_payment_rate_pct": 97.8,
+      "dispute_count": 1,
+      "quality_specs": {
+        "max_moisture_pct": 11.5,
+        "max_foreign_matter_pct": 2.0,
+        "min_oil_or_protein_pct": 17.5,
+        "grain_size_grade": "Standard"
+      }
+    },
+    {
+      "buyer_id": "BUY-SOL-007",
+      "name": "Solapur Pomegranate & Pulse Export House",
+      "buyer_type": "Exporter",
+      "district": "Solapur",
+      "state": "Maharashtra",
+      "crops_purchased": ["Pomegranate", "Pigeonpea", "Bengal Gram", "Soybean"],
+      "min_lot_size_kg": 1500.0,
+      "max_lot_size_kg": 60000.0,
+      "offered_price_per_q": 10400.0,
+      "payment_terms": "T+2 Secured Escrow",
+      "pickup_available": true,
+      "storage_available": true,
+      "verification_status": "AUDITED",
+      "reliability_score": 98.5,
+      "completed_transactions": 390,
+      "on_time_payment_rate_pct": 99.2,
+      "dispute_count": 0,
+      "quality_specs": {
+        "max_moisture_pct": 9.5,
+        "max_foreign_matter_pct": 1.0,
+        "min_oil_or_protein_pct": 21.0,
+        "grain_size_grade": "Export Grade A"
+      }
+    },
+    {
+      "buyer_id": "BUY-SAN-008",
+      "name": "Sangli Turmeric & Raisin Processing Yard",
+      "buyer_type": "Processor / Oil Mill",
+      "district": "Sangli",
+      "state": "Maharashtra",
+      "crops_purchased": ["Turmeric", "Grapes", "Soybean", "Maize"],
+      "min_lot_size_kg": 1000.0,
+      "max_lot_size_kg": 45000.0,
+      "offered_price_per_q": 14450.0,
+      "payment_terms": "Instant UPI / e-NAM",
+      "pickup_available": true,
+      "storage_available": true,
+      "verification_status": "VERIFIED",
+      "reliability_score": 96.8,
+      "completed_transactions": 540,
+      "on_time_payment_rate_pct": 98.4,
+      "dispute_count": 1,
+      "quality_specs": {
+        "max_moisture_pct": 9.0,
+        "max_foreign_matter_pct": 1.2,
+        "min_oil_or_protein_pct": 4.2,
+        "grain_size_grade": "Finger Grade A"
+      }
+    },
+    {
+      "buyer_id": "BUY-KOL-009",
+      "name": "Kolhapur Sugarcane & Jaggery Agro Guild",
+      "buyer_type": "Institutional Buyer",
+      "district": "Kolhapur",
+      "state": "Maharashtra",
+      "crops_purchased": ["Groundnut", "Soybean", "Turmeric", "Banana"],
+      "min_lot_size_kg": 1200.0,
+      "max_lot_size_kg": 40000.0,
+      "offered_price_per_q": 6500.0,
+      "payment_terms": "T+1 Direct Bank Transfer",
+      "pickup_available": false,
+      "storage_available": true,
+      "verification_status": "VERIFIED",
+      "reliability_score": 95.0,
+      "completed_transactions": 280,
+      "on_time_payment_rate_pct": 97.0,
+      "dispute_count": 2,
+      "quality_specs": {
+        "max_moisture_pct": 10.0,
+        "max_foreign_matter_pct": 2.0,
+        "min_oil_or_protein_pct": 46.0,
+        "grain_size_grade": "Medium/Bold"
+      }
+    },
+    {
+      "buyer_id": "BUY-AUR-010",
+      "name": "Marathwada Agro Industrial Park & Food Processing",
+      "buyer_type": "Institutional Buyer",
+      "district": "Chhatrapati Sambhajinagar",
+      "state": "Maharashtra",
+      "crops_purchased": ["Cotton", "Soybean", "Maize", "Pigeonpea"],
+      "min_lot_size_kg": 2000.0,
+      "max_lot_size_kg": 80000.0,
+      "offered_price_per_q": 4860.0,
+      "payment_terms": "Instant UPI / e-NAM",
+      "pickup_available": true,
+      "storage_available": true,
+      "verification_status": "VERIFIED",
+      "reliability_score": 97.2,
+      "completed_transactions": 415,
+      "on_time_payment_rate_pct": 98.7,
+      "dispute_count": 1,
+      "quality_specs": {
+        "max_moisture_pct": 10.5,
+        "max_foreign_matter_pct": 1.8,
+        "min_oil_or_protein_pct": 18.5,
+        "grain_size_grade": "Standard"
+      }
+    },
+    {
+      "buyer_id": "BUY-LAT-011",
+      "name": "Latur Pulse & Oilseed Millers Union",
+      "buyer_type": "Processor / Oil Mill",
+      "district": "Latur",
+      "state": "Maharashtra",
+      "crops_purchased": ["Pigeonpea", "Soybean", "Bengal Gram", "Sunflower"],
+      "min_lot_size_kg": 1500.0,
+      "max_lot_size_kg": 75000.0,
+      "offered_price_per_q": 10350.0,
+      "payment_terms": "T+1 Direct Bank Transfer",
+      "pickup_available": true,
+      "storage_available": true,
+      "verification_status": "AUDITED",
+      "reliability_score": 98.6,
+      "completed_transactions": 620,
+      "on_time_payment_rate_pct": 99.1,
+      "dispute_count": 0,
+      "quality_specs": {
+        "max_moisture_pct": 10.0,
+        "max_foreign_matter_pct": 1.2,
+        "min_oil_or_protein_pct": 22.0,
+        "grain_size_grade": "Bold"
+      }
+    },
+    {
+      "buyer_id": "BUY-JAL-012",
+      "name": "Jalgaon Banana & Cotton Commodity Exchange Hub",
+      "buyer_type": "Exporter",
+      "district": "Jalgaon",
+      "state": "Maharashtra",
+      "crops_purchased": ["Banana", "Cotton", "Maize", "Soybean"],
+      "min_lot_size_kg": 2000.0,
+      "max_lot_size_kg": 90000.0,
+      "offered_price_per_q": 1850.0,
+      "payment_terms": "Instant UPI / e-NAM",
+      "pickup_available": true,
+      "storage_available": true,
+      "verification_status": "AUDITED",
+      "reliability_score": 98.9,
+      "completed_transactions": 730,
+      "on_time_payment_rate_pct": 99.6,
+      "dispute_count": 0,
+      "quality_specs": {
+        "max_moisture_pct": 12.0,
+        "max_foreign_matter_pct": 1.0,
+        "min_oil_or_protein_pct": null,
+        "grain_size_grade": "Grade A Commercial"
+      }
+    },
+    {
+      "buyer_id": "BUY-MDU-005",
+      "name": "Madurai Pandian Oilseeds & Groundnut Millers",
+      "buyer_type": "Processor / Oil Mill",
+      "district": "Madurai",
+      "state": "Tamil Nadu",
+      "crops_purchased": ["Groundnut", "Sesame", "Cotton"],
+      "min_lot_size_kg": 500.0,
+      "max_lot_size_kg": 30000.0,
+      "offered_price_per_q": 6550.0,
+      "payment_terms": "Instant UPI / e-NAM",
+      "pickup_available": true,
+      "storage_available": true,
+      "verification_status": "VERIFIED",
+      "reliability_score": 97.5,
+      "completed_transactions": 420,
+      "on_time_payment_rate_pct": 99.1,
+      "dispute_count": 1,
+      "quality_specs": {
+        "max_moisture_pct": 8.5,
+        "max_foreign_matter_pct": 1.5,
+        "min_oil_or_protein_pct": 48.0,
+        "grain_size_grade": "Bold / 2-Kernel"
+      }
+    }
+  ],
+  "mandi_clusters": {
+    "Akola": [
+      { "market_name": "Akola APMC Mandi", "district": "Akola", "state": "Maharashtra", "distance_km": 14.0, "base_freight_per_km_q": 1.8 },
+      { "market_name": "Murtizapur APMC", "district": "Akola", "state": "Maharashtra", "distance_km": 38.0, "base_freight_per_km_q": 1.7 },
+      { "market_name": "Amravati Cotton Market APMC", "district": "Amravati", "state": "Maharashtra", "distance_km": 92.0, "base_freight_per_km_q": 1.5 },
+      { "market_name": "Nagpur Kalamna Central APMC", "district": "Nagpur", "state": "Maharashtra", "distance_km": 245.0, "base_freight_per_km_q": 1.3 }
+    ],
+    "Nashik": [
+      { "market_name": "Lasalgaon Onion APMC", "district": "Nashik", "state": "Maharashtra", "distance_km": 22.0, "base_freight_per_km_q": 1.9 },
+      { "market_name": "Pimpalgaon Baswant APMC", "district": "Nashik", "state": "Maharashtra", "distance_km": 32.0, "base_freight_per_km_q": 1.8 },
+      { "market_name": "Nashik City APMC", "district": "Nashik", "state": "Maharashtra", "distance_km": 12.0, "base_freight_per_km_q": 1.9 },
+      { "market_name": "Vashi Navi Mumbai APMC", "district": "Thane/Mumbai", "state": "Maharashtra", "distance_km": 165.0, "base_freight_per_km_q": 1.4 }
+    ],
+    "Pune": [
+      { "market_name": "Pune Gultekdi Market Yard APMC", "district": "Pune", "state": "Maharashtra", "distance_km": 15.0, "base_freight_per_km_q": 1.9 },
+      { "market_name": "Manchar Tomato APMC", "district": "Pune", "state": "Maharashtra", "distance_km": 42.0, "base_freight_per_km_q": 1.7 },
+      { "market_name": "Baramati APMC Yard", "district": "Pune", "state": "Maharashtra", "distance_km": 68.0, "base_freight_per_km_q": 1.6 },
+      { "market_name": "Vashi Navi Mumbai APMC", "district": "Thane/Mumbai", "state": "Maharashtra", "distance_km": 140.0, "base_freight_per_km_q": 1.4 }
+    ],
+    "Nagpur": [
+      { "market_name": "Nagpur Kalamna Central APMC", "district": "Nagpur", "state": "Maharashtra", "distance_km": 16.0, "base_freight_per_km_q": 1.8 },
+      { "market_name": "Katol APMC Citrus Mandi", "district": "Nagpur", "state": "Maharashtra", "distance_km": 55.0, "base_freight_per_km_q": 1.6 },
+      { "market_name": "Wardha APMC Yard", "district": "Wardha", "state": "Maharashtra", "distance_km": 78.0, "base_freight_per_km_q": 1.5 }
+    ],
+    "Ahmednagar": [
+      { "market_name": "Ahmednagar APMC", "district": "Ahmednagar", "state": "Maharashtra", "distance_km": 12.0, "base_freight_per_km_q": 1.8 },
+      { "market_name": "Rahata APMC Yard", "district": "Ahmednagar", "state": "Maharashtra", "distance_km": 45.0, "base_freight_per_km_q": 1.7 },
+      { "market_name": "Shrirampur APMC", "district": "Ahmednagar", "state": "Maharashtra", "distance_km": 56.0, "base_freight_per_km_q": 1.6 }
+    ],
+    "Solapur": [
+      { "market_name": "Solapur APMC Main Mandi", "district": "Solapur", "state": "Maharashtra", "distance_km": 14.0, "base_freight_per_km_q": 1.8 },
+      { "market_name": "Pandharpur APMC", "district": "Solapur", "state": "Maharashtra", "distance_km": 65.0, "base_freight_per_km_q": 1.6 },
+      { "market_name": "Kurduwadi APMC Yard", "district": "Solapur", "state": "Maharashtra", "distance_km": 72.0, "base_freight_per_km_q": 1.5 }
+    ],
+    "Sangli": [
+      { "market_name": "Sangli Turmeric Market APMC", "district": "Sangli", "state": "Maharashtra", "distance_km": 10.0, "base_freight_per_km_q": 1.8 },
+      { "market_name": "Tasgaon Raisin & Grape APMC", "district": "Sangli", "state": "Maharashtra", "distance_km": 34.0, "base_freight_per_km_q": 1.7 },
+      { "market_name": "Kolhapur APMC", "district": "Kolhapur", "state": "Maharashtra", "distance_km": 48.0, "base_freight_per_km_q": 1.6 }
+    ],
+    "Kolhapur": [
+      { "market_name": "Kolhapur APMC Market Yard", "district": "Kolhapur", "state": "Maharashtra", "distance_km": 12.0, "base_freight_per_km_q": 1.8 },
+      { "market_name": "Gadhinglaj APMC", "district": "Kolhapur", "state": "Maharashtra", "distance_km": 64.0, "base_freight_per_km_q": 1.6 }
+    ],
+    "Chhatrapati Sambhajinagar": [
+      { "market_name": "Chhatrapati Sambhajinagar Jadhavwadi APMC", "district": "Chhatrapati Sambhajinagar", "state": "Maharashtra", "distance_km": 12.0, "base_freight_per_km_q": 1.8 },
+      { "market_name": "Jalna APMC Seed & Pulse Mandi", "district": "Jalna", "state": "Maharashtra", "distance_km": 62.0, "base_freight_per_km_q": 1.6 }
+    ],
+    "Latur": [
+      { "market_name": "Latur APMC Pulse & Oilseed Capital", "district": "Latur", "state": "Maharashtra", "distance_km": 10.0, "base_freight_per_km_q": 1.8 },
+      { "market_name": "Udgir APMC Yard", "district": "Latur", "state": "Maharashtra", "distance_km": 58.0, "base_freight_per_km_q": 1.6 },
+      { "market_name": "Solapur APMC", "district": "Solapur", "state": "Maharashtra", "distance_km": 120.0, "base_freight_per_km_q": 1.4 }
+    ],
+    "Amravati": [
+      { "market_name": "Amravati Cotton Market APMC", "district": "Amravati", "state": "Maharashtra", "distance_km": 14.0, "base_freight_per_km_q": 1.8 },
+      { "market_name": "Daryapur Cotton & Grain APMC", "district": "Amravati", "state": "Maharashtra", "distance_km": 52.0, "base_freight_per_km_q": 1.6 },
+      { "market_name": "Akola APMC Mandi", "district": "Akola", "state": "Maharashtra", "distance_km": 92.0, "base_freight_per_km_q": 1.5 }
+    ],
+    "Jalgaon": [
+      { "market_name": "Jalgaon APMC Central Yard", "district": "Jalgaon", "state": "Maharashtra", "distance_km": 12.0, "base_freight_per_km_q": 1.8 },
+      { "market_name": "Raver Banana APMC", "district": "Jalgaon", "state": "Maharashtra", "distance_km": 65.0, "base_freight_per_km_q": 1.6 },
+      { "market_name": "Bhusawal APMC", "district": "Jalgaon", "state": "Maharashtra", "distance_km": 28.0, "base_freight_per_km_q": 1.7 }
+    ],
+    "Madurai": [
+      { "market_name": "Madurai Central Wholesale APMC", "district": "Madurai", "state": "Tamil Nadu", "distance_km": 12.0, "base_freight_per_km_q": 2.0 },
+      { "market_name": "Melur Regulated Market", "district": "Madurai", "state": "Tamil Nadu", "distance_km": 18.0, "base_freight_per_km_q": 1.9 },
+      { "market_name": "Oddanchatram Market Complex", "district": "Dindigul", "state": "Tamil Nadu", "distance_km": 84.0, "base_freight_per_km_q": 1.6 }
+    ]
+  },
+  "storage_facilities": [
+    {
+      "facility_id": "STR-MSWC-AKL-01",
+      "name": "MSWC State Warehousing Corporation - Akola Hub",
+      "facility_type": "State Warehouse (MSWC)",
+      "district": "Akola",
+      "state": "Maharashtra",
+      "total_capacity_mt": 12000.0,
+      "available_capacity_mt": 4200.0,
+      "rate_per_q_per_month": 16.5,
+      "temperature_controlled": false,
+      "wdra_registered": true,
+      "negotiable_receipts_eligible": true,
+      "distance_km": 18.0,
+      "moisture_monitoring": "Automated IoT Telemetry"
+    },
+    {
+      "facility_id": "STR-COLD-NSK-02",
+      "name": "Sahyadri Cold Chain & Controlled Atmosphere Facility",
+      "facility_type": "Cold Storage & CA Warehouse",
+      "district": "Nashik",
+      "state": "Maharashtra",
+      "total_capacity_mt": 8000.0,
+      "available_capacity_mt": 1850.0,
+      "rate_per_q_per_month": 65.0,
+      "temperature_controlled": true,
+      "wdra_registered": true,
+      "negotiable_receipts_eligible": true,
+      "distance_km": 24.0,
+      "moisture_monitoring": "Real-time Temperature & Humidity"
+    },
+    {
+      "facility_id": "STR-CWC-PUN-03",
+      "name": "Central Warehousing Corporation (CWC) - Pune Gultekdi",
+      "facility_type": "Central Warehouse (CWC)",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "total_capacity_mt": 25000.0,
+      "available_capacity_mt": 9600.0,
+      "rate_per_q_per_month": 18.0,
+      "temperature_controlled": false,
+      "wdra_registered": true,
+      "negotiable_receipts_eligible": true,
+      "distance_km": 14.0,
+      "moisture_monitoring": "Manual & Digital Sampling"
+    },
+    {
+      "facility_id": "STR-FPO-LAT-04",
+      "name": "Latur District Pulse Producers FPO Godown",
+      "facility_type": "FPO Community Godown",
+      "district": "Latur",
+      "state": "Maharashtra",
+      "total_capacity_mt": 3500.0,
+      "available_capacity_mt": 1200.0,
+      "rate_per_q_per_month": 12.0,
+      "temperature_controlled": false,
+      "wdra_registered": true,
+      "negotiable_receipts_eligible": true,
+      "distance_km": 8.0,
+      "moisture_monitoring": "FPO Quality Manager Verified"
+    }
+  ]
+}

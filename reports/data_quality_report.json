@@ -1,0 +1,45 @@
+{
+  "rows_raw": 3360,
+  "rows_clean": 3360,
+  "duplicates_removed": 0,
+  "invalid_rows_removed": 0,
+  "missing_values": {
+    "observation_date": 0,
+    "year": 0,
+    "month": 0,
+    "state": 0,
+    "district": 0,
+    "soil_type": 0,
+    "soil_ph": 0,
+    "organic_carbon": 0,
+    "nitrogen_kg_ha": 0,
+    "phosphorus_kg_ha": 0,
+    "potassium_kg_ha": 0,
+    "temperature_c": 0,
+    "rainfall_mm": 0,
+    "recommended_crop": 0,
+    "modal_price_per_q": 0,
+    "provenance_source": 0
+  },
+  "crop_distribution": {
+    "Cotton": 840,
+    "Tomato": 420,
+    "Groundnut": 420,
+    "Red Onion": 420,
+    "Soybean": 420,
+    "Sugarcane": 420,
+    "Banana": 420
+  },
+  "district_distribution": {
+    "Madurai": 840,
+    "Pune": 840,
+    "Akola": 420,
+    "Dindigul": 420,
+    "Nashik": 420,
+    "Theni": 420
+  },
+  "date_range": {
+    "min": "2018-06-15",
+    "max": "2024-11-15"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "ingestion_timestamp": "2026-09-01T16:21:37.605586",
+  "sources": [
+    {
+      "name": "icar_crop_suitability",
+      "source": "ICAR - Indian Council of Agricultural Research",
+      "source_url": "https://icar.org.in/crop-suitability-guidelines",
+      "category": "Agronomy & Soil Compatibility",
+      "description": "Recommended NPK, soil pH, moisture, and temperature limits for Indian agro-climatic zones.",
+      "observation_years": "2018-2024"
+    },
+    {
+      "name": "agmarknet_mandi_prices",
+      "source": "Directorate of Marketing & Inspection (DMI), Ministry of Agriculture",
+      "source_url": "https://agmarknet.gov.in/",
+      "category": "Mandi Market Intelligence",
+      "description": "Daily modal prices, min/max prices, and arrival volumes across Tamil Nadu and Maharashtra mandis.",
+      "observation_years": "2020-2025"
+    },
+    {
+      "name": "imd_nasa_climate",
+      "source": "NASA POWER Agroclimatology & IMD",
+      "source_url": "https://power.larc.nasa.gov/",
+      "category": "Meteorological & Climate Records",
+      "description": "Historical daily precipitation, temperature anomalies, and humidity levels across agricultural zones.",
+      "observation_years": "2015-2025"
+    },
+    {
+      "name": "soil_health_card_registry",
+      "source": "National Soil Health Card Scheme, GoI",
+      "source_url": "https://soilhealth.dac.gov.in/",
+      "category": "Soil Physical & Chemical Parameters",
+      "description": "Macro and micronutrient profiles (N, P, K, OC, pH, EC) by district and soil taxonomy.",
+      "observation_years": "2019-2024"
+    }
+  ],
+  "total_records": 3360,
+  "raw_dataset_path": "data\\raw\\agricultural_multi_district_raw.csv"
+}

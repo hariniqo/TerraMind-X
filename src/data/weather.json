@@ -1,0 +1,25 @@
+{
+  "temp": 32,
+  "condition": "Partly Cloudy",
+  "rainfall": "12%",
+  "humidity": "68%",
+  "wind": "18 km/h",
+  "hourly": [
+    {"time": "09:00", "temp": 29},
+    {"time": "10:00", "temp": 30},
+    {"time": "11:00", "temp": 32},
+    {"time": "12:00", "temp": 34},
+    {"time": "13:00", "temp": 33},
+    {"time": "14:00", "temp": 31}
+  ],
+  "forecast": [
+    {"day": "Mon", "temp": 32, "condition": "Partly Cloudy", "rainProb": 12, "humidity": 68},
+    {"day": "Tue", "temp": 28, "condition": "Heavy Rain", "rainProb": 90, "humidity": 85},
+    {"day": "Wed", "temp": 30, "condition": "Scattered Showers", "rainProb": 60, "humidity": 75},
+    {"day": "Thu", "temp": 31, "condition": "Mostly Sunny", "rainProb": 20, "humidity": 64},
+    {"day": "Fri", "temp": 33, "condition": "Sunny", "rainProb": 10, "humidity": 58},
+    {"day": "Sat", "temp": 34, "condition": "Sunny", "rainProb": 5, "humidity": 52},
+    {"day": "Sun", "temp": 32, "condition": "Partly Cloudy", "rainProb": 15, "humidity": 60}
+  ],
+  "impact": "Rain expected tomorrow (Tuesday). AI Recommendation: Delay irrigation by 24 hours."
+}

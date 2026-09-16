@@ -1,0 +1,68 @@
+{
+  "name": "Market Ingestion",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": "daily"
+      },
+      "name": "Cron trigger",
+      "type": "n8n-nodes-base.cron",
+      "typeVersion": 1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "url": "https://data.gov.in/api/datastore/resource.json",
+        "options": {}
+      },
+      "name": "Fetch Government Mandi Rates",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 3,
+      "position": [450, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://backend:8000/api/v1/webhook/market-update",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-N8N-Secret",
+              "value": "sih_skey_2026"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "name": "Update TerraMind-X",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 3,
+      "position": [650, 300]
+    }
+  ],
+  "connections": {
+    "Cron trigger": {
+      "main": [
+        [
+          {
+            "node": "Fetch Government Mandi Rates",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Fetch Government Mandi Rates": {
+      "main": [
+        [
+          {
+            "node": "Update TerraMind-X",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

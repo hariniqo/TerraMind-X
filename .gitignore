@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+node_modules/
+dist/
+terramind_x.db
+models/*.joblib

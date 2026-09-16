@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Groundnut",
+    "suitability": 94,
+    "soilFit": 94,
+    "climateFit": 91,
+    "waterRequirement": "Low",
+    "marketRisk": 21,
+    "sustainability": 89,
+    "why": [
+      "Suitable soil pH (6.7-6.9 fits Groundnut range)",
+      "Low water requirement aligns with current borewell levels",
+      "Good seasonal climate for the upcoming winter/monsoon months",
+      "Moderate market demand prevents price saturation risks"
+    ]
+  },
+  {
+    "name": "Millets",
+    "suitability": 89,
+    "soilFit": 87,
+    "climateFit": 92,
+    "waterRequirement": "Very Low",
+    "marketRisk": 15,
+    "sustainability": 95,
+    "why": [
+      "Excellent drought resistance",
+      "Highly sustainable, restoring soil health",
+      "Low chemical fertilizer input required",
+      "Stable localized market demand in Madurai district"
+    ]
+  },
+  {
+    "name": "Tomato",
+    "suitability": 76,
+    "soilFit": 90,
+    "climateFit": 82,
+    "waterRequirement": "Medium",
+    "marketRisk": 90,
+    "sustainability": 68,
+    "why": [
+      "Excellent soil suitability and current crop status",
+      "High regional crop concentration creates massive oversupply risk",
+      "High moisture requirements increase irrigation dependency"
+    ]
+  }
+]

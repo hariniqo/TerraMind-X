@@ -1,0 +1,136 @@
+{
+  "Tamil Nadu": {
+    "Madurai": {
+      "baseline": { "avg_temp": 28.8, "annual_precip": 850, "dry_days": 190, "extreme_events": 2 },
+      "ssp245": {
+        "2030": { "temp_anomaly_c": 0.6, "precip_change_pct": 2.5, "dry_days_offset": 4, "extreme_events_frequency": 3 },
+        "2050": { "temp_anomaly_c": 1.2, "precip_change_pct": 5.0, "dry_days_offset": 10, "extreme_events_frequency": 5 },
+        "2080": { "temp_anomaly_c": 1.9, "precip_change_pct": 8.5, "dry_days_offset": 16, "extreme_events_frequency": 7 }
+      },
+      "ssp585": {
+        "2030": { "temp_anomaly_c": 0.8, "precip_change_pct": 4.0, "dry_days_offset": 6, "extreme_events_frequency": 4 },
+        "2050": { "temp_anomaly_c": 2.2, "precip_change_pct": 11.0, "dry_days_offset": 18, "extreme_events_frequency": 7 },
+        "2080": { "temp_anomaly_c": 3.8, "precip_change_pct": 16.0, "dry_days_offset": 28, "extreme_events_frequency": 10 }
+      }
+    },
+    "Coimbatore": {
+      "baseline": { "avg_temp": 26.3, "annual_precip": 720, "dry_days": 210, "extreme_events": 1 },
+      "ssp245": {
+        "2030": { "temp_anomaly_c": 0.5, "precip_change_pct": 1.5, "dry_days_offset": 5, "extreme_events_frequency": 2 },
+        "2050": { "temp_anomaly_c": 1.1, "precip_change_pct": 3.8, "dry_days_offset": 12, "extreme_events_frequency": 4 },
+        "2080": { "temp_anomaly_c": 1.7, "precip_change_pct": 6.5, "dry_days_offset": 19, "extreme_events_frequency": 6 }
+      },
+      "ssp585": {
+        "2030": { "temp_anomaly_c": 0.7, "precip_change_pct": 3.0, "dry_days_offset": 8, "extreme_events_frequency": 3 },
+        "2050": { "temp_anomaly_c": 2.0, "precip_change_pct": 9.5, "dry_days_offset": 20, "extreme_events_frequency": 6 },
+        "2080": { "temp_anomaly_c": 3.5, "precip_change_pct": 14.5, "dry_days_offset": 32, "extreme_events_frequency": 9 }
+      }
+    },
+    "Trichy": {
+      "baseline": { "avg_temp": 29.2, "annual_precip": 810, "dry_days": 200, "extreme_events": 2 },
+      "ssp245": {
+        "2030": { "temp_anomaly_c": 0.6, "precip_change_pct": 2.0, "dry_days_offset": 4, "extreme_events_frequency": 3 },
+        "2050": { "temp_anomaly_c": 1.3, "precip_change_pct": 4.5, "dry_days_offset": 11, "extreme_events_frequency": 5 },
+        "2080": { "temp_anomaly_c": 2.0, "precip_change_pct": 7.8, "dry_days_offset": 18, "extreme_events_frequency": 7 }
+      },
+      "ssp585": {
+        "2030": { "temp_anomaly_c": 0.9, "precip_change_pct": 3.5, "dry_days_offset": 7, "extreme_events_frequency": 4 },
+        "2050": { "temp_anomaly_c": 2.3, "precip_change_pct": 10.5, "dry_days_offset": 19, "extreme_events_frequency": 8 },
+        "2080": { "temp_anomaly_c": 3.9, "precip_change_pct": 15.0, "dry_days_offset": 30, "extreme_events_frequency": 10 }
+      }
+    },
+    "Salem": {
+      "baseline": { "avg_temp": 28.1, "annual_precip": 890, "dry_days": 185, "extreme_events": 2 },
+      "ssp245": {
+        "2030": { "temp_anomaly_c": 0.6, "precip_change_pct": 3.0, "dry_days_offset": 3, "extreme_events_frequency": 3 },
+        "2050": { "temp_anomaly_c": 1.2, "precip_change_pct": 6.0, "dry_days_offset": 9, "extreme_events_frequency": 5 },
+        "2080": { "temp_anomaly_c": 1.8, "precip_change_pct": 9.2, "dry_days_offset": 15, "extreme_events_frequency": 6 }
+      },
+      "ssp585": {
+        "2030": { "temp_anomaly_c": 0.8, "precip_change_pct": 4.5, "dry_days_offset": 5, "extreme_events_frequency": 4 },
+        "2050": { "temp_anomaly_c": 2.1, "precip_change_pct": 12.0, "dry_days_offset": 17, "extreme_events_frequency": 7 },
+        "2080": { "temp_anomaly_c": 3.7, "precip_change_pct": 17.5, "dry_days_offset": 27, "extreme_events_frequency": 9 }
+      }
+    },
+    "Thanjavur": {
+      "baseline": { "avg_temp": 28.5, "annual_precip": 940, "dry_days": 175, "extreme_events": 3 },
+      "ssp245": {
+        "2030": { "temp_anomaly_c": 0.5, "precip_change_pct": 3.5, "dry_days_offset": 3, "extreme_events_frequency": 4 },
+        "2050": { "temp_anomaly_c": 1.1, "precip_change_pct": 7.0, "dry_days_offset": 8, "extreme_events_frequency": 6 },
+        "2080": { "temp_anomaly_c": 1.7, "precip_change_pct": 10.5, "dry_days_offset": 14, "extreme_events_frequency": 8 }
+      },
+      "ssp585": {
+        "2030": { "temp_anomaly_c": 0.8, "precip_change_pct": 5.0, "dry_days_offset": 5, "extreme_events_frequency": 5 },
+        "2050": { "temp_anomaly_c": 1.9, "precip_change_pct": 13.5, "dry_days_offset": 15, "extreme_events_frequency": 8 },
+        "2080": { "temp_anomaly_c": 3.4, "precip_change_pct": 19.0, "dry_days_offset": 25, "extreme_events_frequency": 10 }
+      }
+    }
+  },
+  "Kerala": {
+    "Ernakulam": {
+      "baseline": { "avg_temp": 27.5, "annual_precip": 3050, "dry_days": 130, "extreme_events": 4 },
+      "ssp245": {
+        "2030": { "temp_anomaly_c": 0.5, "precip_change_pct": 4.0, "dry_days_offset": 2, "extreme_events_frequency": 5 },
+        "2050": { "temp_anomaly_c": 1.0, "precip_change_pct": 8.5, "dry_days_offset": 6, "extreme_events_frequency": 7 },
+        "2080": { "temp_anomaly_c": 1.5, "precip_change_pct": 13.0, "dry_days_offset": 11, "extreme_events_frequency": 8 }
+      },
+      "ssp585": {
+        "2030": { "temp_anomaly_c": 0.7, "precip_change_pct": 6.0, "dry_days_offset": 4, "extreme_events_frequency": 6 },
+        "2050": { "temp_anomaly_c": 1.7, "precip_change_pct": 15.0, "dry_days_offset": 12, "extreme_events_frequency": 9 },
+        "2080": { "temp_anomaly_c": 3.1, "precip_change_pct": 22.0, "dry_days_offset": 21, "extreme_events_frequency": 10 }
+      }
+    },
+    "Palakkad": {
+      "baseline": { "avg_temp": 27.8, "annual_precip": 2100, "dry_days": 160, "extreme_events": 3 },
+      "ssp245": {
+        "2030": { "temp_anomaly_c": 0.6, "precip_change_pct": 3.0, "dry_days_offset": 4, "extreme_events_frequency": 4 },
+        "2050": { "temp_anomaly_c": 1.1, "precip_change_pct": 6.5, "dry_days_offset": 9, "extreme_events_frequency": 6 },
+        "2080": { "temp_anomaly_c": 1.7, "precip_change_pct": 10.0, "dry_days_offset": 15, "extreme_events_frequency": 7 }
+      },
+      "ssp585": {
+        "2030": { "temp_anomaly_c": 0.8, "precip_change_pct": 5.0, "dry_days_offset": 6, "extreme_events_frequency": 5 },
+        "2050": { "temp_anomaly_c": 1.9, "precip_change_pct": 12.5, "dry_days_offset": 16, "extreme_events_frequency": 8 },
+        "2080": { "temp_anomaly_c": 3.3, "precip_change_pct": 18.5, "dry_days_offset": 26, "extreme_events_frequency": 9 }
+      }
+    },
+    "Thiruvananthapuram": {
+      "baseline": { "avg_temp": 27.2, "annual_precip": 1850, "dry_days": 155, "extreme_events": 3 },
+      "ssp245": {
+        "2030": { "temp_anomaly_c": 0.4, "precip_change_pct": 2.8, "dry_days_offset": 3, "extreme_events_frequency": 4 },
+        "2050": { "temp_anomaly_c": 0.9, "precip_change_pct": 5.8, "dry_days_offset": 8, "extreme_events_frequency": 5 },
+        "2080": { "temp_anomaly_c": 1.4, "precip_change_pct": 9.0, "dry_days_offset": 14, "extreme_events_frequency": 7 }
+      },
+      "ssp585": {
+        "2030": { "temp_anomaly_c": 0.6, "precip_change_pct": 4.5, "dry_days_offset": 5, "extreme_events_frequency": 5 },
+        "2050": { "temp_anomaly_c": 1.6, "precip_change_pct": 11.0, "dry_days_offset": 14, "extreme_events_frequency": 7 },
+        "2080": { "temp_anomaly_c": 2.9, "precip_change_pct": 16.5, "dry_days_offset": 23, "extreme_events_frequency": 9 }
+      }
+    },
+    "Wayanad": {
+      "baseline": { "avg_temp": 22.4, "annual_precip": 2900, "dry_days": 145, "extreme_events": 4 },
+      "ssp245": {
+        "2030": { "temp_anomaly_c": 0.5, "precip_change_pct": 3.8, "dry_days_offset": 3, "extreme_events_frequency": 5 },
+        "2050": { "temp_anomaly_c": 1.1, "precip_change_pct": 8.0, "dry_days_offset": 8, "extreme_events_frequency": 6 },
+        "2080": { "temp_anomaly_c": 1.6, "precip_change_pct": 12.0, "dry_days_offset": 13, "extreme_events_frequency": 8 }
+      },
+      "ssp585": {
+        "2030": { "temp_anomaly_c": 0.7, "precip_change_pct": 5.5, "dry_days_offset": 5, "extreme_events_frequency": 6 },
+        "2050": { "temp_anomaly_c": 1.8, "precip_change_pct": 14.0, "dry_days_offset": 14, "extreme_events_frequency": 8 },
+        "2080": { "temp_anomaly_c": 3.2, "precip_change_pct": 20.5, "dry_days_offset": 24, "extreme_events_frequency": 10 }
+      }
+    },
+    "Kozhikode": {
+      "baseline": { "avg_temp": 27.6, "annual_precip": 3200, "dry_days": 130, "extreme_events": 4 },
+      "ssp245": {
+        "2030": { "temp_anomaly_c": 0.5, "precip_change_pct": 4.2, "dry_days_offset": 2, "extreme_events_frequency": 5 },
+        "2050": { "temp_anomaly_c": 1.0, "precip_change_pct": 9.0, "dry_days_offset": 6, "extreme_events_frequency": 7 },
+        "2080": { "temp_anomaly_c": 1.5, "precip_change_pct": 13.5, "dry_days_offset": 10, "extreme_events_frequency": 8 }
+      },
+      "ssp585": {
+        "2030": { "temp_anomaly_c": 0.7, "precip_change_pct": 6.5, "dry_days_offset": 4, "extreme_events_frequency": 6 },
+        "2050": { "temp_anomaly_c": 1.7, "precip_change_pct": 16.0, "dry_days_offset": 11, "extreme_events_frequency": 9 },
+        "2080": { "temp_anomaly_c": 3.1, "precip_change_pct": 23.0, "dry_days_offset": 20, "extreme_events_frequency": 10 }
+      }
+    }
+  }
+}

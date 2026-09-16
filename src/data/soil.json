@@ -1,0 +1,25 @@
+{
+  "healthScore": 82,
+  "condition": "Healthy",
+  "ph": 6.7,
+  "organicCarbon": 0.82,
+  "nitrogen": "Medium",
+  "phosphorus": "High",
+  "potassium": "Medium",
+  "moisture": 64,
+  "ec": 1.2,
+  "alert": "Nitrogen is slightly low",
+  "recommendations": [
+    "Apply organic manure (1.5 tonnes/acre)",
+    "Reduce excessive irrigation by 15%",
+    "Recheck soil moisture and nitrogen levels after 14 days"
+  ],
+  "history": [
+    {"date": "10 Jul", "moisture": 68, "nitrogen": 45, "health": 80},
+    {"date": "17 Jul", "moisture": 66, "nitrogen": 44, "health": 81},
+    {"date": "24 Jul", "moisture": 62, "nitrogen": 41, "health": 81},
+    {"date": "31 Jul", "moisture": 60, "nitrogen": 39, "health": 79},
+    {"date": "07 Aug", "moisture": 65, "nitrogen": 40, "health": 82},
+    {"date": "10 Aug", "moisture": 64, "nitrogen": 42, "health": 82}
+  ]
+}

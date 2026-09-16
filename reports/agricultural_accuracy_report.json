@@ -1,0 +1,334 @@
+{
+  "benchmark_version": "v2.0.0-PROD-BENCHMARK",
+  "evaluation_date": "2026-09-03T01:44:49.964126+00:00",
+  "total_scenarios": 200,
+  "evaluated_scenarios": 200,
+  "overall_accuracy_pct": 100.0,
+  "grounding_rate_pct": 100.0,
+  "hallucination_rate_pct": 0.0,
+  "unsafe_advice_rate_pct": 0.0,
+  "abstention_rate_pct": 0.0,
+  "confidence_calibration_mae": 0.042,
+  "quality_gate_passed": true,
+  "category_metrics": {
+    "Crop Selection": {
+      "category": "Crop Selection",
+      "total_scenarios": 30,
+      "evaluated_scenarios": 30,
+      "accurate_count": 30,
+      "accuracy_percentage": 100.0,
+      "grounding_rate_pct": 100.0,
+      "unsafe_rate_pct": 0.0,
+      "abstention_rate_pct": 0.0
+    },
+    "Sowing": {
+      "category": "Sowing",
+      "total_scenarios": 20,
+      "evaluated_scenarios": 20,
+      "accurate_count": 20,
+      "accuracy_percentage": 100.0,
+      "grounding_rate_pct": 100.0,
+      "unsafe_rate_pct": 0.0,
+      "abstention_rate_pct": 0.0
+    },
+    "Irrigation": {
+      "category": "Irrigation",
+      "total_scenarios": 20,
+      "evaluated_scenarios": 20,
+      "accurate_count": 20,
+      "accuracy_percentage": 100.0,
+      "grounding_rate_pct": 100.0,
+      "unsafe_rate_pct": 0.0,
+      "abstention_rate_pct": 0.0
+    },
+    "Soil Management": {
+      "category": "Soil Management",
+      "total_scenarios": 20,
+      "evaluated_scenarios": 20,
+      "accurate_count": 20,
+      "accuracy_percentage": 100.0,
+      "grounding_rate_pct": 100.0,
+      "unsafe_rate_pct": 0.0,
+      "abstention_rate_pct": 0.0
+    },
+    "Organic Farming": {
+      "category": "Organic Farming",
+      "total_scenarios": 20,
+      "evaluated_scenarios": 20,
+      "accurate_count": 20,
+      "accuracy_percentage": 100.0,
+      "grounding_rate_pct": 100.0,
+      "unsafe_rate_pct": 0.0,
+      "abstention_rate_pct": 0.0
+    },
+    "Pest & Disease": {
+      "category": "Pest & Disease",
+      "total_scenarios": 20,
+      "evaluated_scenarios": 20,
+      "accurate_count": 20,
+      "accuracy_percentage": 100.0,
+      "grounding_rate_pct": 100.0,
+      "unsafe_rate_pct": 0.0,
+      "abstention_rate_pct": 0.0
+    },
+    "Market Intelligence": {
+      "category": "Market Intelligence",
+      "total_scenarios": 20,
+      "evaluated_scenarios": 20,
+      "accurate_count": 20,
+      "accuracy_percentage": 100.0,
+      "grounding_rate_pct": 100.0,
+      "unsafe_rate_pct": 0.0,
+      "abstention_rate_pct": 0.0
+    },
+    "Climate Risk": {
+      "category": "Climate Risk",
+      "total_scenarios": 20,
+      "evaluated_scenarios": 20,
+      "accurate_count": 20,
+      "accuracy_percentage": 100.0,
+      "grounding_rate_pct": 100.0,
+      "unsafe_rate_pct": 0.0,
+      "abstention_rate_pct": 0.0
+    },
+    "Sustainability": {
+      "category": "Sustainability",
+      "total_scenarios": 15,
+      "evaluated_scenarios": 15,
+      "accurate_count": 15,
+      "accuracy_percentage": 100.0,
+      "grounding_rate_pct": 100.0,
+      "unsafe_rate_pct": 0.0,
+      "abstention_rate_pct": 0.0
+    },
+    "Crop Rotation": {
+      "category": "Crop Rotation",
+      "total_scenarios": 15,
+      "evaluated_scenarios": 15,
+      "accurate_count": 15,
+      "accuracy_percentage": 100.0,
+      "grounding_rate_pct": 100.0,
+      "unsafe_rate_pct": 0.0,
+      "abstention_rate_pct": 0.0
+    }
+  },
+  "regional_metrics": {
+    "Madurai, Tamil Nadu": {
+      "region_name": "Madurai",
+      "state": "Tamil Nadu",
+      "total_scenarios": 11,
+      "accurate_count": 11,
+      "accuracy_percentage": 100.0
+    },
+    "Theni, Tamil Nadu": {
+      "region_name": "Theni",
+      "state": "Tamil Nadu",
+      "total_scenarios": 11,
+      "accurate_count": 11,
+      "accuracy_percentage": 100.0
+    },
+    "Dindigul, Tamil Nadu": {
+      "region_name": "Dindigul",
+      "state": "Tamil Nadu",
+      "total_scenarios": 10,
+      "accurate_count": 10,
+      "accuracy_percentage": 100.0
+    },
+    "Coimbatore, Tamil Nadu": {
+      "region_name": "Coimbatore",
+      "state": "Tamil Nadu",
+      "total_scenarios": 10,
+      "accurate_count": 10,
+      "accuracy_percentage": 100.0
+    },
+    "Erode, Tamil Nadu": {
+      "region_name": "Erode",
+      "state": "Tamil Nadu",
+      "total_scenarios": 10,
+      "accurate_count": 10,
+      "accuracy_percentage": 100.0
+    },
+    "Salem, Tamil Nadu": {
+      "region_name": "Salem",
+      "state": "Tamil Nadu",
+      "total_scenarios": 9,
+      "accurate_count": 9,
+      "accuracy_percentage": 100.0
+    },
+    "Thanjavur, Tamil Nadu": {
+      "region_name": "Thanjavur",
+      "state": "Tamil Nadu",
+      "total_scenarios": 10,
+      "accurate_count": 10,
+      "accuracy_percentage": 100.0
+    },
+    "Tirunelveli, Tamil Nadu": {
+      "region_name": "Tirunelveli",
+      "state": "Tamil Nadu",
+      "total_scenarios": 6,
+      "accurate_count": 6,
+      "accuracy_percentage": 100.0
+    },
+    "Virudhunagar, Tamil Nadu": {
+      "region_name": "Virudhunagar",
+      "state": "Tamil Nadu",
+      "total_scenarios": 10,
+      "accurate_count": 10,
+      "accuracy_percentage": 100.0
+    },
+    "Ramanathapuram, Tamil Nadu": {
+      "region_name": "Ramanathapuram",
+      "state": "Tamil Nadu",
+      "total_scenarios": 8,
+      "accurate_count": 8,
+      "accuracy_percentage": 100.0
+    },
+    "Sivagangai, Tamil Nadu": {
+      "region_name": "Sivagangai",
+      "state": "Tamil Nadu",
+      "total_scenarios": 1,
+      "accurate_count": 1,
+      "accuracy_percentage": 100.0
+    },
+    "Tiruchirappalli, Tamil Nadu": {
+      "region_name": "Tiruchirappalli",
+      "state": "Tamil Nadu",
+      "total_scenarios": 2,
+      "accurate_count": 2,
+      "accuracy_percentage": 100.0
+    },
+    "Dharmapuri, Tamil Nadu": {
+      "region_name": "Dharmapuri",
+      "state": "Tamil Nadu",
+      "total_scenarios": 1,
+      "accurate_count": 1,
+      "accuracy_percentage": 100.0
+    },
+    "Krishnagiri, Tamil Nadu": {
+      "region_name": "Krishnagiri",
+      "state": "Tamil Nadu",
+      "total_scenarios": 1,
+      "accurate_count": 1,
+      "accuracy_percentage": 100.0
+    },
+    "Namakkal, Tamil Nadu": {
+      "region_name": "Namakkal",
+      "state": "Tamil Nadu",
+      "total_scenarios": 1,
+      "accurate_count": 1,
+      "accuracy_percentage": 100.0
+    },
+    "Nagpur, Maharashtra": {
+      "region_name": "Nagpur",
+      "state": "Maharashtra",
+      "total_scenarios": 15,
+      "accurate_count": 15,
+      "accuracy_percentage": 100.0
+    },
+    "Pune, Maharashtra": {
+      "region_name": "Pune",
+      "state": "Maharashtra",
+      "total_scenarios": 13,
+      "accurate_count": 13,
+      "accuracy_percentage": 100.0
+    },
+    "Nashik, Maharashtra": {
+      "region_name": "Nashik",
+      "state": "Maharashtra",
+      "total_scenarios": 16,
+      "accurate_count": 16,
+      "accuracy_percentage": 100.0
+    },
+    "Solapur, Maharashtra": {
+      "region_name": "Solapur",
+      "state": "Maharashtra",
+      "total_scenarios": 16,
+      "accurate_count": 16,
+      "accuracy_percentage": 100.0
+    },
+    "Ahmednagar, Maharashtra": {
+      "region_name": "Ahmednagar",
+      "state": "Maharashtra",
+      "total_scenarios": 11,
+      "accurate_count": 11,
+      "accuracy_percentage": 100.0
+    },
+    "Amravati, Maharashtra": {
+      "region_name": "Amravati",
+      "state": "Maharashtra",
+      "total_scenarios": 4,
+      "accurate_count": 4,
+      "accuracy_percentage": 100.0
+    },
+    "Akola, Maharashtra": {
+      "region_name": "Akola",
+      "state": "Maharashtra",
+      "total_scenarios": 3,
+      "accurate_count": 3,
+      "accuracy_percentage": 100.0
+    },
+    "Jalgaon, Maharashtra": {
+      "region_name": "Jalgaon",
+      "state": "Maharashtra",
+      "total_scenarios": 10,
+      "accurate_count": 10,
+      "accuracy_percentage": 100.0
+    },
+    "Kolhapur, Maharashtra": {
+      "region_name": "Kolhapur",
+      "state": "Maharashtra",
+      "total_scenarios": 4,
+      "accurate_count": 4,
+      "accuracy_percentage": 100.0
+    },
+    "Satara, Maharashtra": {
+      "region_name": "Satara",
+      "state": "Maharashtra",
+      "total_scenarios": 7,
+      "accurate_count": 7,
+      "accuracy_percentage": 100.0
+    }
+  },
+  "agent_metrics": {
+    "soil_intelligence": {
+      "agent_name": "Soil Intelligence Agent",
+      "scenarios_evaluated": 200,
+      "agreement_rate_pct": 95.5,
+      "average_confidence": 0.92
+    },
+    "land_intelligence": {
+      "agent_name": "Land Intelligence Agent",
+      "scenarios_evaluated": 200,
+      "agreement_rate_pct": 94.0,
+      "average_confidence": 0.89
+    },
+    "market_intelligence": {
+      "agent_name": "Market Intelligence Agent",
+      "scenarios_evaluated": 200,
+      "agreement_rate_pct": 93.5,
+      "average_confidence": 0.86
+    },
+    "sustainability_intelligence": {
+      "agent_name": "Sustainability Agent",
+      "scenarios_evaluated": 200,
+      "agreement_rate_pct": 96.0,
+      "average_confidence": 0.88
+    },
+    "organic_rag": {
+      "agent_name": "Organic Knowledge RAG",
+      "scenarios_evaluated": 200,
+      "agreement_rate_pct": 98.0,
+      "average_confidence": 0.94
+    },
+    "terramind_orchestrator": {
+      "agent_name": "Central Decision Orchestrator",
+      "scenarios_evaluated": 200,
+      "agreement_rate_pct": 100.0,
+      "average_confidence": 0.91
+    }
+  },
+  "failed_scenarios_count": 0,
+  "failed_scenarios": [],
+  "report_file_md": "C:\\Users\\admin\\Downloads\\Agri New\\app\\services\\..\\..\\reports\\agricultural_accuracy_report.md",
+  "report_file_json": "C:\\Users\\admin\\Downloads\\Agri New\\app\\services\\..\\..\\reports\\agricultural_accuracy_report.json"
+}

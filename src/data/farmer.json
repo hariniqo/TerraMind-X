@@ -1,0 +1,14 @@
+{
+  "name": "Harini",
+  "village": "Melur",
+  "district": "Madurai",
+  "location": "Melur, Madurai, Tamil Nadu",
+  "lat": 9.9833,
+  "lng": 78.3333,
+  "areaAcres": 2.5,
+  "soilType": "Red soil",
+  "irrigationType": "Borewell",
+  "currentCrop": "Tomato",
+  "experience": "8 years",
+  "preferredLanguage": "en"
+}

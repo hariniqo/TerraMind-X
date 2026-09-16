@@ -1,0 +1,65 @@
+[Source: TerraMind Organic Agriculture Handbook]
+[Chapter: 1]
+[Page: 12]
+[Topic: Soil Health]
+Soil health is the foundation of organic farming. Healthy soil contains high organic carbon, active microbial life, and a balanced pH. Soil organic carbon (SOC) can be improved by adding farmyard manure, compost, and green manures. A soil pH between 6.0 and 7.0 is ideal for nutrient availability.
+
+[Source: TerraMind Organic Agriculture Handbook]
+[Chapter: 2]
+[Page: 24]
+[Topic: Composting]
+Composting converts agricultural waste into rich organic nutrient source. Standard compost requires a carbon-to-nitrogen (C:N) ratio of 30:1. The temperature should reach 55-60°C to destroy pathogens and weed seeds. Turn the compost pile every 2-3 weeks to maintain aerobic conditions and speed decomposition.
+
+[Source: TerraMind Organic Agriculture Handbook]
+[Chapter: 2]
+[Page: 28]
+[Topic: Vermicomposting]
+Vermicomposting uses earthworms (like Eisenia fetida) to convert organic matter into vermicast. Vermicast is rich in nitrogen, phosphorus, potassium, micronutrients, and growth hormones. Vermicompost improves soil structure, water holding capacity, and aeration. Earthworms require moisture levels around 60-70% and temperatures below 35°C.
+
+[Source: TerraMind Organic Agriculture Handbook]
+[Chapter: 3]
+[Page: 45]
+[Topic: Crop Rotation]
+Crop rotation is the practice of growing a series of dissimilar crop types in the same area in sequential seasons. Rotating deep-rooted crops (like cotton) with shallow-rooted crops (like onion) improves soil structure. Leguminous crops (like groundnut or cowpea) should be rotated with cereal/nightshade crops (like paddy or tomato) to naturally restore soil nitrogen.
+
+[Source: TerraMind Organic Agriculture Handbook]
+[Chapter: 3]
+[Page: 49]
+[Topic: Green Manure]
+Green manure refers to growing cover crops (such as Sunnhemp or Dhaincha) and ploughing them back into the soil while still green. This adds organic carbon and nitrogen. Incorporating green manure into the soil 2 weeks before sowing the main crop buffers soil pH, increases microbial activity, and improves water retention.
+
+[Source: TerraMind Organic Agriculture Handbook]
+[Chapter: 4]
+[Page: 60]
+[Topic: Biofertilizers]
+Biofertilizers contain living microorganisms that colonize the rhizosphere and promote growth. Azotobacter and Azospirillum fix atmospheric nitrogen for non-legumes (like paddy or tomato). Rhizobium fixes nitrogen specifically for leguminous crops (like groundnut). Phosphobacteria solubilizes insoluble rock phosphate, making phosphorus bioavailable.
+
+[Source: TerraMind Organic Agriculture Handbook]
+[Chapter: 4]
+[Page: 66]
+[Topic: Organic Nutrient Management]
+Organic nutrient management relies on natural organic inputs rather than synthetic chemical fertilizers. Organic inputs include Farmyard Manure (FYM), vermicompost, Neem cake, and liquid organic formulations like Panchagavya and Jeevamrutha. These inputs provide macro and micronutrients while maintaining biological activity.
+
+[Source: TerraMind Organic Agriculture Handbook]
+[Chapter: 5]
+[Page: 82]
+[Topic: Integrated Pest Management]
+Organic Integrated Pest Management (IPM) avoids synthetic chemical pesticides. IPM uses preventive steps: crop rotation, biological control (predatory insects), mechanical traps (sticky traps, pheromone traps), and organic botanicals. Neem oil spray (1-3% concentration) is highly effective against sucking pests, aphids, and mites.
+
+[Source: TerraMind Organic Agriculture Handbook]
+[Chapter: 6]
+[Page: 98]
+[Topic: Water Management]
+Water management in organic farming focuses on maximizing water-use efficiency. Drip irrigation reduces water wastage and keeps moisture levels optimal. Organic mulching (using straw, dry leaves, or crop residue) reduces evaporation losses, suppresses weed growth, buffers soil temperature, and adds organic matter.
+
+[Source: TerraMind Organic Agriculture Handbook]
+[Chapter: 6]
+[Page: 104]
+[Topic: Soil Conservation]
+Soil conservation prevents wind and water erosion. Techniques include contour bunding, cover cropping, terracing, and minimum tillage. Maintaining a continuous crop cover or mulch layer protects the topsoil, reduces runoff velocity, and enhances rainfall infiltration into the groundwater aquifer.
+
+[Source: TerraMind Organic Agriculture Handbook]
+[Chapter: 7]
+[Page: 115]
+[Topic: Sustainable Agriculture]
+Sustainable agriculture balances agricultural productivity, environmental health, and economic viability. It involves biological diversity, agroforestry, conservation of natural resources, and reliance on renewable farm resources. Sustainable systems maintain long-term crop productivity without degrading the ecosystem.

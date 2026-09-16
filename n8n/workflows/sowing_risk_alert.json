@@ -1,0 +1,76 @@
+{
+  "name": "Sowing Risk Alert",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "sowing-risk-event",
+        "options": {}
+      },
+      "name": "Webhook Listener",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "number": [
+            {
+              "value1": "={{$json.oversupply}}",
+              "operation": "larger",
+              "value2": 30
+            }
+          ]
+        }
+      },
+      "name": "Check Oversupply Limit",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [450, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://backend:8000/api/v1/webhook/farmer-alert",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-N8N-Secret",
+              "value": "sih_skey_2026"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "name": "Trigger SMS/WhatsApp Alert",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 3,
+      "position": [650, 200]
+    }
+  ],
+  "connections": {
+    "Webhook Listener": {
+      "main": [
+        [
+          {
+            "node": "Check Oversupply Limit",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check Oversupply Limit": {
+      "main": [
+        [
+          {
+            "node": "Trigger SMS/WhatsApp Alert",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

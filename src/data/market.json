@@ -1,0 +1,21 @@
+{
+  "crop": "Tomato",
+  "currentPrice": "₹2,850 / quintal",
+  "trend7Day": "+8.4%",
+  "trend30Day": "-3.2%",
+  "forecast": [
+    {"label": "This Week", "price": 2850},
+    {"label": "Next Week", "price": 2720},
+    {"label": "Week 3", "price": 2490},
+    {"label": "Week 4", "price": 2210}
+  ],
+  "oversupplyRisk": 90,
+  "advice": "Consider alternative crop (e.g. Groundnut) / earlier harvest / different market destination (like Trichy or Coimbatore).",
+  "regionalDistribution": [
+    {"crop": "Tomato", "percentage": 34},
+    {"crop": "Onion", "percentage": 21},
+    {"crop": "Groundnut", "percentage": 18},
+    {"crop": "Millets", "percentage": 12},
+    {"crop": "Other", "percentage": 15}
+  ]
+}

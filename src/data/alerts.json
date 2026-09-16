@@ -1,0 +1,29 @@
+[
+  {
+    "id": "alert-1",
+    "severity": "HIGH",
+    "title": "Tomato oversupply risk increased to 90%",
+    "category": "Market",
+    "message": "Heavy arrivals reported in Madurai and Melur markets. Consider alternative crop, earlier harvest, or different market.",
+    "time": "10 mins ago",
+    "read": false
+  },
+  {
+    "id": "alert-2",
+    "severity": "MEDIUM",
+    "title": "Soil moisture declining",
+    "category": "Soil",
+    "message": "Field A soil moisture dropped to 52%. Plan irrigation within the next 36 hours.",
+    "time": "2 hours ago",
+    "read": false
+  },
+  {
+    "id": "alert-3",
+    "severity": "GOOD",
+    "title": "Weather suitable for planting",
+    "category": "Weather",
+    "message": "Temperature and humidity levels are optimal for groundnut seed sowing starting Aug 15.",
+    "time": "1 day ago",
+    "read": false
+  }
+]

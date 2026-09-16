@@ -1,0 +1,68 @@
+{
+    "crop_suitability": {
+        "accuracy": 0.17567567567567569,
+        "precision": 0.17744194394156898,
+        "recall": 0.17567567567567569,
+        "f1_score": 0.17492647689133703,
+        "confusion_matrix": [
+            [
+                7,
+                7,
+                9,
+                9,
+                18,
+                3
+            ],
+            [
+                6,
+                10,
+                7,
+                8,
+                12,
+                4
+            ],
+            [
+                11,
+                9,
+                6,
+                7,
+                11,
+                4
+            ],
+            [
+                6,
+                10,
+                2,
+                7,
+                10,
+                14
+            ],
+            [
+                12,
+                5,
+                7,
+                6,
+                12,
+                8
+            ],
+            [
+                7,
+                2,
+                7,
+                15,
+                8,
+                10
+            ]
+        ]
+    },
+    "yield_prediction": {
+        "mae": 0.9675584843593675,
+        "rmse": 1.4899628062812325,
+        "r2_score": 0.9826805528332262
+    },
+    "production_ready_status": "PENDING_PILOT_VALIDATION",
+    "warnings": [
+        "Model is trained on simulated target variables. Do not use for certified financial crop insurance planning.",
+        "High test accuracy may indicate a clean distribution profile; local field trial validation is required."
+    ]
+}

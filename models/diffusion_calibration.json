@@ -1,0 +1,9 @@
+{
+    "calibration_status": "insufficient_real_data",
+    "method": "uncalibrated",
+    "data_source": "data/processed/crop_training.parquet",
+    "record_count": 300,
+    "parameters": {},
+    "calibration_error": 0.0,
+    "calibrated_at": "2026-09-03T07:14:52.557567"
+}

@@ -1,0 +1,26 @@
+{
+  "model_name": "crop_recommendation_rf",
+  "version": "v1.2.0",
+  "training_date": "2026-09-01T16:21:43.987043",
+  "algorithm": "RandomForestClassifier",
+  "features": [
+    "soil_ph",
+    "organic_carbon",
+    "nitrogen_kg_ha",
+    "phosphorus_kg_ha",
+    "potassium_kg_ha",
+    "temperature_c",
+    "rainfall_mm"
+  ],
+  "classes": [
+    "Banana",
+    "Cotton",
+    "Groundnut",
+    "Red Onion",
+    "Soybean",
+    "Sugarcane",
+    "Tomato"
+  ],
+  "train_samples": 2688,
+  "train_accuracy": 0.997
+}
