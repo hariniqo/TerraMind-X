@@ -1,0 +1,116 @@
+{
+  "name": "MarketPrice",
+  "type": "object",
+  "properties": {
+    "market_name": {
+      "type": "string"
+    },
+    "market_code": {
+      "type": "string"
+    },
+    "location_id": {
+      "type": "string"
+    },
+    "crop_id": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "district": {
+      "type": "string"
+    },
+    "taluk": {
+      "type": "string"
+    },
+    "commodity": {
+      "type": "string"
+    },
+    "variety": {
+      "type": "string"
+    },
+    "grade": {
+      "type": "string"
+    },
+    "min_price": {
+      "type": "number"
+    },
+    "max_price": {
+      "type": "number"
+    },
+    "modal_price": {
+      "type": "number"
+    },
+    "price_unit": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "arrival_quantity": {
+      "type": "number"
+    },
+    "arrival_unit": {
+      "type": "string"
+    },
+    "trading_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "data_timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "source_record_id": {
+      "type": "string"
+    },
+    "fetched_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "source_available",
+        "source_unavailable",
+        "pending_verification",
+        "error"
+      ]
+    }
+  },
+  "required": [
+    "market_name",
+    "commodity",
+    "trading_date",
+    "source"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

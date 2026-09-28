@@ -1,0 +1,83 @@
+{
+  "name": "GovernmentPolicy",
+  "type": "object",
+  "properties": {
+    "policy_name": {
+      "type": "string"
+    },
+    "crop": {
+      "type": "string"
+    },
+    "applicable_state": {
+      "type": "string"
+    },
+    "applicable_district": {
+      "type": "string"
+    },
+    "effective_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "expiry_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "policy_type": {
+      "type": "string",
+      "description": "e.g. MSP, subsidy, insurance, procurement"
+    },
+    "price": {
+      "type": "number",
+      "description": "Numeric policy value (e.g. MSP \u20b9/quintal) for direct comparison"
+    },
+    "price_unit": {
+      "type": "string",
+      "description": "Unit for the price field, e.g. quintal"
+    },
+    "description": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "source_available",
+        "source_unavailable",
+        "pending_verification",
+        "error"
+      ]
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "policy_name",
+    "source"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

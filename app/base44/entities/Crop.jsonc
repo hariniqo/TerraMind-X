@@ -1,0 +1,94 @@
+{
+  "name": "Crop",
+  "type": "object",
+  "properties": {
+    "crop_name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "crop_category": {
+      "type": "string"
+    },
+    "scientific_name": {
+      "type": "string"
+    },
+    "season": {
+      "type": "string"
+    },
+    "crop_duration_days": {
+      "type": "number"
+    },
+    "water_requirement": {
+      "type": "number",
+      "description": "Seasonal water requirement in mm"
+    },
+    "suitable_soil_types": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "pH_min": {
+      "type": "number"
+    },
+    "pH_max": {
+      "type": "number"
+    },
+    "temperature_min": {
+      "type": "number"
+    },
+    "temperature_max": {
+      "type": "number"
+    },
+    "rainfall_min": {
+      "type": "number"
+    },
+    "rainfall_max": {
+      "type": "number"
+    },
+    "source": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "source_available",
+        "source_unavailable",
+        "pending_verification",
+        "error"
+      ]
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "crop_name",
+    "source"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

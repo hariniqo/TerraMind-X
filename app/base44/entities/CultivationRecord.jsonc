@@ -1,0 +1,79 @@
+{
+  "name": "CultivationRecord",
+  "type": "object",
+  "properties": {
+    "location_id": {
+      "type": "string"
+    },
+    "crop_id": {
+      "type": "string"
+    },
+    "cultivated_area": {
+      "type": "number"
+    },
+    "area_unit": {
+      "type": "string"
+    },
+    "cultivation_year": {
+      "type": "number"
+    },
+    "season": {
+      "type": "string"
+    },
+    "admin_level": {
+      "type": "string",
+      "enum": [
+        "village",
+        "taluk",
+        "district",
+        "state"
+      ]
+    },
+    "source": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "source_record_id": {
+      "type": "string"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "source_available",
+        "source_unavailable",
+        "pending_verification",
+        "error"
+      ]
+    }
+  },
+  "required": [
+    "location_id",
+    "crop_id",
+    "source"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

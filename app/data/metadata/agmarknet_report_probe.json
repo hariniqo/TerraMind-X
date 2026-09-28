@@ -1,0 +1,130 @@
+[
+  {
+    "variant": "v1",
+    "body": {
+      "from_date": "2015-01-01",
+      "to_date": "2015-01-31",
+      "dashboard": "cumm_price_sp",
+      "downloadreport": false,
+      "page": 0,
+      "state": 20,
+      "commodity": [
+        23
+      ]
+    },
+    "http": null,
+    "content_type": null,
+    "bytes": 135,
+    "head": "HTTPError: HTTP Error 400: Bad Request | b'{\"detail\":\"Captcha key and captcha value are required.\",\"code\":\"TOKEN_OR_CAPTCHA_REQUIRED\"}'",
+    "status": "not-json"
+  },
+  {
+    "variant": "v2",
+    "body": {
+      "from_date": "2015-01-01",
+      "to_date": "2015-01-31",
+      "dashboard": "cumm_price_sp",
+      "downloadreport": false,
+      "page": 0,
+      "state": "20",
+      "commodity": "23"
+    },
+    "http": null,
+    "content_type": null,
+    "bytes": 135,
+    "head": "HTTPError: HTTP Error 400: Bad Request | b'{\"detail\":\"Captcha key and captcha value are required.\",\"code\":\"TOKEN_OR_CAPTCHA_REQUIRED\"}'",
+    "status": "not-json"
+  },
+  {
+    "variant": "v3",
+    "body": {
+      "from_date": "2015-01-01",
+      "to_date": "2015-01-31",
+      "dashboard": "cumm_price_sp",
+      "downloadreport": false,
+      "page": 0,
+      "state": [
+        20
+      ],
+      "commodity": [
+        23
+      ],
+      "itemsPerPage": 100
+    },
+    "http": null,
+    "content_type": null,
+    "bytes": 135,
+    "head": "HTTPError: HTTP Error 400: Bad Request | b'{\"detail\":\"Captcha key and captcha value are required.\",\"code\":\"TOKEN_OR_CAPTCHA_REQUIRED\"}'",
+    "status": "not-json"
+  },
+  {
+    "variant": "v4",
+    "body": {
+      "from_date": "2015-01-01",
+      "to_date": "2015-01-31",
+      "dashboard": "cumm_price_sp"
+    },
+    "http": null,
+    "content_type": null,
+    "bytes": 135,
+    "head": "HTTPError: HTTP Error 400: Bad Request | b'{\"detail\":\"Captcha key and captcha value are required.\",\"code\":\"TOKEN_OR_CAPTCHA_REQUIRED\"}'",
+    "status": "not-json"
+  },
+  {
+    "variant": "v5",
+    "body": {
+      "from_date": "2015-01-01",
+      "to_date": "2015-01-31",
+      "state": 20,
+      "commodity": [
+        23
+      ]
+    },
+    "http": null,
+    "content_type": null,
+    "bytes": 135,
+    "head": "HTTPError: HTTP Error 400: Bad Request | b'{\"detail\":\"Captcha key and captcha value are required.\",\"code\":\"TOKEN_OR_CAPTCHA_REQUIRED\"}'",
+    "status": "not-json"
+  },
+  {
+    "variant": "v6",
+    "body": {
+      "from_date": "2015-01-01",
+      "to_date": "2015-01-31",
+      "dashboard": "cumm_price_sp",
+      "downloadreport": true,
+      "downloadformat": "csv",
+      "page": 0,
+      "state": 20,
+      "commodity": [
+        23
+      ]
+    },
+    "http": null,
+    "content_type": null,
+    "bytes": 135,
+    "head": "HTTPError: HTTP Error 400: Bad Request | b'{\"detail\":\"Captcha key and captcha value are required.\",\"code\":\"TOKEN_OR_CAPTCHA_REQUIRED\"}'",
+    "status": "not-json"
+  },
+  {
+    "variant": "v7",
+    "body": {
+      "from_date": "2015-01-01",
+      "to_date": "2015-01-31",
+      "dashboard": "statewise_price_arrival_sp",
+      "downloadreport": false,
+      "page": 0,
+      "state": [
+        20
+      ],
+      "commodity": [
+        23
+      ]
+    },
+    "http": null,
+    "content_type": null,
+    "bytes": 135,
+    "head": "HTTPError: HTTP Error 400: Bad Request | b'{\"detail\":\"Captcha key and captcha value are required.\",\"code\":\"TOKEN_OR_CAPTCHA_REQUIRED\"}'",
+    "status": "not-json"
+  }
+]

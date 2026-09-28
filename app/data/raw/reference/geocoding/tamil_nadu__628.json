@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "id": 1254361,
+      "name": "Tirunelveli",
+      "latitude": 8.72742,
+      "longitude": 77.6838,
+      "elevation": 49.0,
+      "feature_code": "PPLA2",
+      "country_code": "IN",
+      "admin1_id": 1255053,
+      "admin2_id": 7874380,
+      "admin3_id": 12684131,
+      "timezone": "Asia/Kolkata",
+      "population": 1435844,
+      "country_id": 1269750,
+      "country": "India",
+      "admin1": "Tamil Nadu",
+      "admin2": "Tirunelveli",
+      "admin3": "Tirunelveli"
+    },
+    {
+      "id": 1226382,
+      "name": "Tirunelveli East",
+      "latitude": 9.6869,
+      "longitude": 80.0382,
+      "elevation": 12.0,
+      "feature_code": "PPL",
+      "country_code": "LK",
+      "admin1_id": 7671049,
+      "admin2_id": 1242831,
+      "admin3_id": 7324405,
+      "admin4_id": 11989448,
+      "timezone": "Asia/Colombo",
+      "country_id": 1227603,
+      "country": "Sri Lanka",
+      "admin1": "Northern Province",
+      "admin2": "Jaffna District",
+      "admin3": "Nallur Division",
+      "admin4": "Thirunelvely Centre North"
+    }
+  ],
+  "generationtime_ms": 0.6057024
+}

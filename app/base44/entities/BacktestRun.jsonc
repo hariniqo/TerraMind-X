@@ -1,0 +1,59 @@
+{
+  "name": "BacktestRun",
+  "type": "object",
+  "properties": {
+    "crop_id": {
+      "type": "string"
+    },
+    "district": {
+      "type": "string"
+    },
+    "cutoff_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "predicted_action": {
+      "type": "string"
+    },
+    "predicted_risk": {
+      "type": "number"
+    },
+    "actual_outcome_summary": {
+      "type": "string"
+    },
+    "actual_pct_change": {
+      "type": "number"
+    },
+    "correct": {
+      "type": "boolean"
+    },
+    "data_depth_days": {
+      "type": "number"
+    },
+    "run_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "crop_id",
+    "cutoff_date",
+    "run_at"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "created_by_id": "{{user.id}}"
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

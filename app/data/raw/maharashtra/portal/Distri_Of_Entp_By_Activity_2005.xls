@@ -1,0 +1,348 @@
+
+
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<style>
+<!--
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<meta name="Generator" content="SAS Software Version 9.3, see www.sas.com">
+<meta http-equiv="Content-type" content="charset=iso-8859-1">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+h1 {
+  font-family: calibri;
+  font-size: large;
+  font-weight: bold;
+}
+h2, h3, h4, h5, h6 {
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 12pt;
+  font-style: italic;
+  font-weight: bold;
+}
+table {
+  border: 1px solid #000000;
+  border-spacing: 0px;
+}
+pre {
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: 'SAS Monospace', 'Cumberland AMT', Courier;
+  font-size: 6.7pt;
+  font-style: normal;
+  font-weight: normal;
+  padding: 7px;
+}
+td {
+  color: #000000;
+  font-family: calibri;
+  font-size: x-small;
+}
+th {
+  background-color: #A9D0F5;
+  color: #000000;
+  font-family: calibri;
+  font-size: medium;
+  font-weight: bold;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+ <!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+ <x:ExcelWorksheets>
+ <x:ExcelWorksheet>
+ <x:Name>Sheet1</x:Name>
+ <x:WorksheetOptions>
+ <x:Zoom>100</x:Zoom>
+ <x:Selected/>
+ <x:Panes>
+ <x:Pane>
+ <x:Number>3</x:Number>
+ <x:ActiveCol>1</x:ActiveCol>
+ </x:Pane>
+ </x:Panes>
+ <x:ProtectContents>False</x:ProtectContents>
+ <x:ProtectObjects>False</x:ProtectObjects>
+ <x:ProtectScenarios>False</x:ProtectScenarios>
+ </x:WorksheetOptions>
+ </x:ExcelWorksheet> 
+ <x:WindowHeight>8070</x:WindowHeight> 
+ <x:WindowWidth>10380</x:WindowWidth> 
+ <x:WindowTopX>480</x:WindowTopX> 
+ <x:WindowTopY>120</x:WindowTopY> 
+ <x:ProtectStructure>False</x:ProtectStructure> 
+ <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+ </xml><![endif]--> 
+</head>
+<body onload="startup()" onunload="shutdown()">
+
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</script>
+
+<div class="branch">
+<a name="IDX"></a>
+<h1 class="c">Fifth  Economic  Census</h1>
+<h1 class="c">Distribution Of Enterprises And Employment By Type Of Activity</h1>
+<h1 class="l">State : Maharashtra</h1>
+<h1 class="r">Year : 2005</h1>
+<h1 class="c">                               </h1>
+<div>
+<div align="center">
+<table cellspacing="0" cellpadding="5" border="1" bordercolor="#000000" summary="Procedure Report: Detailed andor summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th colspan="2" scope="colgroup" class="c">&nbsp;</th>
+<th colspan="12" scope="colgroup" class="c">Total No Of Establishments</th>
+</tr>
+<tr>
+<th colspan="2" scope="colgroup" class="c">&nbsp;</th>
+<th colspan="4" scope="colgroup" class="c">Rural</th>
+<th colspan="4" scope="colgroup" class="c">Urban</th>
+<th colspan="4" scope="colgroup" class="c">Combined</th>
+</tr>
+<tr>
+<th scope="col" class="c">Sr. No.</th>
+<th scope="col" class="c">Activity</th>
+<th scope="col" class="c">OAE</th>
+<th scope="col" class="c">Establishments*</th>
+<th scope="col" class="c">OAE Employment</th>
+<th scope="col" class="c">ESTT. Employment</th>
+<th scope="col" class="c">OAE</th>
+<th scope="col" class="c">Establishments*</th>
+<th scope="col" class="c">OAE Employment</th>
+<th scope="col" class="c">ESTT. Employment</th>
+<th scope="col" class="c">OAE</th>
+<th scope="col" class="c">Establishments*</th>
+<th scope="col" class="c">OAE Employment</th>
+<th scope="col" class="c">ESTT. Employment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r">        1</td>
+<td class="l">Agriculture, hunting and forestry and Fishing</td>
+<td class="r">   486500</td>
+<td class="r">    93494</td>
+<td class="r">   726333</td>
+<td class="r">   272517</td>
+<td class="r">    17526</td>
+<td class="r">     6501</td>
+<td class="r">    25437</td>
+<td class="r">    26708</td>
+<td class="r">   504026</td>
+<td class="r">    99995</td>
+<td class="r">   751770</td>
+<td class="r">   299225</td>
+</tr>
+<tr>
+<td class="r">        2</td>
+<td class="l">Mining, quarrying and Manufacturing</td>
+<td class="r">   154765</td>
+<td class="r">    52833</td>
+<td class="r">   188577</td>
+<td class="r">   279820</td>
+<td class="r">   109862</td>
+<td class="r">   111908</td>
+<td class="r">   134175</td>
+<td class="r">   595600</td>
+<td class="r">   264627</td>
+<td class="r">   164741</td>
+<td class="r">   322752</td>
+<td class="r">   875420</td>
+</tr>
+<tr>
+<td class="r">        3</td>
+<td class="l">Manufacturing</td>
+<td class="r">    66922</td>
+<td class="r">    37715</td>
+<td class="r">    95203</td>
+<td class="r">   317120</td>
+<td class="r">    55369</td>
+<td class="r">   109005</td>
+<td class="r">    74835</td>
+<td class="r">   783830</td>
+<td class="r">   122291</td>
+<td class="r">   146720</td>
+<td class="r">   170038</td>
+<td class="r">  1100950</td>
+</tr>
+<tr>
+<td class="r">        4</td>
+<td class="l">Electricity, gas and water supply and Construction</td>
+<td class="r">    16906</td>
+<td class="r">     8200</td>
+<td class="r">    20153</td>
+<td class="r">    33477</td>
+<td class="r">    16790</td>
+<td class="r">    13829</td>
+<td class="r">    18893</td>
+<td class="r">    87908</td>
+<td class="r">    33696</td>
+<td class="r">    22029</td>
+<td class="r">    39046</td>
+<td class="r">   121385</td>
+</tr>
+<tr>
+<td class="r">        5</td>
+<td class="l">Wholesale and retail trade; repair of motor vehicles, motorcycles and personal and household goods and Hotels and restaurants</td>
+<td class="r">   493456</td>
+<td class="r">   192068</td>
+<td class="r">   608224</td>
+<td class="r">   553794</td>
+<td class="r">   590066</td>
+<td class="r">   501467</td>
+<td class="r">   710716</td>
+<td class="r">  1716777</td>
+<td class="r">  1083522</td>
+<td class="r">   693535</td>
+<td class="r">  1318940</td>
+<td class="r">  2270571</td>
+</tr>
+<tr>
+<td class="r">        6</td>
+<td class="l">Transport, storage and communications and Financial intermediation</td>
+<td class="r">    60191</td>
+<td class="r">    48430</td>
+<td class="r">    87486</td>
+<td class="r">   179464</td>
+<td class="r">   124473</td>
+<td class="r">    78265</td>
+<td class="r">   135644</td>
+<td class="r">   606602</td>
+<td class="r">   184664</td>
+<td class="r">   126695</td>
+<td class="r">   223130</td>
+<td class="r">   786066</td>
+</tr>
+<tr>
+<td class="r">        7</td>
+<td class="l">Real estate, renting and business activities and Public administration and defence; compulsory social security</td>
+<td class="r">    38153</td>
+<td class="r">    61786</td>
+<td class="r">    47429</td>
+<td class="r">   237381</td>
+<td class="r">    42942</td>
+<td class="r">    73898</td>
+<td class="r">    50846</td>
+<td class="r">   910238</td>
+<td class="r">    81095</td>
+<td class="r">   135684</td>
+<td class="r">    98275</td>
+<td class="r">  1147619</td>
+</tr>
+<tr>
+<td class="r">        8</td>
+<td class="l">Education, Health and social work</td>
+<td class="r">    22552</td>
+<td class="r">   114175</td>
+<td class="r">    29729</td>
+<td class="r">   507648</td>
+<td class="r">    39361</td>
+<td class="r">    73741</td>
+<td class="r">    47775</td>
+<td class="r">   624973</td>
+<td class="r">    61913</td>
+<td class="r">   187916</td>
+<td class="r">    77504</td>
+<td class="r">  1132621</td>
+</tr>
+<tr>
+<td class="r">        9</td>
+<td class="l">Other community, social and personal service activities and Activities of private households as employers and undifferentiated production activities of private households and Extraterritorial organizations and bodies</td>
+<td class="r">   102263</td>
+<td class="r">    59782</td>
+<td class="r">   119825</td>
+<td class="r">   119862</td>
+<td class="r">    81235</td>
+<td class="r">    68883</td>
+<td class="r">    97437</td>
+<td class="r">   236074</td>
+<td class="r">   183498</td>
+<td class="r">   128665</td>
+<td class="r">   217262</td>
+<td class="r">   355936</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<h1 class="l">Note:- Establishments*- Establishments with atleast one hired worker</h1>
+<h1 class="l">OAE- Own Account Establishment</h1>
+<h1 class="c">&nbsp;</h1>
+<h1 class="l">Source :</h1>
+<h1 class="l">&amp;SOURCE_NAME</h1>
+<h1 class="c">&nbsp;</h1>
+<h1 class="l">Navigation Path :</h1>
+<h1 class="l">www.mahasdb.maharashtra.gov.in &gt; Home &gt; Economic Census &gt; Standard Reports</h1>
+</div>
+</body>
+</html>

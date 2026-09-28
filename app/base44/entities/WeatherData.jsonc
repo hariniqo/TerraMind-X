@@ -1,0 +1,114 @@
+{
+  "name": "WeatherData",
+  "type": "object",
+  "properties": {
+    "location_id": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "number"
+    },
+    "longitude": {
+      "type": "number"
+    },
+    "observation_time": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "data_type": {
+      "type": "string",
+      "enum": ["forecast", "historical_reanalysis", "ensemble"],
+      "description": "Open-Meteo data type"
+    },
+    "temperature": {
+      "type": "number",
+      "description": "°C"
+    },
+    "temperature_max": {
+      "type": "number",
+      "description": "°C daily max"
+    },
+    "temperature_min": {
+      "type": "number",
+      "description": "°C daily min"
+    },
+    "rainfall": {
+      "type": "number",
+      "description": "mm"
+    },
+    "humidity": {
+      "type": "number",
+      "description": "% relative humidity"
+    },
+    "wind_speed": {
+      "type": "number",
+      "description": "km/h"
+    },
+    "solar_radiation": {
+      "type": "number",
+      "description": "W/m²"
+    },
+    "soil_moisture": {
+      "type": "number",
+      "description": "m³/m³ at 0–1cm"
+    },
+    "evapotranspiration": {
+      "type": "number",
+      "description": "mm/day (reference ET₀)"
+    },
+    "weather_source": {
+      "type": "string",
+      "description": "e.g. Open-Meteo ERA5, Open-Meteo Forecast, IMD"
+    },
+    "model_name": {
+      "type": "string",
+      "description": "Underlying NWP model name"
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "source_available",
+        "source_unavailable",
+        "pending_verification",
+        "error"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["available", "stale", "error", "unavailable"],
+      "description": "Data freshness status"
+    }
+  },
+  "required": [
+    "location_id",
+    "observation_time",
+    "data_type",
+    "weather_source"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

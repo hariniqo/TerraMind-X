@@ -1,0 +1,68 @@
+{
+  "name": "DataSource",
+  "type": "object",
+  "properties": {
+    "source_name": {
+      "type": "string"
+    },
+    "source_type": {
+      "type": "string"
+    },
+    "base_url": {
+      "type": "string"
+    },
+    "dataset_name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "update_frequency": {
+      "type": "string"
+    },
+    "last_successful_fetch": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "last_attempted_fetch": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "degraded",
+        "unavailable",
+        "requires_credentials",
+        "error",
+        "disabled"
+      ]
+    },
+    "error_message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "source_name",
+    "status"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

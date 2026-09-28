@@ -1,0 +1,596 @@
+
+
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<style>
+<!--
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<meta name="Generator" content="SAS Software Version 9.3, see www.sas.com">
+<meta http-equiv="Content-type" content="charset=iso-8859-1">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+h1 {
+  font-family: calibri;
+  font-size: large;
+  font-weight: bold;
+}
+h2, h3, h4, h5, h6 {
+  color: #000000;
+  font-family: 'Thorndale AMT', 'Times Roman';
+  font-size: 12pt;
+  font-style: italic;
+  font-weight: bold;
+}
+table {
+  border: 1px solid #000000;
+  border-spacing: 0px;
+}
+pre {
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: 'SAS Monospace', 'Cumberland AMT', Courier;
+  font-size: 6.7pt;
+  font-style: normal;
+  font-weight: normal;
+  padding: 7px;
+}
+td {
+  color: #000000;
+  font-family: calibri;
+  font-size: x-small;
+}
+th {
+  background-color: #A9D0F5;
+  color: #000000;
+  font-family: calibri;
+  font-size: medium;
+  font-weight: bold;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+ <!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+ <x:ExcelWorksheets>
+ <x:ExcelWorksheet>
+ <x:Name>Sheet1</x:Name>
+ <x:WorksheetOptions>
+ <x:Zoom>100</x:Zoom>
+ <x:Selected/>
+ <x:Panes>
+ <x:Pane>
+ <x:Number>3</x:Number>
+ <x:ActiveCol>1</x:ActiveCol>
+ </x:Pane>
+ </x:Panes>
+ <x:ProtectContents>False</x:ProtectContents>
+ <x:ProtectObjects>False</x:ProtectObjects>
+ <x:ProtectScenarios>False</x:ProtectScenarios>
+ </x:WorksheetOptions>
+ </x:ExcelWorksheet> 
+ <x:WindowHeight>8070</x:WindowHeight> 
+ <x:WindowWidth>10380</x:WindowWidth> 
+ <x:WindowTopX>480</x:WindowTopX> 
+ <x:WindowTopY>120</x:WindowTopY> 
+ <x:ProtectStructure>False</x:ProtectStructure> 
+ <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+ </xml><![endif]--> 
+</head>
+<body onload="startup()" onunload="shutdown()">
+
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</script>
+
+<div class="branch">
+<a name="IDX"></a>
+<h1 class="c">Fifth  Economic  Census</h1>
+<h1 class="c">Number Of Own Account Establishments By Employment Size Class</h1>
+<h1 class="c">Combined (Agri &amp; Non-Agri)</h1>
+<h1 class="l">State : Maharashtra</h1>
+<h1 class="r">Year=2005</h1>
+<h1 class="c">                   </h1>
+<div>
+<div align="center">
+<table cellspacing="0" cellpadding="5" border="1" bordercolor="#000000" summary="Procedure Report: Detailed andor summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th colspan="2" scope="colgroup" class="c">&nbsp;</th>
+<th colspan="8" scope="colgroup" class="c">Employment Size Class</th>
+</tr>
+<tr>
+<th scope="col" class="c">Sr. No.</th>
+<th scope="col" class="c">District Name</th>
+<th scope="col" class="c">1</th>
+<th scope="col" class="c">2</th>
+<th scope="col" class="c">3</th>
+<th scope="col" class="c">4</th>
+<th scope="col" class="c">5</th>
+<th scope="col" class="c">6 to 9</th>
+<th scope="col" class="c">10 or more</th>
+<th scope="col" class="c">All</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r">        1</td>
+<td class="l">NANDURBAR</td>
+<td class="r">    17507</td>
+<td class="r">     2137</td>
+<td class="r">      268</td>
+<td class="r">       81</td>
+<td class="r">       28</td>
+<td class="r">       24</td>
+<td class="r">        4</td>
+<td class="r">    20049</td>
+</tr>
+<tr>
+<td class="r">        2</td>
+<td class="l">DHULE</td>
+<td class="r">    37393</td>
+<td class="r">     5195</td>
+<td class="r">      512</td>
+<td class="r">      157</td>
+<td class="r">       57</td>
+<td class="r">       69</td>
+<td class="r">       13</td>
+<td class="r">    43396</td>
+</tr>
+<tr>
+<td class="r">        3</td>
+<td class="l">JALGAON</td>
+<td class="r">    83177</td>
+<td class="r">     9900</td>
+<td class="r">     1106</td>
+<td class="r">      368</td>
+<td class="r">      148</td>
+<td class="r">      157</td>
+<td class="r">       14</td>
+<td class="r">    94870</td>
+</tr>
+<tr>
+<td class="r">        4</td>
+<td class="l">BULDANA</td>
+<td class="r">    41812</td>
+<td class="r">     4480</td>
+<td class="r">      488</td>
+<td class="r">      176</td>
+<td class="r">       63</td>
+<td class="r">       84</td>
+<td class="r">       16</td>
+<td class="r">    47119</td>
+</tr>
+<tr>
+<td class="r">        5</td>
+<td class="l">AKOLA</td>
+<td class="r">    42865</td>
+<td class="r">     4156</td>
+<td class="r">      414</td>
+<td class="r">       95</td>
+<td class="r">       33</td>
+<td class="r">       34</td>
+<td class="r">        8</td>
+<td class="r">    47605</td>
+</tr>
+<tr>
+<td class="r">        6</td>
+<td class="l">WASHIM</td>
+<td class="r">    20636</td>
+<td class="r">     2240</td>
+<td class="r">      236</td>
+<td class="r">       81</td>
+<td class="r">       27</td>
+<td class="r">       40</td>
+<td class="r">        6</td>
+<td class="r">    23266</td>
+</tr>
+<tr>
+<td class="r">        7</td>
+<td class="l">AMRAVATI</td>
+<td class="r">    63855</td>
+<td class="r">     5888</td>
+<td class="r">      749</td>
+<td class="r">      196</td>
+<td class="r">       74</td>
+<td class="r">      105</td>
+<td class="r">       10</td>
+<td class="r">    70877</td>
+</tr>
+<tr>
+<td class="r">        8</td>
+<td class="l">WARDHA</td>
+<td class="r">    24513</td>
+<td class="r">     4093</td>
+<td class="r">      651</td>
+<td class="r">      147</td>
+<td class="r">       64</td>
+<td class="r">       68</td>
+<td class="r">       16</td>
+<td class="r">    29552</td>
+</tr>
+<tr>
+<td class="r">        9</td>
+<td class="l">NAGPUR</td>
+<td class="r">   101172</td>
+<td class="r">    14019</td>
+<td class="r">     1816</td>
+<td class="r">      419</td>
+<td class="r">      124</td>
+<td class="r">      161</td>
+<td class="r">      130</td>
+<td class="r">   117841</td>
+</tr>
+<tr>
+<td class="r">       10</td>
+<td class="l">BHANDARA</td>
+<td class="r">    25898</td>
+<td class="r">     7917</td>
+<td class="r">     1259</td>
+<td class="r">      317</td>
+<td class="r">      107</td>
+<td class="r">      111</td>
+<td class="r">        9</td>
+<td class="r">    35618</td>
+</tr>
+<tr>
+<td class="r">       11</td>
+<td class="l">GONDIYA</td>
+<td class="r">    21585</td>
+<td class="r">     8341</td>
+<td class="r">     1239</td>
+<td class="r">      315</td>
+<td class="r">       90</td>
+<td class="r">       93</td>
+<td class="r">        7</td>
+<td class="r">    31670</td>
+</tr>
+<tr>
+<td class="r">       12</td>
+<td class="l">GADCHIROLI</td>
+<td class="r">    17143</td>
+<td class="r">     2885</td>
+<td class="r">      328</td>
+<td class="r">       84</td>
+<td class="r">       50</td>
+<td class="r">      146</td>
+<td class="r">      144</td>
+<td class="r">    20780</td>
+</tr>
+<tr>
+<td class="r">       13</td>
+<td class="l">CHANDRAPUR</td>
+<td class="r">    44142</td>
+<td class="r">     4410</td>
+<td class="r">      831</td>
+<td class="r">      299</td>
+<td class="r">      146</td>
+<td class="r">      268</td>
+<td class="r">     1234</td>
+<td class="r">    51330</td>
+</tr>
+<tr>
+<td class="r">       14</td>
+<td class="l">YAVATMAL</td>
+<td class="r">    50698</td>
+<td class="r">     4816</td>
+<td class="r">      541</td>
+<td class="r">      145</td>
+<td class="r">       52</td>
+<td class="r">       77</td>
+<td class="r">       84</td>
+<td class="r">    56413</td>
+</tr>
+<tr>
+<td class="r">       15</td>
+<td class="l">NANDED</td>
+<td class="r">    47796</td>
+<td class="r">     3879</td>
+<td class="r">      491</td>
+<td class="r">      172</td>
+<td class="r">       67</td>
+<td class="r">       63</td>
+<td class="r">        4</td>
+<td class="r">    52472</td>
+</tr>
+<tr>
+<td class="r">       16</td>
+<td class="l">HINGOLI</td>
+<td class="r">    10507</td>
+<td class="r">     1268</td>
+<td class="r">      193</td>
+<td class="r">       64</td>
+<td class="r">       37</td>
+<td class="r">       29</td>
+<td class="r">        2</td>
+<td class="r">    12100</td>
+</tr>
+<tr>
+<td class="r">       17</td>
+<td class="l">PARBHANI</td>
+<td class="r">    23332</td>
+<td class="r">     4345</td>
+<td class="r">      717</td>
+<td class="r">      333</td>
+<td class="r">      156</td>
+<td class="r">      265</td>
+<td class="r">       45</td>
+<td class="r">    29193</td>
+</tr>
+<tr>
+<td class="r">       18</td>
+<td class="l">JALNA</td>
+<td class="r">    27357</td>
+<td class="r">     6204</td>
+<td class="r">     1327</td>
+<td class="r">      425</td>
+<td class="r">      117</td>
+<td class="r">      162</td>
+<td class="r">      256</td>
+<td class="r">    35848</td>
+</tr>
+<tr>
+<td class="r">       19</td>
+<td class="l">AURANGABAD</td>
+<td class="r">    71551</td>
+<td class="r">     7075</td>
+<td class="r">      943</td>
+<td class="r">      254</td>
+<td class="r">       82</td>
+<td class="r">      145</td>
+<td class="r">       22</td>
+<td class="r">    80072</td>
+</tr>
+<tr>
+<td class="r">       20</td>
+<td class="l">NASHIK</td>
+<td class="r">    84312</td>
+<td class="r">    12514</td>
+<td class="r">     1637</td>
+<td class="r">      426</td>
+<td class="r">      144</td>
+<td class="r">      140</td>
+<td class="r">        7</td>
+<td class="r">    99180</td>
+</tr>
+<tr>
+<td class="r">       21</td>
+<td class="l">THANE</td>
+<td class="r">   113983</td>
+<td class="r">    14731</td>
+<td class="r">     2258</td>
+<td class="r">      612</td>
+<td class="r">      219</td>
+<td class="r">      235</td>
+<td class="r">      116</td>
+<td class="r">   132154</td>
+</tr>
+<tr>
+<td class="r">       22</td>
+<td class="l">MUMBAI</td>
+<td class="r">   202225</td>
+<td class="r">    26157</td>
+<td class="r">     4755</td>
+<td class="r">     1596</td>
+<td class="r">      572</td>
+<td class="r">      495</td>
+<td class="r">       50</td>
+<td class="r">   235850</td>
+</tr>
+<tr>
+<td class="r">       23</td>
+<td class="l">RAIGAD</td>
+<td class="r">    28287</td>
+<td class="r">     6877</td>
+<td class="r">     1342</td>
+<td class="r">      416</td>
+<td class="r">       88</td>
+<td class="r">      208</td>
+<td class="r">       14</td>
+<td class="r">    37232</td>
+</tr>
+<tr>
+<td class="r">       24</td>
+<td class="l">PUNE</td>
+<td class="r">   137557</td>
+<td class="r">    41256</td>
+<td class="r">     6609</td>
+<td class="r">     2270</td>
+<td class="r">      668</td>
+<td class="r">      832</td>
+<td class="r">      150</td>
+<td class="r">   189342</td>
+</tr>
+<tr>
+<td class="r">       25</td>
+<td class="l">AHMADNAGAR</td>
+<td class="r">    70375</td>
+<td class="r">    32608</td>
+<td class="r">     8006</td>
+<td class="r">     2275</td>
+<td class="r">      677</td>
+<td class="r">      696</td>
+<td class="r">       28</td>
+<td class="r">   114665</td>
+</tr>
+<tr>
+<td class="r">       26</td>
+<td class="l">BEED</td>
+<td class="r">    54338</td>
+<td class="r">     6623</td>
+<td class="r">      957</td>
+<td class="r">      211</td>
+<td class="r">       85</td>
+<td class="r">      148</td>
+<td class="r">      216</td>
+<td class="r">    62578</td>
+</tr>
+<tr>
+<td class="r">       27</td>
+<td class="l">LATUR</td>
+<td class="r">    36226</td>
+<td class="r">     4358</td>
+<td class="r">      635</td>
+<td class="r">      134</td>
+<td class="r">       31</td>
+<td class="r">       58</td>
+<td class="r">       23</td>
+<td class="r">    41465</td>
+</tr>
+<tr>
+<td class="r">       28</td>
+<td class="l">OSMANABAD</td>
+<td class="r">    32219</td>
+<td class="r">     6482</td>
+<td class="r">      801</td>
+<td class="r">      174</td>
+<td class="r">       32</td>
+<td class="r">      103</td>
+<td class="r">      130</td>
+<td class="r">    39941</td>
+</tr>
+<tr>
+<td class="r">       29</td>
+<td class="l">SOLAPUR</td>
+<td class="r">    72985</td>
+<td class="r">    14102</td>
+<td class="r">     1408</td>
+<td class="r">      559</td>
+<td class="r">      111</td>
+<td class="r">      175</td>
+<td class="r">       10</td>
+<td class="r">    89350</td>
+</tr>
+<tr>
+<td class="r">       30</td>
+<td class="l">SATARA</td>
+<td class="r">    83965</td>
+<td class="r">    19787</td>
+<td class="r">     1535</td>
+<td class="r">      449</td>
+<td class="r">      138</td>
+<td class="r">      216</td>
+<td class="r">       59</td>
+<td class="r">   106149</td>
+</tr>
+<tr>
+<td class="r">       31</td>
+<td class="l">RATNAGIRI</td>
+<td class="r">    18818</td>
+<td class="r">     4499</td>
+<td class="r">      959</td>
+<td class="r">      256</td>
+<td class="r">      107</td>
+<td class="r">      116</td>
+<td class="r">       42</td>
+<td class="r">    24797</td>
+</tr>
+<tr>
+<td class="r">       32</td>
+<td class="l">SINDHUDURG</td>
+<td class="r">    24370</td>
+<td class="r">     3029</td>
+<td class="r">      383</td>
+<td class="r">      119</td>
+<td class="r">       60</td>
+<td class="r">       44</td>
+<td class="r">       20</td>
+<td class="r">    28025</td>
+</tr>
+<tr>
+<td class="r">       33</td>
+<td class="l">KOLHAPUR</td>
+<td class="r">   183506</td>
+<td class="r">    90048</td>
+<td class="r">    11347</td>
+<td class="r">     4310</td>
+<td class="r">     1168</td>
+<td class="r">     1174</td>
+<td class="r">       81</td>
+<td class="r">   291634</td>
+</tr>
+<tr>
+<td class="r">       34</td>
+<td class="l">SANGLI</td>
+<td class="r">    93097</td>
+<td class="r">    26822</td>
+<td class="r">     4527</td>
+<td class="r">     1620</td>
+<td class="r">      461</td>
+<td class="r">      354</td>
+<td class="r">       18</td>
+<td class="r">   126899</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<h1 class="l">Source :</h1>
+<h1 class="l">Directorate Of Economics And Statistics, GOM</h1>
+<h1 class="c">&nbsp;</h1>
+<h1 class="l">Navigation Path :</h1>
+<h1 class="l">www.mahasdb.maharashtra.gov.in &gt; Home &gt; Economic Census &gt; Standard Reports</h1>
+</div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "id": 1253286,
+      "name": "Vellore",
+      "latitude": 12.9184,
+      "longitude": 79.13255,
+      "elevation": 218.0,
+      "feature_code": "PPL",
+      "country_code": "IN",
+      "admin1_id": 1255053,
+      "admin2_id": 7646146,
+      "admin3_id": 12681648,
+      "timezone": "Asia/Kolkata",
+      "population": 484690,
+      "country_id": 1269750,
+      "country": "India",
+      "admin1": "Tamil Nadu",
+      "admin2": "Vellore district",
+      "admin3": "Vellore"
+    },
+    {
+      "id": 2970177,
+      "name": "Velloreille-lès-Choye",
+      "latitude": 47.39268,
+      "longitude": 5.73472,
+      "elevation": 223.0,
+      "feature_code": "PPL",
+      "country_code": "FR",
+      "admin1_id": 11071619,
+      "admin2_id": 3013737,
+      "admin3_id": 2969561,
+      "admin4_id": 6442152,
+      "timezone": "Europe/Paris",
+      "population": 67,
+      "postcodes": [
+        "70700"
+      ],
+      "country_id": 3017382,
+      "country": "France",
+      "admin1": "Bourgogne",
+      "admin2": "Haute-Saône",
+      "admin3": "Arrondissement of Vesoul",
+      "admin4": "Velloreille-lès-Choye"
+    },
+    {
+      "id": 6301130,
+      "name": "Vellore Airport",
+      "latitude": 12.90824,
+      "longitude": 79.06551,
+      "elevation": 232.0,
+      "feature_code": "AIRP",
+      "country_code": "IN",
+      "admin1_id": 1255053,
+      "admin2_id": 7646146,
+      "admin3_id": 12681648,
+      "timezone": "Asia/Kolkata",
+      "country_id": 1269750,
+      "country": "India",
+      "admin1": "Tamil Nadu",
+      "admin2": "Vellore district",
+      "admin3": "Vellore"
+    }
+  ],
+  "generationtime_ms": 0.44953823
+}

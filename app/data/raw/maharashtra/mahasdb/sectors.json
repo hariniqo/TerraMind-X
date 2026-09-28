@@ -1,0 +1,2042 @@
+{
+  "sec=1": {
+    "title": "HOME:Maharashtra State Data Bank,Government of Maharashtra",
+    "heads": [
+      "Maharashtra",
+      "Agriculture and Allied Activities",
+      "Related Links  (388)"
+    ],
+    "links": [
+      [
+        "",
+        "/home.do"
+      ],
+      [
+        "Key Indicators",
+        "/index.do"
+      ],
+      [
+        "State income",
+        "/stateIncomeReport.do"
+      ],
+      [
+        "Comparison With Other States",
+        "/miscReport.do"
+      ],
+      [
+        "Comparison With India",
+        "/maagCmpIndia.do"
+      ],
+      [
+        "Standard Reports",
+        "/population1.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocpopulation.do"
+      ],
+      [
+        "Standard Reports",
+        "/economicReport.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/economicFilterReport.do"
+      ],
+      [
+        "Standard Reports",
+        "/liveStockStandardReport.do"
+      ],
+      [
+        "CPI",
+        "/cpiReports.do"
+      ],
+      [
+        "NSS",
+        "/nssReport.do"
+      ],
+      [
+        "ASI",
+        "/asiReport.do"
+      ],
+      [
+        "Factory Statistics",
+        "/fsReport.do"
+      ],
+      [
+        "Adhoc",
+        "/adhoc.do"
+      ],
+      [
+        "Integrated Sample Survey",
+        "/adhoc.do"
+      ],
+      [
+        "Major Livestock Products",
+        "/nssReport.do"
+      ],
+      [
+        "Production",
+        "/mlpProduction.do"
+      ],
+      [
+        "Per Capita Availability",
+        "/perCapita.do"
+      ],
+      [
+        "Departments",
+        "/planningReport.do"
+      ],
+      [
+        "Search Reports",
+        "/searchReports.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocRuralReports.do"
+      ],
+      [
+        "Report Matrix",
+        "/reportMatrix.do"
+      ],
+      [
+        "Raw Data",
+        "/rawData.do"
+      ],
+      [
+        "Kelkar Committee Report",
+        "kelkarCommittee.do"
+      ],
+      [
+        "Home",
+        "home.do"
+      ],
+      [
+        "Agriculture and Allied Activities",
+        "sector.do?sec=1"
+      ],
+      [
+        "Energy",
+        "sector.do?sec=2"
+      ],
+      [
+        "General Economic Services",
+        "sector.do?sec=3"
+      ],
+      [
+        "General Services",
+        "sector.do?sec=4"
+      ],
+      [
+        "Irrigation & Flood Control",
+        "sector.do?sec=5"
+      ],
+      [
+        "Industry & Minerals",
+        "sector.do?sec=6"
+      ],
+      [
+        "Rural Development",
+        "sector.do?sec=7"
+      ],
+      [
+        "Social & Community Services",
+        "sector.do?sec=8"
+      ],
+      [
+        "Science, Technology & Environment",
+        "sector.do?sec=9"
+      ],
+      [
+        "Special Area Development",
+        "sector.do?sec=10"
+      ],
+      [
+        "Transport",
+        "sector.do?sec=11"
+      ],
+      [
+        "Other Programs",
+        "sector.do?sec=12"
+      ],
+      [
+        "Plan",
+        "http://mahades.maharashtra.gov.in/MPSIMS_SDB/NewLogin.do?mode=graph&sector=1"
+      ],
+      [
+        "Reports",
+        "stateReport.do?rpt=1"
+      ]
+    ]
+  },
+  "sec=2": {
+    "title": "HOME:Maharashtra State Data Bank,Government of Maharashtra",
+    "heads": [
+      "Maharashtra",
+      "Energy",
+      "Related Links  (388)"
+    ],
+    "links": [
+      [
+        "",
+        "/home.do"
+      ],
+      [
+        "Key Indicators",
+        "/index.do"
+      ],
+      [
+        "State income",
+        "/stateIncomeReport.do"
+      ],
+      [
+        "Comparison With Other States",
+        "/miscReport.do"
+      ],
+      [
+        "Comparison With India",
+        "/maagCmpIndia.do"
+      ],
+      [
+        "Standard Reports",
+        "/population1.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocpopulation.do"
+      ],
+      [
+        "Standard Reports",
+        "/economicReport.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/economicFilterReport.do"
+      ],
+      [
+        "Standard Reports",
+        "/liveStockStandardReport.do"
+      ],
+      [
+        "CPI",
+        "/cpiReports.do"
+      ],
+      [
+        "NSS",
+        "/nssReport.do"
+      ],
+      [
+        "ASI",
+        "/asiReport.do"
+      ],
+      [
+        "Factory Statistics",
+        "/fsReport.do"
+      ],
+      [
+        "Adhoc",
+        "/adhoc.do"
+      ],
+      [
+        "Integrated Sample Survey",
+        "/adhoc.do"
+      ],
+      [
+        "Major Livestock Products",
+        "/nssReport.do"
+      ],
+      [
+        "Production",
+        "/mlpProduction.do"
+      ],
+      [
+        "Per Capita Availability",
+        "/perCapita.do"
+      ],
+      [
+        "Departments",
+        "/planningReport.do"
+      ],
+      [
+        "Search Reports",
+        "/searchReports.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocRuralReports.do"
+      ],
+      [
+        "Report Matrix",
+        "/reportMatrix.do"
+      ],
+      [
+        "Raw Data",
+        "/rawData.do"
+      ],
+      [
+        "Kelkar Committee Report",
+        "kelkarCommittee.do"
+      ],
+      [
+        "Home",
+        "home.do"
+      ],
+      [
+        "Agriculture and Allied Activities",
+        "sector.do?sec=1"
+      ],
+      [
+        "Energy",
+        "sector.do?sec=2"
+      ],
+      [
+        "General Economic Services",
+        "sector.do?sec=3"
+      ],
+      [
+        "General Services",
+        "sector.do?sec=4"
+      ],
+      [
+        "Irrigation & Flood Control",
+        "sector.do?sec=5"
+      ],
+      [
+        "Industry & Minerals",
+        "sector.do?sec=6"
+      ],
+      [
+        "Rural Development",
+        "sector.do?sec=7"
+      ],
+      [
+        "Social & Community Services",
+        "sector.do?sec=8"
+      ],
+      [
+        "Science, Technology & Environment",
+        "sector.do?sec=9"
+      ],
+      [
+        "Special Area Development",
+        "sector.do?sec=10"
+      ],
+      [
+        "Transport",
+        "sector.do?sec=11"
+      ],
+      [
+        "Other Programs",
+        "sector.do?sec=12"
+      ],
+      [
+        "Plan",
+        "http://mahades.maharashtra.gov.in/MPSIMS_SDB/NewLogin.do?mode=graph&sector=5"
+      ],
+      [
+        "Reports",
+        "stateReport.do?rpt=2"
+      ]
+    ]
+  },
+  "sec=3": {
+    "title": "HOME:Maharashtra State Data Bank,Government of Maharashtra",
+    "heads": [
+      "Maharashtra",
+      "General Economic Services",
+      "Related Links  (388)"
+    ],
+    "links": [
+      [
+        "",
+        "/home.do"
+      ],
+      [
+        "Key Indicators",
+        "/index.do"
+      ],
+      [
+        "State income",
+        "/stateIncomeReport.do"
+      ],
+      [
+        "Comparison With Other States",
+        "/miscReport.do"
+      ],
+      [
+        "Comparison With India",
+        "/maagCmpIndia.do"
+      ],
+      [
+        "Standard Reports",
+        "/population1.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocpopulation.do"
+      ],
+      [
+        "Standard Reports",
+        "/economicReport.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/economicFilterReport.do"
+      ],
+      [
+        "Standard Reports",
+        "/liveStockStandardReport.do"
+      ],
+      [
+        "CPI",
+        "/cpiReports.do"
+      ],
+      [
+        "NSS",
+        "/nssReport.do"
+      ],
+      [
+        "ASI",
+        "/asiReport.do"
+      ],
+      [
+        "Factory Statistics",
+        "/fsReport.do"
+      ],
+      [
+        "Adhoc",
+        "/adhoc.do"
+      ],
+      [
+        "Integrated Sample Survey",
+        "/adhoc.do"
+      ],
+      [
+        "Major Livestock Products",
+        "/nssReport.do"
+      ],
+      [
+        "Production",
+        "/mlpProduction.do"
+      ],
+      [
+        "Per Capita Availability",
+        "/perCapita.do"
+      ],
+      [
+        "Departments",
+        "/planningReport.do"
+      ],
+      [
+        "Search Reports",
+        "/searchReports.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocRuralReports.do"
+      ],
+      [
+        "Report Matrix",
+        "/reportMatrix.do"
+      ],
+      [
+        "Raw Data",
+        "/rawData.do"
+      ],
+      [
+        "Kelkar Committee Report",
+        "kelkarCommittee.do"
+      ],
+      [
+        "Home",
+        "home.do"
+      ],
+      [
+        "Agriculture and Allied Activities",
+        "sector.do?sec=1"
+      ],
+      [
+        "Energy",
+        "sector.do?sec=2"
+      ],
+      [
+        "General Economic Services",
+        "sector.do?sec=3"
+      ],
+      [
+        "General Services",
+        "sector.do?sec=4"
+      ],
+      [
+        "Irrigation & Flood Control",
+        "sector.do?sec=5"
+      ],
+      [
+        "Industry & Minerals",
+        "sector.do?sec=6"
+      ],
+      [
+        "Rural Development",
+        "sector.do?sec=7"
+      ],
+      [
+        "Social & Community Services",
+        "sector.do?sec=8"
+      ],
+      [
+        "Science, Technology & Environment",
+        "sector.do?sec=9"
+      ],
+      [
+        "Special Area Development",
+        "sector.do?sec=10"
+      ],
+      [
+        "Transport",
+        "sector.do?sec=11"
+      ],
+      [
+        "Other Programs",
+        "sector.do?sec=12"
+      ],
+      [
+        "Plan",
+        "http://mahades.maharashtra.gov.in/MPSIMS_SDB/NewLogin.do?mode=graph&sector=10"
+      ],
+      [
+        "Reports",
+        "stateReport.do?rpt=3"
+      ]
+    ]
+  },
+  "sec=4": {
+    "title": "HOME:Maharashtra State Data Bank,Government of Maharashtra",
+    "heads": [
+      "Maharashtra",
+      "General Services",
+      "Related Links  (388)"
+    ],
+    "links": [
+      [
+        "",
+        "/home.do"
+      ],
+      [
+        "Key Indicators",
+        "/index.do"
+      ],
+      [
+        "State income",
+        "/stateIncomeReport.do"
+      ],
+      [
+        "Comparison With Other States",
+        "/miscReport.do"
+      ],
+      [
+        "Comparison With India",
+        "/maagCmpIndia.do"
+      ],
+      [
+        "Standard Reports",
+        "/population1.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocpopulation.do"
+      ],
+      [
+        "Standard Reports",
+        "/economicReport.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/economicFilterReport.do"
+      ],
+      [
+        "Standard Reports",
+        "/liveStockStandardReport.do"
+      ],
+      [
+        "CPI",
+        "/cpiReports.do"
+      ],
+      [
+        "NSS",
+        "/nssReport.do"
+      ],
+      [
+        "ASI",
+        "/asiReport.do"
+      ],
+      [
+        "Factory Statistics",
+        "/fsReport.do"
+      ],
+      [
+        "Adhoc",
+        "/adhoc.do"
+      ],
+      [
+        "Integrated Sample Survey",
+        "/adhoc.do"
+      ],
+      [
+        "Major Livestock Products",
+        "/nssReport.do"
+      ],
+      [
+        "Production",
+        "/mlpProduction.do"
+      ],
+      [
+        "Per Capita Availability",
+        "/perCapita.do"
+      ],
+      [
+        "Departments",
+        "/planningReport.do"
+      ],
+      [
+        "Search Reports",
+        "/searchReports.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocRuralReports.do"
+      ],
+      [
+        "Report Matrix",
+        "/reportMatrix.do"
+      ],
+      [
+        "Raw Data",
+        "/rawData.do"
+      ],
+      [
+        "Kelkar Committee Report",
+        "kelkarCommittee.do"
+      ],
+      [
+        "Home",
+        "home.do"
+      ],
+      [
+        "Agriculture and Allied Activities",
+        "sector.do?sec=1"
+      ],
+      [
+        "Energy",
+        "sector.do?sec=2"
+      ],
+      [
+        "General Economic Services",
+        "sector.do?sec=3"
+      ],
+      [
+        "General Services",
+        "sector.do?sec=4"
+      ],
+      [
+        "Irrigation & Flood Control",
+        "sector.do?sec=5"
+      ],
+      [
+        "Industry & Minerals",
+        "sector.do?sec=6"
+      ],
+      [
+        "Rural Development",
+        "sector.do?sec=7"
+      ],
+      [
+        "Social & Community Services",
+        "sector.do?sec=8"
+      ],
+      [
+        "Science, Technology & Environment",
+        "sector.do?sec=9"
+      ],
+      [
+        "Special Area Development",
+        "sector.do?sec=10"
+      ],
+      [
+        "Transport",
+        "sector.do?sec=11"
+      ],
+      [
+        "Other Programs",
+        "sector.do?sec=12"
+      ],
+      [
+        "Plan",
+        "http://mahades.maharashtra.gov.in/MPSIMS_SDB/NewLogin.do?mode=graph&sector=12"
+      ],
+      [
+        "Reports",
+        "stateReport.do?rpt=4"
+      ]
+    ]
+  },
+  "sec=5": {
+    "title": "HOME:Maharashtra State Data Bank,Government of Maharashtra",
+    "heads": [
+      "Maharashtra",
+      "Irrigation & Flood Control",
+      "Related Links  (388)"
+    ],
+    "links": [
+      [
+        "",
+        "/home.do"
+      ],
+      [
+        "Key Indicators",
+        "/index.do"
+      ],
+      [
+        "State income",
+        "/stateIncomeReport.do"
+      ],
+      [
+        "Comparison With Other States",
+        "/miscReport.do"
+      ],
+      [
+        "Comparison With India",
+        "/maagCmpIndia.do"
+      ],
+      [
+        "Standard Reports",
+        "/population1.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocpopulation.do"
+      ],
+      [
+        "Standard Reports",
+        "/economicReport.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/economicFilterReport.do"
+      ],
+      [
+        "Standard Reports",
+        "/liveStockStandardReport.do"
+      ],
+      [
+        "CPI",
+        "/cpiReports.do"
+      ],
+      [
+        "NSS",
+        "/nssReport.do"
+      ],
+      [
+        "ASI",
+        "/asiReport.do"
+      ],
+      [
+        "Factory Statistics",
+        "/fsReport.do"
+      ],
+      [
+        "Adhoc",
+        "/adhoc.do"
+      ],
+      [
+        "Integrated Sample Survey",
+        "/adhoc.do"
+      ],
+      [
+        "Major Livestock Products",
+        "/nssReport.do"
+      ],
+      [
+        "Production",
+        "/mlpProduction.do"
+      ],
+      [
+        "Per Capita Availability",
+        "/perCapita.do"
+      ],
+      [
+        "Departments",
+        "/planningReport.do"
+      ],
+      [
+        "Search Reports",
+        "/searchReports.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocRuralReports.do"
+      ],
+      [
+        "Report Matrix",
+        "/reportMatrix.do"
+      ],
+      [
+        "Raw Data",
+        "/rawData.do"
+      ],
+      [
+        "Kelkar Committee Report",
+        "kelkarCommittee.do"
+      ],
+      [
+        "Home",
+        "home.do"
+      ],
+      [
+        "Agriculture and Allied Activities",
+        "sector.do?sec=1"
+      ],
+      [
+        "Energy",
+        "sector.do?sec=2"
+      ],
+      [
+        "General Economic Services",
+        "sector.do?sec=3"
+      ],
+      [
+        "General Services",
+        "sector.do?sec=4"
+      ],
+      [
+        "Irrigation & Flood Control",
+        "sector.do?sec=5"
+      ],
+      [
+        "Industry & Minerals",
+        "sector.do?sec=6"
+      ],
+      [
+        "Rural Development",
+        "sector.do?sec=7"
+      ],
+      [
+        "Social & Community Services",
+        "sector.do?sec=8"
+      ],
+      [
+        "Science, Technology & Environment",
+        "sector.do?sec=9"
+      ],
+      [
+        "Special Area Development",
+        "sector.do?sec=10"
+      ],
+      [
+        "Transport",
+        "sector.do?sec=11"
+      ],
+      [
+        "Other Programs",
+        "sector.do?sec=12"
+      ],
+      [
+        "Plan",
+        "http://mahades.maharashtra.gov.in/MPSIMS_SDB/NewLogin.do?mode=graph&sector=4"
+      ],
+      [
+        "Reports",
+        "stateReport.do?rpt=5"
+      ]
+    ]
+  },
+  "sec=6": {
+    "title": "HOME:Maharashtra State Data Bank,Government of Maharashtra",
+    "heads": [
+      "Maharashtra",
+      "Industry & Minerals",
+      "Related Links  (388)"
+    ],
+    "links": [
+      [
+        "",
+        "/home.do"
+      ],
+      [
+        "Key Indicators",
+        "/index.do"
+      ],
+      [
+        "State income",
+        "/stateIncomeReport.do"
+      ],
+      [
+        "Comparison With Other States",
+        "/miscReport.do"
+      ],
+      [
+        "Comparison With India",
+        "/maagCmpIndia.do"
+      ],
+      [
+        "Standard Reports",
+        "/population1.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocpopulation.do"
+      ],
+      [
+        "Standard Reports",
+        "/economicReport.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/economicFilterReport.do"
+      ],
+      [
+        "Standard Reports",
+        "/liveStockStandardReport.do"
+      ],
+      [
+        "CPI",
+        "/cpiReports.do"
+      ],
+      [
+        "NSS",
+        "/nssReport.do"
+      ],
+      [
+        "ASI",
+        "/asiReport.do"
+      ],
+      [
+        "Factory Statistics",
+        "/fsReport.do"
+      ],
+      [
+        "Adhoc",
+        "/adhoc.do"
+      ],
+      [
+        "Integrated Sample Survey",
+        "/adhoc.do"
+      ],
+      [
+        "Major Livestock Products",
+        "/nssReport.do"
+      ],
+      [
+        "Production",
+        "/mlpProduction.do"
+      ],
+      [
+        "Per Capita Availability",
+        "/perCapita.do"
+      ],
+      [
+        "Departments",
+        "/planningReport.do"
+      ],
+      [
+        "Search Reports",
+        "/searchReports.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocRuralReports.do"
+      ],
+      [
+        "Report Matrix",
+        "/reportMatrix.do"
+      ],
+      [
+        "Raw Data",
+        "/rawData.do"
+      ],
+      [
+        "Kelkar Committee Report",
+        "kelkarCommittee.do"
+      ],
+      [
+        "Home",
+        "home.do"
+      ],
+      [
+        "Agriculture and Allied Activities",
+        "sector.do?sec=1"
+      ],
+      [
+        "Energy",
+        "sector.do?sec=2"
+      ],
+      [
+        "General Economic Services",
+        "sector.do?sec=3"
+      ],
+      [
+        "General Services",
+        "sector.do?sec=4"
+      ],
+      [
+        "Irrigation & Flood Control",
+        "sector.do?sec=5"
+      ],
+      [
+        "Industry & Minerals",
+        "sector.do?sec=6"
+      ],
+      [
+        "Rural Development",
+        "sector.do?sec=7"
+      ],
+      [
+        "Social & Community Services",
+        "sector.do?sec=8"
+      ],
+      [
+        "Science, Technology & Environment",
+        "sector.do?sec=9"
+      ],
+      [
+        "Special Area Development",
+        "sector.do?sec=10"
+      ],
+      [
+        "Transport",
+        "sector.do?sec=11"
+      ],
+      [
+        "Other Programs",
+        "sector.do?sec=12"
+      ],
+      [
+        "Plan",
+        "http://mahades.maharashtra.gov.in/MPSIMS_SDB/NewLogin.do?mode=graph&sector=6"
+      ],
+      [
+        "Reports",
+        "stateReport.do?rpt=6"
+      ]
+    ]
+  },
+  "sec=7": {
+    "title": "HOME:Maharashtra State Data Bank,Government of Maharashtra",
+    "heads": [
+      "Maharashtra",
+      "Rural Development",
+      "Related Links  (388)"
+    ],
+    "links": [
+      [
+        "",
+        "/home.do"
+      ],
+      [
+        "Key Indicators",
+        "/index.do"
+      ],
+      [
+        "State income",
+        "/stateIncomeReport.do"
+      ],
+      [
+        "Comparison With Other States",
+        "/miscReport.do"
+      ],
+      [
+        "Comparison With India",
+        "/maagCmpIndia.do"
+      ],
+      [
+        "Standard Reports",
+        "/population1.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocpopulation.do"
+      ],
+      [
+        "Standard Reports",
+        "/economicReport.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/economicFilterReport.do"
+      ],
+      [
+        "Standard Reports",
+        "/liveStockStandardReport.do"
+      ],
+      [
+        "CPI",
+        "/cpiReports.do"
+      ],
+      [
+        "NSS",
+        "/nssReport.do"
+      ],
+      [
+        "ASI",
+        "/asiReport.do"
+      ],
+      [
+        "Factory Statistics",
+        "/fsReport.do"
+      ],
+      [
+        "Adhoc",
+        "/adhoc.do"
+      ],
+      [
+        "Integrated Sample Survey",
+        "/adhoc.do"
+      ],
+      [
+        "Major Livestock Products",
+        "/nssReport.do"
+      ],
+      [
+        "Production",
+        "/mlpProduction.do"
+      ],
+      [
+        "Per Capita Availability",
+        "/perCapita.do"
+      ],
+      [
+        "Departments",
+        "/planningReport.do"
+      ],
+      [
+        "Search Reports",
+        "/searchReports.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocRuralReports.do"
+      ],
+      [
+        "Report Matrix",
+        "/reportMatrix.do"
+      ],
+      [
+        "Raw Data",
+        "/rawData.do"
+      ],
+      [
+        "Kelkar Committee Report",
+        "kelkarCommittee.do"
+      ],
+      [
+        "Home",
+        "home.do"
+      ],
+      [
+        "Agriculture and Allied Activities",
+        "sector.do?sec=1"
+      ],
+      [
+        "Energy",
+        "sector.do?sec=2"
+      ],
+      [
+        "General Economic Services",
+        "sector.do?sec=3"
+      ],
+      [
+        "General Services",
+        "sector.do?sec=4"
+      ],
+      [
+        "Irrigation & Flood Control",
+        "sector.do?sec=5"
+      ],
+      [
+        "Industry & Minerals",
+        "sector.do?sec=6"
+      ],
+      [
+        "Rural Development",
+        "sector.do?sec=7"
+      ],
+      [
+        "Social & Community Services",
+        "sector.do?sec=8"
+      ],
+      [
+        "Science, Technology & Environment",
+        "sector.do?sec=9"
+      ],
+      [
+        "Special Area Development",
+        "sector.do?sec=10"
+      ],
+      [
+        "Transport",
+        "sector.do?sec=11"
+      ],
+      [
+        "Other Programs",
+        "sector.do?sec=12"
+      ],
+      [
+        "Plan",
+        "http://mahades.maharashtra.gov.in/MPSIMS_SDB/NewLogin.do?mode=graph&sector=2"
+      ],
+      [
+        "Reports",
+        "stateReport.do?rpt=7"
+      ]
+    ]
+  },
+  "sec=8": {
+    "title": "HOME:Maharashtra State Data Bank,Government of Maharashtra",
+    "heads": [
+      "Maharashtra",
+      "Social and Community Services",
+      "Related Links  (388)"
+    ],
+    "links": [
+      [
+        "",
+        "/home.do"
+      ],
+      [
+        "Key Indicators",
+        "/index.do"
+      ],
+      [
+        "State income",
+        "/stateIncomeReport.do"
+      ],
+      [
+        "Comparison With Other States",
+        "/miscReport.do"
+      ],
+      [
+        "Comparison With India",
+        "/maagCmpIndia.do"
+      ],
+      [
+        "Standard Reports",
+        "/population1.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocpopulation.do"
+      ],
+      [
+        "Standard Reports",
+        "/economicReport.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/economicFilterReport.do"
+      ],
+      [
+        "Standard Reports",
+        "/liveStockStandardReport.do"
+      ],
+      [
+        "CPI",
+        "/cpiReports.do"
+      ],
+      [
+        "NSS",
+        "/nssReport.do"
+      ],
+      [
+        "ASI",
+        "/asiReport.do"
+      ],
+      [
+        "Factory Statistics",
+        "/fsReport.do"
+      ],
+      [
+        "Adhoc",
+        "/adhoc.do"
+      ],
+      [
+        "Integrated Sample Survey",
+        "/adhoc.do"
+      ],
+      [
+        "Major Livestock Products",
+        "/nssReport.do"
+      ],
+      [
+        "Production",
+        "/mlpProduction.do"
+      ],
+      [
+        "Per Capita Availability",
+        "/perCapita.do"
+      ],
+      [
+        "Departments",
+        "/planningReport.do"
+      ],
+      [
+        "Search Reports",
+        "/searchReports.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocRuralReports.do"
+      ],
+      [
+        "Report Matrix",
+        "/reportMatrix.do"
+      ],
+      [
+        "Raw Data",
+        "/rawData.do"
+      ],
+      [
+        "Kelkar Committee Report",
+        "kelkarCommittee.do"
+      ],
+      [
+        "Home",
+        "home.do"
+      ],
+      [
+        "Agriculture and Allied Activities",
+        "sector.do?sec=1"
+      ],
+      [
+        "Energy",
+        "sector.do?sec=2"
+      ],
+      [
+        "General Economic Services",
+        "sector.do?sec=3"
+      ],
+      [
+        "General Services",
+        "sector.do?sec=4"
+      ],
+      [
+        "Irrigation & Flood Control",
+        "sector.do?sec=5"
+      ],
+      [
+        "Industry & Minerals",
+        "sector.do?sec=6"
+      ],
+      [
+        "Rural Development",
+        "sector.do?sec=7"
+      ],
+      [
+        "Social & Community Services",
+        "sector.do?sec=8"
+      ],
+      [
+        "Science, Technology & Environment",
+        "sector.do?sec=9"
+      ],
+      [
+        "Special Area Development",
+        "sector.do?sec=10"
+      ],
+      [
+        "Transport",
+        "sector.do?sec=11"
+      ],
+      [
+        "Other Programs",
+        "sector.do?sec=12"
+      ],
+      [
+        "Plan",
+        "http://mahades.maharashtra.gov.in/MPSIMS_SDB/NewLogin.do?mode=graph&sector=11"
+      ],
+      [
+        "Reports",
+        "stateReport.do?rpt=8"
+      ]
+    ]
+  },
+  "sec=9": {
+    "title": "HOME:Maharashtra State Data Bank,Government of Maharashtra",
+    "heads": [
+      "Maharashtra",
+      "Science & Technology",
+      "Related Links  (388)"
+    ],
+    "links": [
+      [
+        "",
+        "/home.do"
+      ],
+      [
+        "Key Indicators",
+        "/index.do"
+      ],
+      [
+        "State income",
+        "/stateIncomeReport.do"
+      ],
+      [
+        "Comparison With Other States",
+        "/miscReport.do"
+      ],
+      [
+        "Comparison With India",
+        "/maagCmpIndia.do"
+      ],
+      [
+        "Standard Reports",
+        "/population1.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocpopulation.do"
+      ],
+      [
+        "Standard Reports",
+        "/economicReport.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/economicFilterReport.do"
+      ],
+      [
+        "Standard Reports",
+        "/liveStockStandardReport.do"
+      ],
+      [
+        "CPI",
+        "/cpiReports.do"
+      ],
+      [
+        "NSS",
+        "/nssReport.do"
+      ],
+      [
+        "ASI",
+        "/asiReport.do"
+      ],
+      [
+        "Factory Statistics",
+        "/fsReport.do"
+      ],
+      [
+        "Adhoc",
+        "/adhoc.do"
+      ],
+      [
+        "Integrated Sample Survey",
+        "/adhoc.do"
+      ],
+      [
+        "Major Livestock Products",
+        "/nssReport.do"
+      ],
+      [
+        "Production",
+        "/mlpProduction.do"
+      ],
+      [
+        "Per Capita Availability",
+        "/perCapita.do"
+      ],
+      [
+        "Departments",
+        "/planningReport.do"
+      ],
+      [
+        "Search Reports",
+        "/searchReports.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocRuralReports.do"
+      ],
+      [
+        "Report Matrix",
+        "/reportMatrix.do"
+      ],
+      [
+        "Raw Data",
+        "/rawData.do"
+      ],
+      [
+        "Kelkar Committee Report",
+        "kelkarCommittee.do"
+      ],
+      [
+        "Home",
+        "home.do"
+      ],
+      [
+        "Agriculture and Allied Activities",
+        "sector.do?sec=1"
+      ],
+      [
+        "Energy",
+        "sector.do?sec=2"
+      ],
+      [
+        "General Economic Services",
+        "sector.do?sec=3"
+      ],
+      [
+        "General Services",
+        "sector.do?sec=4"
+      ],
+      [
+        "Irrigation & Flood Control",
+        "sector.do?sec=5"
+      ],
+      [
+        "Industry & Minerals",
+        "sector.do?sec=6"
+      ],
+      [
+        "Rural Development",
+        "sector.do?sec=7"
+      ],
+      [
+        "Social & Community Services",
+        "sector.do?sec=8"
+      ],
+      [
+        "Science, Technology & Environment",
+        "sector.do?sec=9"
+      ],
+      [
+        "Special Area Development",
+        "sector.do?sec=10"
+      ],
+      [
+        "Transport",
+        "sector.do?sec=11"
+      ],
+      [
+        "Other Programs",
+        "sector.do?sec=12"
+      ],
+      [
+        "Plan",
+        "http://mahades.maharashtra.gov.in/MPSIMS_SDB/NewLogin.do?mode=graph&sector=9"
+      ],
+      [
+        "Reports",
+        "stateReport.do?rpt=9"
+      ]
+    ]
+  },
+  "sec=10": {
+    "title": "HOME:Maharashtra State Data Bank,Government of Maharashtra",
+    "heads": [
+      "Maharashtra",
+      "Special Area Development",
+      "Related Links  (388)"
+    ],
+    "links": [
+      [
+        "",
+        "/home.do"
+      ],
+      [
+        "Key Indicators",
+        "/index.do"
+      ],
+      [
+        "State income",
+        "/stateIncomeReport.do"
+      ],
+      [
+        "Comparison With Other States",
+        "/miscReport.do"
+      ],
+      [
+        "Comparison With India",
+        "/maagCmpIndia.do"
+      ],
+      [
+        "Standard Reports",
+        "/population1.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocpopulation.do"
+      ],
+      [
+        "Standard Reports",
+        "/economicReport.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/economicFilterReport.do"
+      ],
+      [
+        "Standard Reports",
+        "/liveStockStandardReport.do"
+      ],
+      [
+        "CPI",
+        "/cpiReports.do"
+      ],
+      [
+        "NSS",
+        "/nssReport.do"
+      ],
+      [
+        "ASI",
+        "/asiReport.do"
+      ],
+      [
+        "Factory Statistics",
+        "/fsReport.do"
+      ],
+      [
+        "Adhoc",
+        "/adhoc.do"
+      ],
+      [
+        "Integrated Sample Survey",
+        "/adhoc.do"
+      ],
+      [
+        "Major Livestock Products",
+        "/nssReport.do"
+      ],
+      [
+        "Production",
+        "/mlpProduction.do"
+      ],
+      [
+        "Per Capita Availability",
+        "/perCapita.do"
+      ],
+      [
+        "Departments",
+        "/planningReport.do"
+      ],
+      [
+        "Search Reports",
+        "/searchReports.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocRuralReports.do"
+      ],
+      [
+        "Report Matrix",
+        "/reportMatrix.do"
+      ],
+      [
+        "Raw Data",
+        "/rawData.do"
+      ],
+      [
+        "Kelkar Committee Report",
+        "kelkarCommittee.do"
+      ],
+      [
+        "Home",
+        "home.do"
+      ],
+      [
+        "Agriculture and Allied Activities",
+        "sector.do?sec=1"
+      ],
+      [
+        "Energy",
+        "sector.do?sec=2"
+      ],
+      [
+        "General Economic Services",
+        "sector.do?sec=3"
+      ],
+      [
+        "General Services",
+        "sector.do?sec=4"
+      ],
+      [
+        "Irrigation & Flood Control",
+        "sector.do?sec=5"
+      ],
+      [
+        "Industry & Minerals",
+        "sector.do?sec=6"
+      ],
+      [
+        "Rural Development",
+        "sector.do?sec=7"
+      ],
+      [
+        "Social & Community Services",
+        "sector.do?sec=8"
+      ],
+      [
+        "Science, Technology & Environment",
+        "sector.do?sec=9"
+      ],
+      [
+        "Special Area Development",
+        "sector.do?sec=10"
+      ],
+      [
+        "Transport",
+        "sector.do?sec=11"
+      ],
+      [
+        "Other Programs",
+        "sector.do?sec=12"
+      ],
+      [
+        "Plan",
+        "http://mahades.maharashtra.gov.in/MPSIMS_SDB/NewLogin.do?mode=graph&sector=3"
+      ],
+      [
+        "Reports",
+        "stateReport.do?rpt=10"
+      ]
+    ]
+  },
+  "sec=11": {
+    "title": "HOME:Maharashtra State Data Bank,Government of Maharashtra",
+    "heads": [
+      "Maharashtra",
+      "Transport",
+      "Related Links  (388)"
+    ],
+    "links": [
+      [
+        "",
+        "/home.do"
+      ],
+      [
+        "Key Indicators",
+        "/index.do"
+      ],
+      [
+        "State income",
+        "/stateIncomeReport.do"
+      ],
+      [
+        "Comparison With Other States",
+        "/miscReport.do"
+      ],
+      [
+        "Comparison With India",
+        "/maagCmpIndia.do"
+      ],
+      [
+        "Standard Reports",
+        "/population1.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocpopulation.do"
+      ],
+      [
+        "Standard Reports",
+        "/economicReport.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/economicFilterReport.do"
+      ],
+      [
+        "Standard Reports",
+        "/liveStockStandardReport.do"
+      ],
+      [
+        "CPI",
+        "/cpiReports.do"
+      ],
+      [
+        "NSS",
+        "/nssReport.do"
+      ],
+      [
+        "ASI",
+        "/asiReport.do"
+      ],
+      [
+        "Factory Statistics",
+        "/fsReport.do"
+      ],
+      [
+        "Adhoc",
+        "/adhoc.do"
+      ],
+      [
+        "Integrated Sample Survey",
+        "/adhoc.do"
+      ],
+      [
+        "Major Livestock Products",
+        "/nssReport.do"
+      ],
+      [
+        "Production",
+        "/mlpProduction.do"
+      ],
+      [
+        "Per Capita Availability",
+        "/perCapita.do"
+      ],
+      [
+        "Departments",
+        "/planningReport.do"
+      ],
+      [
+        "Search Reports",
+        "/searchReports.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocRuralReports.do"
+      ],
+      [
+        "Report Matrix",
+        "/reportMatrix.do"
+      ],
+      [
+        "Raw Data",
+        "/rawData.do"
+      ],
+      [
+        "Kelkar Committee Report",
+        "kelkarCommittee.do"
+      ],
+      [
+        "Home",
+        "home.do"
+      ],
+      [
+        "Agriculture and Allied Activities",
+        "sector.do?sec=1"
+      ],
+      [
+        "Energy",
+        "sector.do?sec=2"
+      ],
+      [
+        "General Economic Services",
+        "sector.do?sec=3"
+      ],
+      [
+        "General Services",
+        "sector.do?sec=4"
+      ],
+      [
+        "Irrigation & Flood Control",
+        "sector.do?sec=5"
+      ],
+      [
+        "Industry & Minerals",
+        "sector.do?sec=6"
+      ],
+      [
+        "Rural Development",
+        "sector.do?sec=7"
+      ],
+      [
+        "Social & Community Services",
+        "sector.do?sec=8"
+      ],
+      [
+        "Science, Technology & Environment",
+        "sector.do?sec=9"
+      ],
+      [
+        "Special Area Development",
+        "sector.do?sec=10"
+      ],
+      [
+        "Transport",
+        "sector.do?sec=11"
+      ],
+      [
+        "Other Programs",
+        "sector.do?sec=12"
+      ],
+      [
+        "Plan",
+        "http://mahades.maharashtra.gov.in/MPSIMS_SDB/NewLogin.do?mode=graph&sector=7"
+      ],
+      [
+        "Reports",
+        "stateReport.do?rpt=11"
+      ]
+    ]
+  },
+  "sec=12": {
+    "title": "HOME:Maharashtra State Data Bank,Government of Maharashtra",
+    "heads": [
+      "Maharashtra",
+      "Other Programs",
+      "Related Links  (388)"
+    ],
+    "links": [
+      [
+        "",
+        "/home.do"
+      ],
+      [
+        "Key Indicators",
+        "/index.do"
+      ],
+      [
+        "State income",
+        "/stateIncomeReport.do"
+      ],
+      [
+        "Comparison With Other States",
+        "/miscReport.do"
+      ],
+      [
+        "Comparison With India",
+        "/maagCmpIndia.do"
+      ],
+      [
+        "Standard Reports",
+        "/population1.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocpopulation.do"
+      ],
+      [
+        "Standard Reports",
+        "/economicReport.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/economicFilterReport.do"
+      ],
+      [
+        "Standard Reports",
+        "/liveStockStandardReport.do"
+      ],
+      [
+        "CPI",
+        "/cpiReports.do"
+      ],
+      [
+        "NSS",
+        "/nssReport.do"
+      ],
+      [
+        "ASI",
+        "/asiReport.do"
+      ],
+      [
+        "Factory Statistics",
+        "/fsReport.do"
+      ],
+      [
+        "Adhoc",
+        "/adhoc.do"
+      ],
+      [
+        "Integrated Sample Survey",
+        "/adhoc.do"
+      ],
+      [
+        "Major Livestock Products",
+        "/nssReport.do"
+      ],
+      [
+        "Production",
+        "/mlpProduction.do"
+      ],
+      [
+        "Per Capita Availability",
+        "/perCapita.do"
+      ],
+      [
+        "Departments",
+        "/planningReport.do"
+      ],
+      [
+        "Search Reports",
+        "/searchReports.do"
+      ],
+      [
+        "Adhoc Reports",
+        "/adhocRuralReports.do"
+      ],
+      [
+        "Report Matrix",
+        "/reportMatrix.do"
+      ],
+      [
+        "Raw Data",
+        "/rawData.do"
+      ],
+      [
+        "Kelkar Committee Report",
+        "kelkarCommittee.do"
+      ],
+      [
+        "Home",
+        "home.do"
+      ],
+      [
+        "Agriculture and Allied Activities",
+        "sector.do?sec=1"
+      ],
+      [
+        "Energy",
+        "sector.do?sec=2"
+      ],
+      [
+        "General Economic Services",
+        "sector.do?sec=3"
+      ],
+      [
+        "General Services",
+        "sector.do?sec=4"
+      ],
+      [
+        "Irrigation & Flood Control",
+        "sector.do?sec=5"
+      ],
+      [
+        "Industry & Minerals",
+        "sector.do?sec=6"
+      ],
+      [
+        "Rural Development",
+        "sector.do?sec=7"
+      ],
+      [
+        "Social & Community Services",
+        "sector.do?sec=8"
+      ],
+      [
+        "Science, Technology & Environment",
+        "sector.do?sec=9"
+      ],
+      [
+        "Special Area Development",
+        "sector.do?sec=10"
+      ],
+      [
+        "Transport",
+        "sector.do?sec=11"
+      ],
+      [
+        "Other Programs",
+        "sector.do?sec=12"
+      ],
+      [
+        "Plan",
+        "http://mahades.maharashtra.gov.in/MPSIMS_SDB/NewLogin.do?mode=graph&sector=7"
+      ],
+      [
+        "Reports",
+        "stateReport.do?rpt=12"
+      ]
+    ]
+  }
+}

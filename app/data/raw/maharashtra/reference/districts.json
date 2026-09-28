@@ -1,0 +1,212 @@
+[
+  {
+    "census_district_id": 497,
+    "district_name": "Nandurbar",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 498,
+    "district_name": "Dhule",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 499,
+    "district_name": "Jalgaon",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 500,
+    "district_name": "Buldana",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 501,
+    "district_name": "Akola",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 502,
+    "district_name": "Washim",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 503,
+    "district_name": "Amravati",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 504,
+    "district_name": "Wardha",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 505,
+    "district_name": "Nagpur",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 506,
+    "district_name": "Bhandara",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 507,
+    "district_name": "Gondiya",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 508,
+    "district_name": "Gadchiroli",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 509,
+    "district_name": "Chandrapur",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 510,
+    "district_name": "Yavatmal",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 511,
+    "district_name": "Nanded",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 512,
+    "district_name": "Hingoli",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 513,
+    "district_name": "Parbhani",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 514,
+    "district_name": "Jalna",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 515,
+    "district_name": "Aurangabad",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 516,
+    "district_name": "Nashik",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 517,
+    "district_name": "Thane",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 518,
+    "district_name": "Mumbai Suburban",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 519,
+    "district_name": "Mumbai",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 520,
+    "district_name": "Raigarh",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 521,
+    "district_name": "Pune",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 522,
+    "district_name": "Ahmadnagar",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 523,
+    "district_name": "Bid",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 524,
+    "district_name": "Latur",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 525,
+    "district_name": "Osmanabad",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 526,
+    "district_name": "Solapur",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 527,
+    "district_name": "Satara",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 528,
+    "district_name": "Ratnagiri",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 529,
+    "district_name": "Sindhudurg",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 530,
+    "district_name": "Kolhapur",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  },
+  {
+    "census_district_id": 531,
+    "district_name": "Sangli",
+    "census_state_id": 27,
+    "state_name": "Maharashtra"
+  }
+]

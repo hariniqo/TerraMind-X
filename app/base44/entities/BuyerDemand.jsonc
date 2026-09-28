@@ -1,0 +1,90 @@
+{
+  "name": "BuyerDemand",
+  "type": "object",
+  "properties": {
+    "buyer_id": {
+      "type": "string"
+    },
+    "crop_id": {
+      "type": "string"
+    },
+    "variety": {
+      "type": "string"
+    },
+    "required_quantity": {
+      "type": "number"
+    },
+    "quantity_unit": {
+      "type": "string"
+    },
+    "quality_requirements": {
+      "type": "string"
+    },
+    "grade_required": {
+      "type": "string",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "ANY"
+      ],
+      "description": "Quality grade the buyer will accept; ANY = no grade restriction"
+    },
+    "payment_days": {
+      "type": "number",
+      "description": "Agreed payment timeline in days after delivery"
+    },
+    "expected_price": {
+      "type": "number"
+    },
+    "demand_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "delivery_location": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "unverified",
+        "pending_verification",
+        "source_unavailable"
+      ]
+    }
+  },
+  "required": [
+    "buyer_id",
+    "crop_id",
+    "verification_status"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

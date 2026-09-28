@@ -1,0 +1,86 @@
+[
+  {
+    "path": "/prices-and-arrivals/commodity-wise/daily-report-state",
+    "params": {
+      "date": "2024-01-15",
+      "stateIds": 20
+    },
+    "http": 200,
+    "bytes": 156674,
+    "head": "{\"success\":true,\"message\":\"Data fetched successfully.\",\"title\":\"Market-wise, Commodity-wise Daily Report for a State/UT on 15-Jan-2024 State/UT : Maharashtra\",\"columns\":[{\"key\":\"commodityName\",\"title\":\"Commodity\"},{\"key\":\"arrivals\",\"title\":\"Arrivals\"},{\"key\":\"unitOfArrivals\",\"title\":\"Unit of Arrivals\"},{\"key\":\"variety\",\"title\":\"Variety\"},{\"key\":\"minimumPrice\",\"title\":\"Minimum Prices\"},{\"key\":\"maximumPrice\",\"title\":\"Maximum Prices\"},{\"key\":\"modalPrice\",\"title\":\"Modal Prices\"},{\"key\":\"unitOfPrice\",\"title\":\"Unit of Price\"}],\"markets\":[{\"marketName\":\"APMC  Chimur\",\"commodityGroups\":[{\"groupName\":\""
+  },
+  {
+    "path": "/prices-and-arrivals/commodity-wise/daily-report-state",
+    "params": {
+      "date": "2024-01-15",
+      "stateIds": "[20]"
+    },
+    "http": null,
+    "bytes": 209,
+    "head": "HTTPError: HTTP Error 500: Internal Server Error | b'\\n<!doctype html>\\n<html lang=\"en\">\\n<head>\\n  <title>Server Error (500)</title>\\n</head>\\n<body>\\n  <h1>Server Error (500)</h1><p></p>\\n</body>\\n</html>\\n'"
+  },
+  {
+    "path": "/prices-and-arrivals/commodity-wise/daily-report-state",
+    "params": {
+      "date": "2024-01-15",
+      "stateIds": "20",
+      "commodityIds": "[23]"
+    },
+    "http": 200,
+    "bytes": 156674,
+    "head": "{\"success\":true,\"message\":\"Data fetched successfully.\",\"title\":\"Market-wise, Commodity-wise Daily Report for a State/UT on 15-Jan-2024 State/UT : Maharashtra\",\"columns\":[{\"key\":\"commodityName\",\"title\":\"Commodity\"},{\"key\":\"arrivals\",\"title\":\"Arrivals\"},{\"key\":\"unitOfArrivals\",\"title\":\"Unit of Arrivals\"},{\"key\":\"variety\",\"title\":\"Variety\"},{\"key\":\"minimumPrice\",\"title\":\"Minimum Prices\"},{\"key\":\"maximumPrice\",\"title\":\"Maximum Prices\"},{\"key\":\"modalPrice\",\"title\":\"Modal Prices\"},{\"key\":\"unitOfPrice\",\"title\":\"Unit of Price\"}],\"markets\":[{\"marketName\":\"APMC  Chimur\",\"commodityGroups\":[{\"groupName\":\""
+  },
+  {
+    "path": "/prices-and-arrivals/commodity-wise/daily-report-state",
+    "params": {
+      "date": "2024-01-15",
+      "stateIds": "20",
+      "commodity": 23
+    },
+    "http": 200,
+    "bytes": 156674,
+    "head": "{\"success\":true,\"message\":\"Data fetched successfully.\",\"title\":\"Market-wise, Commodity-wise Daily Report for a State/UT on 15-Jan-2024 State/UT : Maharashtra\",\"columns\":[{\"key\":\"commodityName\",\"title\":\"Commodity\"},{\"key\":\"arrivals\",\"title\":\"Arrivals\"},{\"key\":\"unitOfArrivals\",\"title\":\"Unit of Arrivals\"},{\"key\":\"variety\",\"title\":\"Variety\"},{\"key\":\"minimumPrice\",\"title\":\"Minimum Prices\"},{\"key\":\"maximumPrice\",\"title\":\"Maximum Prices\"},{\"key\":\"modalPrice\",\"title\":\"Modal Prices\"},{\"key\":\"unitOfPrice\",\"title\":\"Unit of Price\"}],\"markets\":[{\"marketName\":\"APMC  Chimur\",\"commodityGroups\":[{\"groupName\":\""
+  },
+  {
+    "path": "/prices-and-arrivals/market-report/specific",
+    "params": {
+      "date": "2024-01-15",
+      "stateIds": "20",
+      "districtIds": "all"
+    },
+    "http": null,
+    "bytes": 102,
+    "head": "HTTPError: HTTP Error 400: Bad Request | b'{\"success\":false,\"message\":\"Missing required parameters.\"}'"
+  },
+  {
+    "path": "/price-trend/year-filter",
+    "params": {
+      "commodity": 23,
+      "state": 20
+    },
+    "http": 200,
+    "bytes": 159,
+    "head": "{\"status\":\"success\",\"message\":\"Year options fetched successfully\",\"data\":[{\"year\":2021},{\"year\":2022},{\"year\":2023},{\"year\":2024},{\"year\":2025},{\"year\":2026}]}",
+    "row_count": 6,
+    "row_keys": [
+      "year"
+    ],
+    "row_sample": {
+      "year": 2021
+    }
+  },
+  {
+    "path": "/price-trend/wholesale-prices-monthly",
+    "params": {
+      "commodity": 23,
+      "state": 20,
+      "year": 2024,
+      "report_mode": "Statewise",
+      "mode": "statewise",
+      "type": "monthly"
+    },
+    "http": null,
+    "bytes": 209,
+    "head": "HTTPError: HTTP Error 500: Internal Server Error | b'\\n<!doctype html>\\n<html lang=\"en\">\\n<head>\\n  <title>Server Error (500)</title>\\n</head>\\n<body>\\n  <h1>Server Error (500)</h1><p></p>\\n</body>\\n</html>\\n'"
+  }
+]

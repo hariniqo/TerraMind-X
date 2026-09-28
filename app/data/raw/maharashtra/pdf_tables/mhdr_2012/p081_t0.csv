@@ -1,0 +1,20 @@
+Rural,,Urban,
+State,MPCE (`),State,MPCE (`)
+Kerala,"1,222",Gujarat,"1,536"
+Punjab,"1,206",Maharashtra,"1,535"
+Haryana,"1,162",Kerala,"1,513"
+Rajasthan,897,Punjab,"1,452"
+Andhra Pradesh,862,Karnataka,"1,413"
+Gujarat,851,Andhra Pradesh,"1,404"
+Maharashtra,848,Haryana,"1,389"
+Tamil Nadu,817,Tamil Nadu,"1,331"
+West Bengal,751,Assam,"1,283"
+Assam,735,West Bengal,"1,244"
+Karnataka,701,Rajasthan,"1,206"
+Uttar Pradesh,693,Chhattisgarh,"1,123"
+Madhya Pradesh,669,Madhya Pradesh,"1,096"
+Jharkhand,643,Jharkhand,"1,072"
+Bihar,622,Uttar Pradesh,"1,019"
+Odisha,600,Odisha,962
+Chhattisgarh,564,Bihar,844
+All-India,765,All-India,"1,307"

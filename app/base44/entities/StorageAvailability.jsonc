@@ -1,0 +1,76 @@
+{
+  "name": "StorageAvailability",
+  "type": "object",
+  "properties": {
+    "location": {
+      "type": "string"
+    },
+    "storage_type": {
+      "type": "string"
+    },
+    "capacity": {
+      "type": "number"
+    },
+    "available_capacity": {
+      "type": "number"
+    },
+    "crop_supported": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cost": {
+      "type": "number"
+    },
+    "cost_unit": {
+      "type": "string"
+    },
+    "observation_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "source": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "source_available",
+        "source_unavailable",
+        "pending_verification",
+        "error"
+      ]
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "location",
+    "source"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

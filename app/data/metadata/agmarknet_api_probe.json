@@ -1,0 +1,85 @@
+[
+  {
+    "endpoint": "/daily-price-arrival/report",
+    "variant": "A",
+    "params": {
+      "cmdt_id": 23,
+      "state_id": 20,
+      "district_id": 0,
+      "market_id": 0,
+      "from_date": "2015-01-01",
+      "to_date": "2015-01-31",
+      "page": 1,
+      "limit": 100
+    },
+    "http": null,
+    "bytes": 38,
+    "body_head": "HTTPError: HTTP Error 400: Bad Request",
+    "json_status": "not-json"
+  },
+  {
+    "endpoint": "/daily-price-arrival/report",
+    "variant": "B",
+    "params": {
+      "cmdt_id": 23,
+      "state_id": 20,
+      "district_id": 0,
+      "market_id": 0,
+      "from_date": "2015-01-01",
+      "to_date": "2015-01-31"
+    },
+    "http": null,
+    "bytes": 38,
+    "body_head": "HTTPError: HTTP Error 400: Bad Request",
+    "json_status": "not-json"
+  },
+  {
+    "endpoint": "/daily-price-arrival/report",
+    "variant": "C",
+    "params": {
+      "cmdt_id": 23,
+      "state_id": 20,
+      "district_id": 0,
+      "market_id": 0,
+      "fromdate": "2015-01-01",
+      "todate": "2015-01-31"
+    },
+    "http": null,
+    "bytes": 38,
+    "body_head": "HTTPError: HTTP Error 400: Bad Request",
+    "json_status": "not-json"
+  },
+  {
+    "endpoint": "/daily-price-arrival/report",
+    "variant": "D",
+    "params": {
+      "cmdt_id": "23",
+      "state_id": "20",
+      "district_id": "0",
+      "market_id": "0",
+      "from_date": "2015-01-01",
+      "to_date": "2015-01-31",
+      "price_arrival": "P"
+    },
+    "http": null,
+    "bytes": 38,
+    "body_head": "HTTPError: HTTP Error 400: Bad Request",
+    "json_status": "not-json"
+  },
+  {
+    "endpoint": "/daily-price-arrival/report",
+    "variant": "E",
+    "params": {
+      "cmdt_id": 23,
+      "state_id": 20,
+      "district_id": 0,
+      "market_id": 0,
+      "from_date": "01-Jan-2015",
+      "to_date": "31-Jan-2015"
+    },
+    "http": null,
+    "bytes": 38,
+    "body_head": "HTTPError: HTTP Error 400: Bad Request",
+    "json_status": "not-json"
+  }
+]

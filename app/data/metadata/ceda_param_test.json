@@ -1,0 +1,83 @@
+[
+  {
+    "endpoint": "prices",
+    "calc": "d",
+    "y0": "2015-01-01",
+    "y1": "2015-12-31",
+    "status": "ACCESS_DENIED",
+    "rows": 0,
+    "elapsed_s": 0.2,
+    "distinct_dates": 0,
+    "first_date": null,
+    "last_date": null,
+    "keys": [],
+    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+    "endpoint": "prices",
+    "calc": "m",
+    "y0": "2015-01-01",
+    "y1": "2025-12-31",
+    "status": "ACCESS_DENIED",
+    "rows": 0,
+    "elapsed_s": 0.1,
+    "distinct_dates": 0,
+    "first_date": null,
+    "last_date": null,
+    "keys": [],
+    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+    "endpoint": "prices",
+    "calc": "a",
+    "y0": "2015-01-01",
+    "y1": "2025-12-31",
+    "status": "HTTP_ERROR",
+    "rows": 0,
+    "elapsed_s": 0.1,
+    "distinct_dates": 0,
+    "first_date": null,
+    "last_date": null,
+    "keys": [],
+    "error": "HTTPError: HTTP Error 400: Bad Request"
+  },
+  {
+    "endpoint": "quantities",
+    "calc": "d",
+    "y0": "2015-01-01",
+    "y1": "2015-12-31",
+    "status": "OK",
+    "rows": 1000,
+    "elapsed_s": 25.7,
+    "distinct_dates": 29,
+    "first_date": "2015-12-03",
+    "last_date": "2015-12-31",
+    "keys": [
+      "cmdty",
+      "district_id",
+      "district_name",
+      "market_id",
+      "market_name",
+      "qty",
+      "state",
+      "state_id",
+      "state_name",
+      "t"
+    ],
+    "error": null
+  },
+  {
+    "endpoint": "quantities",
+    "calc": "m",
+    "y0": "2015-01-01",
+    "y1": "2025-12-31",
+    "status": "SERVER_ERROR",
+    "rows": 0,
+    "elapsed_s": 25.1,
+    "distinct_dates": 0,
+    "first_date": null,
+    "last_date": null,
+    "keys": [],
+    "error": "HTTPError: HTTP Error 500: Internal Server Error"
+  }
+]

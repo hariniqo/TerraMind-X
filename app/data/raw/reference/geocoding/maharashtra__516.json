@@ -1,0 +1,56 @@
+{
+  "results": [
+    {
+      "id": 1261731,
+      "name": "Nashik",
+      "latitude": 19.99727,
+      "longitude": 73.79096,
+      "elevation": 584.0,
+      "feature_code": "PPLA2",
+      "country_code": "IN",
+      "admin1_id": 1264418,
+      "admin2_id": 8131501,
+      "admin3_id": 7626541,
+      "timezone": "Asia/Kolkata",
+      "population": 1486053,
+      "country_id": 1269750,
+      "country": "India",
+      "admin1": "Maharashtra",
+      "admin2": "Nashik",
+      "admin3": "Nashik"
+    },
+    {
+      "id": 11012846,
+      "name": "Nashikubo",
+      "latitude": 35.84448,
+      "longitude": 139.53755,
+      "elevation": 27.0,
+      "feature_code": "PPL",
+      "country_code": "JP",
+      "admin1_id": 1853226,
+      "admin2_id": 1864112,
+      "timezone": "Asia/Tokyo",
+      "country_id": 1861060,
+      "country": "Japan",
+      "admin1": "Saitama",
+      "admin2": "Fujimi-shi"
+    },
+    {
+      "id": 8311059,
+      "name": "Nashikihata",
+      "latitude": 38.41359,
+      "longitude": 141.37961,
+      "elevation": 18.0,
+      "feature_code": "PPL",
+      "country_code": "JP",
+      "admin1_id": 2111888,
+      "admin2_id": 2112574,
+      "timezone": "Asia/Tokyo",
+      "country_id": 1861060,
+      "country": "Japan",
+      "admin1": "Miyagi",
+      "admin2": "Ishinomaki Shi"
+    }
+  ],
+  "generationtime_ms": 0.8637905
+}

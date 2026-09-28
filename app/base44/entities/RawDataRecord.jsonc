@@ -1,0 +1,85 @@
+{
+  "name": "RawDataRecord",
+  "type": "object",
+  "properties": {
+    "source_name": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "endpoint": {
+      "type": "string"
+    },
+    "request_timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "response_timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "http_status": {
+      "type": "number"
+    },
+    "record_count": {
+      "type": "number"
+    },
+    "source_record_id": {
+      "type": "string"
+    },
+    "raw_payload": {
+      "type": "string"
+    },
+    "checksum": {
+      "type": "string"
+    },
+    "processing_status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "processed",
+        "rejected",
+        "error"
+      ]
+    },
+    "validation_status": {
+      "type": "string",
+      "enum": [
+        "validated",
+        "partial",
+        "rejected",
+        "error"
+      ]
+    },
+    "error_message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "source_name",
+    "processing_status"
+  ],
+  "rls": {
+    "read": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

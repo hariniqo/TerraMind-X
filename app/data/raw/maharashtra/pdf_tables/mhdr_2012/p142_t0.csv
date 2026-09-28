@@ -1,0 +1,23 @@
+Characteristics,Height for Age (Percentage),,Weight for Height (Percentage),,Weight for Age (Percentage),
+,Stunting (Standard Deviation [SD] < –2),Severe Stunting (SD< –3),Wasting (SD< –2),Severe Wasting (SD< –3),Under-weight (SD< –2),Severe Under- weight (SD< –3)
+All-India,48.0,23.7,19.8,6.4,42.5,15.8
+Maharashtra,46.3,19.1,16.5,5.2,37.0,11.9
+Residence,,,,,,
+Rural,49.1,21.0,18.2,5.6,41.6,13.9
+Urban,42.2,16.4,14.1,4.6,30.7,9.1
+Mumbai (Slum),47.4,16.1,16.1,4.0,36.1,11.6
+Mumbai (Non-Slum),41.5,15.7,16.4,2.5,25.8,6.9
+Gender,,,,,,
+Male,47.3,20.3,17.5,5.2,36.7,12.6
+Female,45.1,17.7,15.4,5.2,37.3,11.1
+Social Group,,,,,,
+SC,55.2,23.4,20.2,6.6,41.7,13.5
+ST,57.8,30.0,18.9,5.6,53.2,21.1
+OBC,40.6,14.4,15.7,5.2,33.0,10.0
+Others,42.5,16.9,14.6,4.4,32.6,9.6
+Wealth Index,,,,,,
+Lowest,63.2,32.9,18.2,5.9,51.8,18.8
+Second,55.1,25.1,21.8,6.8,46.4,20.0
+Middle,53.6,25.3,19.4,5.3,48.2,13.4
+Fourth,45.1,16.4,16.1,5.8,32.4,10.2
+Highest,28.9,7.2,10.8,3.3,20.9,4.5
