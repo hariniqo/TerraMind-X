@@ -1,0 +1,76 @@
+{
+  "name": "Buyer",
+  "type": "object",
+  "properties": {
+    "buyer_name": {
+      "type": "string"
+    },
+    "buyer_type": {
+      "type": "string",
+      "enum": [
+        "processor",
+        "exporter",
+        "wholesaler",
+        "institutional_buyer",
+        "fpo",
+        "mandi_buyer"
+      ]
+    },
+    "location": {
+      "type": "string"
+    },
+    "registration_number": {
+      "type": "string"
+    },
+    "crops_supported": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "contact_information": {
+      "type": "string"
+    },
+    "verification_source": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "unverified",
+        "pending_verification"
+      ]
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "buyer_name",
+    "buyer_type",
+    "verification_status"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

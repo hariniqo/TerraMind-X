@@ -1,0 +1,77 @@
+{
+  "name": "CropCalendar",
+  "type": "object",
+  "properties": {
+    "crop": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "district": {
+      "type": "string"
+    },
+    "season": {
+      "type": "string"
+    },
+    "sowing_start": {
+      "type": "string",
+      "format": "date"
+    },
+    "sowing_end": {
+      "type": "string",
+      "format": "date"
+    },
+    "expected_harvest_start": {
+      "type": "string",
+      "format": "date"
+    },
+    "expected_harvest_end": {
+      "type": "string",
+      "format": "date"
+    },
+    "source": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "source_available",
+        "source_unavailable",
+        "pending_verification",
+        "error"
+      ]
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "crop",
+    "season",
+    "source"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

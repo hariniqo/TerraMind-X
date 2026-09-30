@@ -1,0 +1,14 @@
+S.No.,Food Commodity,Water Input per kg,Productivity kg/m2,Nutritional Water Productivity,,,
+,,Product,,Energy kcal/m 3,Protein,Fat,Calcium
+,,,,,g/m3,g/m3,mg/m3
+1,Wheat,1159,0.863,2279,74,9,279
+2,Rice,1408,0.71,1989,49,5,132
+3,Maize,710,1.408,3856,77,17,63
+4,Potato,105,9.524,5626,150,9,543
+5,Pulses (Beans),2860,0.35,1188,76,4,473
+6,Tomato,130,7.692,1416,65,11,200
+7,Onion,147,6.826,2259,85,0,1673
+8,Banana,499,2.004,432,11,0,29
+9,Lemon,344,2.907,504,0,0,423
+10,Butter,18000,0.056,404,1,39,11
+"Source: Agricultural Engineering Data Book, Jan. 2008, Central Institute of Agricultural Engineering, Nabi Bagh, Berasia Road, Bhopal; Agricultural Engineering Today, 30(3), 2006, pp 7.",,,,,,,

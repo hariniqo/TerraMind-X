@@ -1,0 +1,23 @@
+{
+  "results": [
+    {
+      "id": 8531979,
+      "name": "Osmanabad Airport",
+      "latitude": 18.27993,
+      "longitude": 76.05633,
+      "elevation": 690.0,
+      "feature_code": "AIRP",
+      "country_code": "IN",
+      "admin1_id": 1264418,
+      "admin2_id": 1261013,
+      "admin3_id": 12686085,
+      "timezone": "Asia/Kolkata",
+      "country_id": 1269750,
+      "country": "India",
+      "admin1": "Maharashtra",
+      "admin2": "Osmanabad District",
+      "admin3": "Osmanabad"
+    }
+  ],
+  "generationtime_ms": 0.2605915
+}

@@ -1,0 +1,106 @@
+{
+  "name": "PriceAlert",
+  "type": "object",
+  "properties": {
+    "district": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "commodity": {
+      "type": "string"
+    },
+    "market_name": {
+      "type": "string"
+    },
+    "latest_price": {
+      "type": "number"
+    },
+    "baseline_price": {
+      "type": "number"
+    },
+    "change_pct": {
+      "type": "number"
+    },
+    "direction": {
+      "type": "string",
+      "enum": [
+        "spike",
+        "drop"
+      ]
+    },
+    "threshold_pct": {
+      "type": "number"
+    },
+    "trading_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "baseline_records": {
+      "type": "number"
+    },
+    "checked_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "sent_to": {
+      "type": "string"
+    },
+    "email_status": {
+      "type": "string",
+      "enum": [
+        "sent",
+        "failed",
+        "skipped"
+      ]
+    }
+  },
+  "required": [
+    "commodity",
+    "market_name",
+    "direction",
+    "checked_at"
+  ],
+  "rls": {
+    "read": {
+      "$or": [
+        {
+          "created_by_id": "{{user.id}}"
+        },
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        }
+      ]
+    },
+    "create": {
+      "created_by_id": "{{user.id}}"
+    },
+    "update": {
+      "$or": [
+        {
+          "created_by_id": "{{user.id}}"
+        },
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        }
+      ]
+    },
+    "delete": {
+      "$or": [
+        {
+          "created_by_id": "{{user.id}}"
+        },
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        }
+      ]
+    }
+  }
+}

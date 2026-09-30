@@ -1,0 +1,16 @@
+Characteristics,Anaemia* (Percentage),,Number of Children
+,Anaemia (Haemoglobin < 10.99 g/dL),Severe Anaemia (Haemoglobin < 7 g/dL),
+Maharashtra,63.4,1.8,"2,269"
+Residence,,,
+Rural,66.8,2.4,"1,308"
+Urban,58.7,1,962
+Mumbai (Slum),50.2,2.3,ns
+Mumbai (Non-Slum),46.9,0.7,ns
+Gender,,,
+Male,66.0,2.6,"1,235"
+Female,60.1,0.9,"1,034"
+Social Group,,,
+SC,64.1,1.2,430
+ST,67.6,2.5,285
+OBC,62.5,2.8,603
+Others,62.3,1.2,951

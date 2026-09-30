@@ -1,0 +1,102 @@
+{
+  "name": "Lot",
+  "type": "object",
+  "properties": {
+    "farmer_id": {
+      "type": "string"
+    },
+    "location_id": {
+      "type": "string"
+    },
+    "crop_id": {
+      "type": "string"
+    },
+    "variety": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "number"
+    },
+    "quantity_unit": {
+      "type": "string"
+    },
+    "quality_grade": {
+      "type": "string",
+      "enum": [
+        "Grade A",
+        "Grade B",
+        "Grade C"
+      ]
+    },
+    "harvest_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "available",
+        "offered",
+        "sold",
+        "withdrawn"
+      ],
+      "default": "available"
+    },
+    "pooled_group_id": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string",
+      "default": "farmer_entry"
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "source_available",
+        "source_unavailable",
+        "pending_verification",
+        "error"
+      ]
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "crop_id",
+    "quantity",
+    "source"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "created_by_id": "{{user.id}}"
+    },
+    "update": {
+      "$or": [
+        {
+          "created_by_id": "{{user.id}}"
+        },
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        }
+      ]
+    },
+    "delete": {
+      "$or": [
+        {
+          "created_by_id": "{{user.id}}"
+        },
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        }
+      ]
+    }
+  }
+}

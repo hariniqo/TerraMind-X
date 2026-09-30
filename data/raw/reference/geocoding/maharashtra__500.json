@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "id": 1275117,
+      "name": "Buldāna",
+      "latitude": 20.52933,
+      "longitude": 76.18457,
+      "elevation": 654.0,
+      "feature_code": "PPL",
+      "country_code": "IN",
+      "admin1_id": 1264418,
+      "admin2_id": 1275118,
+      "admin3_id": 12683990,
+      "timezone": "Asia/Kolkata",
+      "population": 67431,
+      "country_id": 1269750,
+      "country": "India",
+      "admin1": "Maharashtra",
+      "admin2": "Buldhana",
+      "admin3": "Buldana"
+    },
+    {
+      "id": 1274239,
+      "name": "Chikhli",
+      "latitude": 20.02193,
+      "longitude": 75.78544,
+      "elevation": 615.0,
+      "feature_code": "PPL",
+      "country_code": "IN",
+      "admin1_id": 1264418,
+      "admin2_id": 7626532,
+      "admin3_id": 12681182,
+      "timezone": "Asia/Kolkata",
+      "country_id": 1269750,
+      "country": "India",
+      "admin1": "Maharashtra",
+      "admin2": "Jalna District",
+      "admin3": "Badnapur"
+    }
+  ],
+  "generationtime_ms": 0.5455017
+}

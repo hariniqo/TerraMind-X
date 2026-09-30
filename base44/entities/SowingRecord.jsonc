@@ -1,0 +1,87 @@
+{
+  "name": "SowingRecord",
+  "type": "object",
+  "properties": {
+    "crop": {
+      "type": "string"
+    },
+    "sowing_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "plot_name": {
+      "type": "string"
+    },
+    "area_acres": {
+      "type": "number"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string",
+      "default": "farmer_entry"
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "source_available",
+        "source_unavailable",
+        "pending_verification",
+        "error"
+      ],
+      "default": "pending_verification"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "crop",
+    "sowing_date",
+    "source"
+  ],
+  "rls": {
+    "read": {
+      "$or": [
+        {
+          "created_by_id": "{{user.id}}"
+        },
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        }
+      ]
+    },
+    "create": {
+      "created_by_id": "{{user.id}}"
+    },
+    "update": {
+      "$or": [
+        {
+          "created_by_id": "{{user.id}}"
+        },
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        }
+      ]
+    },
+    "delete": {
+      "$or": [
+        {
+          "created_by_id": "{{user.id}}"
+        },
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        }
+      ]
+    }
+  }
+}

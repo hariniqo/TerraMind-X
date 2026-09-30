@@ -1,0 +1,94 @@
+{
+  "name": "Forecast",
+  "type": "object",
+  "properties": {
+    "commodity": {
+      "type": "string"
+    },
+    "crop_id": {
+      "type": "string"
+    },
+    "market_name": {
+      "type": "string"
+    },
+    "district": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "forecast_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "horizon_days": {
+      "type": "number"
+    },
+    "predicted_price": {
+      "type": "number"
+    },
+    "lower_bound": {
+      "type": "number"
+    },
+    "upper_bound": {
+      "type": "number"
+    },
+    "model_name": {
+      "type": "string"
+    },
+    "model_version": {
+      "type": "string"
+    },
+    "training_period": {
+      "type": "string"
+    },
+    "training_records": {
+      "type": "number"
+    },
+    "mae": {
+      "type": "number"
+    },
+    "rmse": {
+      "type": "number"
+    },
+    "mape": {
+      "type": "number"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "data_quality": {
+      "type": "string",
+      "enum": [
+        "sufficient",
+        "insufficient",
+        "partial"
+      ]
+    }
+  },
+  "required": [
+    "commodity",
+    "forecast_date",
+    "horizon_days",
+    "predicted_price",
+    "model_name",
+    "generated_at"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "created_by_id": "{{user.id}}"
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

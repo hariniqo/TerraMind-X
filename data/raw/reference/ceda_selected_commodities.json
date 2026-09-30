@@ -1,0 +1,386 @@
+[
+  {
+    "commodity_id": 1,
+    "commodity_name": "Wheat"
+  },
+  {
+    "commodity_id": 2,
+    "commodity_name": "Paddy(Dhan)(Common)"
+  },
+  {
+    "commodity_id": 3,
+    "commodity_name": "Rice"
+  },
+  {
+    "commodity_id": 4,
+    "commodity_name": "Maize"
+  },
+  {
+    "commodity_id": 5,
+    "commodity_name": "Jowar (Sorghum)"
+  },
+  {
+    "commodity_id": 6,
+    "commodity_name": "Bengal Gram (Gram)(Whole)"
+  },
+  {
+    "commodity_id": 7,
+    "commodity_name": "Red Gram"
+  },
+  {
+    "commodity_id": 8,
+    "commodity_name": "Black Gram (Urad Beans)(Whole)"
+  },
+  {
+    "commodity_id": 9,
+    "commodity_name": "Green Gram (Moong)(Whole)"
+  },
+  {
+    "commodity_id": 10,
+    "commodity_name": "Groundnut"
+  },
+  {
+    "commodity_id": 11,
+    "commodity_name": "Sesamum (Sesame, Gingelly, Til)"
+  },
+  {
+    "commodity_id": 12,
+    "commodity_name": "Mustard"
+  },
+  {
+    "commodity_id": 13,
+    "commodity_name": "Soyabean"
+  },
+  {
+    "commodity_id": 14,
+    "commodity_name": "Sunflower"
+  },
+  {
+    "commodity_id": 15,
+    "commodity_name": "Cotton"
+  },
+  {
+    "commodity_id": 16,
+    "commodity_name": "Jute"
+  },
+  {
+    "commodity_id": 18,
+    "commodity_name": "Orange"
+  },
+  {
+    "commodity_id": 19,
+    "commodity_name": "Banana"
+  },
+  {
+    "commodity_id": 20,
+    "commodity_name": "Mango"
+  },
+  {
+    "commodity_id": 22,
+    "commodity_name": "Grapes"
+  },
+  {
+    "commodity_id": 23,
+    "commodity_name": "Onion"
+  },
+  {
+    "commodity_id": 24,
+    "commodity_name": "Potato"
+  },
+  {
+    "commodity_id": 25,
+    "commodity_name": "Garlic"
+  },
+  {
+    "commodity_id": 27,
+    "commodity_name": "Ginger (Dry)"
+  },
+  {
+    "commodity_id": 28,
+    "commodity_name": "Bajra (Pearl Millet/Cumbu)"
+  },
+  {
+    "commodity_id": 30,
+    "commodity_name": "Ragi (Finger Millet)"
+  },
+  {
+    "commodity_id": 34,
+    "commodity_name": "Cauliflower"
+  },
+  {
+    "commodity_id": 35,
+    "commodity_name": "Brinjal"
+  },
+  {
+    "commodity_id": 36,
+    "commodity_name": "Cashewnuts"
+  },
+  {
+    "commodity_id": 39,
+    "commodity_name": "Turmeric"
+  },
+  {
+    "commodity_id": 43,
+    "commodity_name": "Coriander (Leaves)"
+  },
+  {
+    "commodity_id": 49,
+    "commodity_name": "Arhar (Tur/Red Gram)(Whole)"
+  },
+  {
+    "commodity_id": 59,
+    "commodity_name": "Safflower"
+  },
+  {
+    "commodity_id": 71,
+    "commodity_name": "Chikoo (Sapota)"
+  },
+  {
+    "commodity_id": 72,
+    "commodity_name": "Papaya"
+  },
+  {
+    "commodity_id": 75,
+    "commodity_name": "Guar"
+  },
+  {
+    "commodity_id": 78,
+    "commodity_name": "Tomato"
+  },
+  {
+    "commodity_id": 87,
+    "commodity_name": "Green Chilli"
+  },
+  {
+    "commodity_id": 88,
+    "commodity_name": "Chilli Capsicum"
+  },
+  {
+    "commodity_id": 89,
+    "commodity_name": "Cowpea (Veg)"
+  },
+  {
+    "commodity_id": 90,
+    "commodity_name": "Banana - Green"
+  },
+  {
+    "commodity_id": 92,
+    "commodity_name": "Cowpea (Lobia/Karamani)"
+  },
+  {
+    "commodity_id": 98,
+    "commodity_name": "Niger Seed (Ramtil)"
+  },
+  {
+    "commodity_id": 99,
+    "commodity_name": "Cotton Seed"
+  },
+  {
+    "commodity_id": 100,
+    "commodity_name": "Tapioca"
+  },
+  {
+    "commodity_id": 103,
+    "commodity_name": "Ginger (Green)"
+  },
+  {
+    "commodity_id": 108,
+    "commodity_name": "Coriander seed"
+  },
+  {
+    "commodity_id": 112,
+    "commodity_name": "Coconut Seed"
+  },
+  {
+    "commodity_id": 113,
+    "commodity_name": "Big Gram"
+  },
+  {
+    "commodity_id": 114,
+    "commodity_name": "Kulthi (Horse Gram)"
+  },
+  {
+    "commodity_id": 123,
+    "commodity_name": "Castor Seed"
+  },
+  {
+    "commodity_id": 132,
+    "commodity_name": "Dry Chillies"
+  },
+  {
+    "commodity_id": 138,
+    "commodity_name": "Coconut"
+  },
+  {
+    "commodity_id": 140,
+    "commodity_name": "Arecanut (Betelnut/Supari)"
+  },
+  {
+    "commodity_id": 150,
+    "commodity_name": "Sugarcane"
+  },
+  {
+    "commodity_id": 152,
+    "commodity_name": "Sweet Potato"
+  },
+  {
+    "commodity_id": 154,
+    "commodity_name": "Cabbage"
+  },
+  {
+    "commodity_id": 168,
+    "commodity_name": "Drumstick"
+  },
+  {
+    "commodity_id": 172,
+    "commodity_name": "Mango (Raw-Ripe)"
+  },
+  {
+    "commodity_id": 190,
+    "commodity_name": "Pomegranate"
+  },
+  {
+    "commodity_id": 200,
+    "commodity_name": "Tender Coconut"
+  },
+  {
+    "commodity_id": 208,
+    "commodity_name": "Tamarind Seed"
+  },
+  {
+    "commodity_id": 210,
+    "commodity_name": "Jute Seed"
+  },
+  {
+    "commodity_id": 260,
+    "commodity_name": "Arhar Dal (Tur Dal)"
+  },
+  {
+    "commodity_id": 261,
+    "commodity_name": "Tamarind Fruit"
+  },
+  {
+    "commodity_id": 262,
+    "commodity_name": "Beaten Rice"
+  },
+  {
+    "commodity_id": 263,
+    "commodity_name": "Bengal Gram Dal (Chana Dal)"
+  },
+  {
+    "commodity_id": 264,
+    "commodity_name": "Black Gram Dal (Urd Dal)"
+  },
+  {
+    "commodity_id": 265,
+    "commodity_name": "Green Gram Dal (Moong Dal)"
+  },
+  {
+    "commodity_id": 266,
+    "commodity_name": "Coconut Oil"
+  },
+  {
+    "commodity_id": 270,
+    "commodity_name": "Castor Oil"
+  },
+  {
+    "commodity_id": 278,
+    "commodity_name": "Dry Grapes"
+  },
+  {
+    "commodity_id": 281,
+    "commodity_name": "Alasande Gram"
+  },
+  {
+    "commodity_id": 285,
+    "commodity_name": "Sunflower Seed"
+  },
+  {
+    "commodity_id": 287,
+    "commodity_name": "Wheat Atta"
+  },
+  {
+    "commodity_id": 293,
+    "commodity_name": "Broken Rice"
+  },
+  {
+    "commodity_id": 294,
+    "commodity_name": "Gramflour"
+  },
+  {
+    "commodity_id": 301,
+    "commodity_name": "Pigeon Pea (Arhar Fali)"
+  },
+  {
+    "commodity_id": 309,
+    "commodity_name": "Turmeric (raw)"
+  },
+  {
+    "commodity_id": 312,
+    "commodity_name": "Groundnut pods (raw)"
+  },
+  {
+    "commodity_id": 313,
+    "commodity_name": "Papaya (Raw)"
+  },
+  {
+    "commodity_id": 314,
+    "commodity_name": "Groundnut (Split)"
+  },
+  {
+    "commodity_id": 324,
+    "commodity_name": "Mustard Oil"
+  },
+  {
+    "commodity_id": 341,
+    "commodity_name": "Turnip"
+  },
+  {
+    "commodity_id": 358,
+    "commodity_name": "Onion Green"
+  },
+  {
+    "commodity_id": 359,
+    "commodity_name": "Gram Raw (Chholia)"
+  },
+  {
+    "commodity_id": 413,
+    "commodity_name": "Guar Seed (Cluster Beans Seed)"
+  },
+  {
+    "commodity_id": 414,
+    "commodity_name": "Paddy (Dhan)(Basmati)"
+  },
+  {
+    "commodity_id": 422,
+    "commodity_name": "Mango powder"
+  },
+  {
+    "commodity_id": 423,
+    "commodity_name": "Dried mango"
+  },
+  {
+    "commodity_id": 432,
+    "commodity_name": "Liquor turmeric"
+  },
+  {
+    "commodity_id": 483,
+    "commodity_name": "Banana flower"
+  },
+  {
+    "commodity_id": 484,
+    "commodity_name": "Banana stem"
+  },
+  {
+    "commodity_id": 485,
+    "commodity_name": "Banana Leaf"
+  },
+  {
+    "commodity_id": 491,
+    "commodity_name": "Bajji chilli"
+  },
+  {
+    "commodity_id": 493,
+    "commodity_name": "Red Cabbage"
+  }
+]

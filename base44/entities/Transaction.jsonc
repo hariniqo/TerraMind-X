@@ -1,0 +1,95 @@
+{
+  "name": "Transaction",
+  "type": "object",
+  "properties": {
+    "offer_id": {
+      "type": "string"
+    },
+    "lot_id": {
+      "type": "string"
+    },
+    "buyer_id": {
+      "type": "string"
+    },
+    "farmer_id": {
+      "type": "string"
+    },
+    "location_id": {
+      "type": "string"
+    },
+    "agreed_price": {
+      "type": "number"
+    },
+    "agreed_quantity": {
+      "type": "number"
+    },
+    "payment_status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "received",
+        "disputed"
+      ],
+      "default": "pending"
+    },
+    "dispute_reason": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "source_available",
+        "source_unavailable",
+        "pending_verification",
+        "error"
+      ]
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "offer_id",
+    "lot_id",
+    "source"
+  ],
+  "rls": {
+    "read": {
+      "$or": [
+        {
+          "created_by_id": "{{user.id}}"
+        },
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        }
+      ]
+    },
+    "create": {
+      "created_by_id": "{{user.id}}"
+    },
+    "update": {
+      "$or": [
+        {
+          "created_by_id": "{{user.id}}"
+        },
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        }
+      ]
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

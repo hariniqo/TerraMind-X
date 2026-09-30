@@ -1,0 +1,151 @@
+{
+  "name": "SoilData",
+  "type": "object",
+  "properties": {
+    "location_id": {
+      "type": "string"
+    },
+    "farm_id": {
+      "type": "string"
+    },
+    "soil_type": {
+      "type": "string"
+    },
+    "ph": {
+      "type": "number"
+    },
+    "nitrogen": {
+      "type": "number"
+    },
+    "phosphorus": {
+      "type": "number"
+    },
+    "potassium": {
+      "type": "number"
+    },
+    "organic_carbon": {
+      "type": "number"
+    },
+    "electrical_conductivity": {
+      "type": "number",
+      "description": "dS/m"
+    },
+    "moisture": {
+      "type": "number"
+    },
+    "zinc": {
+      "type": "number",
+      "description": "ppm"
+    },
+    "iron": {
+      "type": "number",
+      "description": "ppm"
+    },
+    "manganese": {
+      "type": "number",
+      "description": "ppm"
+    },
+    "copper": {
+      "type": "number",
+      "description": "ppm"
+    },
+    "boron": {
+      "type": "number",
+      "description": "ppm"
+    },
+    "sulphur": {
+      "type": "number",
+      "description": "ppm"
+    },
+    "test_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "measurement_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "source": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "source_record_id": {
+      "type": "string"
+    },
+    "raw_record_id": {
+      "type": "string"
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "government",
+        "farmer_measurement",
+        "sensor_measurement"
+      ]
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "source_available",
+        "source_unavailable",
+        "pending_verification",
+        "error"
+      ]
+    }
+  },
+  "required": [
+    "source_type",
+    "verification_status"
+  ],
+  "rls": {
+    "read": {
+      "$or": [
+        {
+          "data.source_type": "government"
+        },
+        {
+          "created_by_id": "{{user.id}}"
+        },
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        }
+      ]
+    },
+    "create": {
+      "created_by_id": "{{user.id}}"
+    },
+    "update": {
+      "$or": [
+        {
+          "created_by_id": "{{user.id}}"
+        },
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        }
+      ]
+    },
+    "delete": {
+      "$or": [
+        {
+          "created_by_id": "{{user.id}}"
+        },
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        }
+      ]
+    }
+  }
+}

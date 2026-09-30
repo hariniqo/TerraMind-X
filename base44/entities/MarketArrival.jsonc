@@ -1,0 +1,62 @@
+{
+  "name": "MarketArrival",
+  "type": "object",
+  "properties": {
+    "market_name": {
+      "type": "string"
+    },
+    "market_code": {
+      "type": "string"
+    },
+    "crop_id": {
+      "type": "string"
+    },
+    "arrival_quantity": {
+      "type": "number"
+    },
+    "arrival_unit": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "source": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "source_record_id": {
+      "type": "string"
+    },
+    "fetched_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "market_name",
+    "crop_id",
+    "date",
+    "source"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

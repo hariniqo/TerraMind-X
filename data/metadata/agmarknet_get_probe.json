@@ -1,0 +1,133 @@
+[
+  {
+    "path": "/price-trend/wholesale-prices-monthly",
+    "params": {
+      "commodity": 23,
+      "state": 20,
+      "year": 2015,
+      "report_mode": "statewise"
+    },
+    "http": null,
+    "bytes": 209,
+    "head": "HTTPError: HTTP Error 500: Internal Server Error | b'\\n<!doctype html>\\n<html lang=\"en\">\\n<head>\\n  <title>Server Error (500)</title>\\n</head>\\n<body>\\n  <h1>Server Error (500)</h1><p></p>\\n</body>\\n</html>\\n'",
+    "status": "not-json"
+  },
+  {
+    "path": "/price-trend/wholesale-prices-monthly",
+    "params": {
+      "commodity": 23,
+      "state": 20,
+      "year": 2015,
+      "mode": "statewise"
+    },
+    "http": null,
+    "bytes": 209,
+    "head": "HTTPError: HTTP Error 500: Internal Server Error | b'\\n<!doctype html>\\n<html lang=\"en\">\\n<head>\\n  <title>Server Error (500)</title>\\n</head>\\n<body>\\n  <h1>Server Error (500)</h1><p></p>\\n</body>\\n</html>\\n'",
+    "status": "not-json"
+  },
+  {
+    "path": "/price-trend/wholesale-prices-monthly",
+    "params": {
+      "commodity": 23,
+      "state": 20,
+      "year": 2015
+    },
+    "http": null,
+    "bytes": 209,
+    "head": "HTTPError: HTTP Error 500: Internal Server Error | b'\\n<!doctype html>\\n<html lang=\"en\">\\n<head>\\n  <title>Server Error (500)</title>\\n</head>\\n<body>\\n  <h1>Server Error (500)</h1><p></p>\\n</body>\\n</html>\\n'",
+    "status": "not-json"
+  },
+  {
+    "path": "/price-trend/wholesale-arrivals-monthly",
+    "params": {
+      "commodity": 23,
+      "state": 20,
+      "year": 2015
+    },
+    "http": null,
+    "bytes": 209,
+    "head": "HTTPError: HTTP Error 500: Internal Server Error | b'\\n<!doctype html>\\n<html lang=\"en\">\\n<head>\\n  <title>Server Error (500)</title>\\n</head>\\n<body>\\n  <h1>Server Error (500)</h1><p></p>\\n</body>\\n</html>\\n'",
+    "status": "not-json"
+  },
+  {
+    "path": "/price-trend/month-filter",
+    "params": {
+      "commodity": 23,
+      "state": 20,
+      "year": 2015
+    },
+    "http": null,
+    "bytes": 209,
+    "head": "HTTPError: HTTP Error 500: Internal Server Error | b'\\n<!doctype html>\\n<html lang=\"en\">\\n<head>\\n  <title>Server Error (500)</title>\\n</head>\\n<body>\\n  <h1>Server Error (500)</h1><p></p>\\n</body>\\n</html>\\n'",
+    "status": "not-json"
+  },
+  {
+    "path": "/price-trend/year-filter",
+    "params": {
+      "commodity": 23,
+      "state": 20
+    },
+    "http": 200,
+    "bytes": 159,
+    "head": "{\"status\":\"success\",\"message\":\"Year options fetched successfully\",\"data\":[{\"year\":2021},{\"year\":2022},{\"year\":2023},{\"year\":2024},{\"year\":2025},{\"year\":2026}]}",
+    "status": "success",
+    "message": "Year options fetched successfully",
+    "row_count": 6,
+    "row_keys": [
+      "year"
+    ],
+    "row_sample": {
+      "year": 2021
+    }
+  },
+  {
+    "path": "/price-trend/week-filter",
+    "params": {
+      "commodity": 23,
+      "state": 20,
+      "year": 2015,
+      "month": 1
+    },
+    "http": null,
+    "bytes": 209,
+    "head": "HTTPError: HTTP Error 500: Internal Server Error | b'\\n<!doctype html>\\n<html lang=\"en\">\\n<head>\\n  <title>Server Error (500)</title>\\n</head>\\n<body>\\n  <h1>Server Error (500)</h1><p></p>\\n</body>\\n</html>\\n'",
+    "status": "not-json"
+  },
+  {
+    "path": "/all-type-report/commodity-wise-mandi-arrival",
+    "params": {
+      "commodity": 23,
+      "state": 20,
+      "from_date": "2015-01-01",
+      "to_date": "2015-01-31"
+    },
+    "http": null,
+    "bytes": 83,
+    "head": "HTTPError: HTTP Error 403: Forbidden | b'{\"detail\":\"Authorization header missing\"}'",
+    "status": "not-json"
+  },
+  {
+    "path": "/prices-and-arrivals/commodity-wise/daily-report-state",
+    "params": {
+      "commodity": 23,
+      "state": 20,
+      "date": "2015-01-15"
+    },
+    "http": null,
+    "bytes": 98,
+    "head": "HTTPError: HTTP Error 400: Bad Request | b'{\"success\":false,\"message\":\"Missing date or stateIds\"}'",
+    "status": "not-json"
+  },
+  {
+    "path": "/cmdt-below-msp-report",
+    "params": {
+      "commodity": 23,
+      "state": 20,
+      "year": 2015
+    },
+    "http": null,
+    "bytes": 83,
+    "head": "HTTPError: HTTP Error 403: Forbidden | b'{\"detail\":\"Authorization header missing\"}'",
+    "status": "not-json"
+  }
+]

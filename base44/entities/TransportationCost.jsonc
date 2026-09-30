@@ -1,0 +1,71 @@
+{
+  "name": "TransportationCost",
+  "type": "object",
+  "properties": {
+    "origin": {
+      "type": "string"
+    },
+    "destination": {
+      "type": "string"
+    },
+    "crop": {
+      "type": "string"
+    },
+    "transport_mode": {
+      "type": "string"
+    },
+    "cost": {
+      "type": "number"
+    },
+    "cost_unit": {
+      "type": "string"
+    },
+    "observation_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "source": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "source_available",
+        "source_unavailable",
+        "pending_verification",
+        "error"
+      ]
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "origin",
+    "destination",
+    "source"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

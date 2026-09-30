@@ -1,0 +1,1137 @@
+<html xmlns:x="urn:schemas-microsoft-com:office:excel">
+<head>
+		<style> 		@page {				margin:0.5in .75in 0.5in 0.75in;				mso-header-margin:.25in;				mso-footer-margin:.25in;				mso-horizontal-page-align:center;				mso-vertical-page-align:center;			}		</style>
+<meta name="Generator" content="SAS Software, see www.sas.com" sasversion="9.1">
+<meta http-equiv="Content-type" content="charset=utf-8">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.ContentTitle
+{
+  font-family: Times Roman;
+  font-size: 13pt;
+  font-weight: bold;
+  font-style: italic;
+  color: #000000;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 3ex;
+  margin-bottom: 4ex;
+  width: 100%;
+  text-align: center;
+}
+.Output
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  border-width: 1px;
+  border-color: #000000;
+}
+.HeaderEmphasis
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: italic;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.FatalContent
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+.NoteContent
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+.WarnContentFixed
+{
+  font-family: Courier;
+  font-size: 9pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+.DataStrong
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+}
+.TitlesAndFooters
+{
+  font-family: Times Roman;
+  font-size: 12pt;
+  font-weight: bold;
+  font-style: italic;
+  color: #000000;
+}
+.Graph
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  border-width: 0.75pt;
+  border-color: #000000;
+}
+.NoteBanner
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+}
+.Pages
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  margin-left: 8px;
+  margin-right: 8px;
+  list-style-type: decimal;
+}
+.BeforeCaption
+{
+  font-family: Times Roman;
+  font-size: 11pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+}
+.ContentsDate
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+.IndexProcName
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  list-style-type: decimal;
+}
+.ProcTitle
+{
+  font-family: Times Roman;
+  font-size: 12pt;
+  font-weight: bold;
+  font-style: italic;
+  color: #000000;
+}
+.table
+{
+  border-width: 1px;
+  border-color: #000000;
+  border-style: solid;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+}
+.IndexAction
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  margin-left: 6pt;
+  list-style-type: NONE;
+}
+.Date
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+.Document
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+a:link {
+color:#0000FF
+}
+a:visited {
+color:#0000FF
+}
+a:active {
+color:#0000FF
+}
+.data
+{
+  font-family: Arial;
+  font-size: small;
+  color: #000000;
+}
+.FooterEmpty
+{
+  font-family: Times Roman;
+  font-size: 11pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.SysTitleAndFooterContainer
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  border-width: 0;
+  width: 100%;
+}
+.Container
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+.RowFooterEmpty
+{
+  font-family: Times Roman;
+  font-size: 11pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.ContentFolder
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  list-style-type: NONE;
+  text-align: left;
+}
+.RowFooterEmphasis
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: italic;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.FooterFixed
+{
+  font-family: Courier;
+  font-size: 9pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.RowFooterFixed
+{
+  font-family: Courier;
+  font-size: 9pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.Index
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+.RowFooterStrongFixed
+{
+  font-family: Courier;
+  font-size: 9pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.ExtendedPage
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: italic;
+  color: #000000;
+  border-width: 1pt;
+  text-align: center;
+}
+.summary
+{
+  font-family: Arial;
+  font-size: xx-large;
+  font-weight: bold;
+  color: #000000;
+  background-color: #A9D0F5;
+}
+.Caption
+{
+  font-family: Times Roman;
+  font-size: 11pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+}
+.WarnBanner
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+}
+.Frame
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+.HeaderStrongFixed
+{
+  font-family: Courier;
+  font-size: 9pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.IndexTitle
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: italic;
+  color: #000000;
+}
+.NoteContentFixed
+{
+  font-family: Courier;
+  font-size: 9pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+.DataEmphasisFixed
+{
+  font-family: Courier;
+  font-size: 9pt;
+  font-weight: normal;
+  font-style: italic;
+  color: #000000;
+}
+.Note
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+.Byline
+{
+  font-family: Times Roman;
+  font-size: 11pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+}
+.FatalBanner
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+}
+.ProcTitleFixed
+{
+  font-family: Courier;
+  font-size: 9pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+}
+.ByContentFolder
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  list-style-type: NONE;
+  text-align: left;
+}
+.RowFooterEmphasisFixed
+{
+  font-family: Courier;
+  font-size: 9pt;
+  font-weight: normal;
+  font-style: italic;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.header
+{
+  font-family: Arial;
+  font-size: medium;
+  font-weight: bold;
+  color: #000000;
+  background-color: #A9D0F5;
+}
+.RowHeaderFixed
+{
+  font-family: Courier;
+  font-size: 9pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.DataEmpty
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+.Cell
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+.WarnContent
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+.PagesDate
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+.PagesProcLabel
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  list-style-type: decimal;
+}
+.PageNo
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  text-align: right;
+  vertical-align: top;
+}
+.ContentProcLabel
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  margin-left: 15%;
+  margin-right: 15%;
+  list-style-type: decimal;
+  text-align: left;
+}
+.HeaderFixed
+{
+  font-family: Courier;
+  font-size: 9pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.PagesTitle
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: italic;
+  color: #000000;
+}
+.RowHeaderEmpty
+{
+  font-family: Times Roman;
+  font-size: 11pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.PagesProcName
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  list-style-type: decimal;
+}
+.Batch
+{
+  font-family: SAS Monospace, Courier;
+  font-size: 6.7pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  border-width: 1px;
+  border-color: #000000;
+}
+.ContentItem
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  list-style-type: NONE;
+  text-align: left;
+}
+.HeaderEmpty
+{
+  font-family: Times Roman;
+  font-size: 11pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.FooterStrong
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.FooterEmphasis
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: italic;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.ErrorContent
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+.DataFixed
+{
+  font-family: Courier;
+  font-size: 9pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+.HeaderStrong
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.DataEmphasis
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: italic;
+  color: #000000;
+}
+.TitleAndNoteContainer
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  border-width: 0;
+  width: 100%;
+}
+.RowFooter
+{
+  font-family: Times Roman;
+  font-size: 11pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.BylineContainer
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  border-width: 0;
+  width: 100%;
+}
+.FatalContentFixed
+{
+  font-family: Courier;
+  font-size: 9pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+.BodyDate
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  text-align: right;
+  vertical-align: top;
+}
+.FooterEmphasisFixed
+{
+  font-family: Courier;
+  font-size: 9pt;
+  font-weight: normal;
+  font-style: italic;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.RowFooterStrong
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.UserText
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+.Contents
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  margin-left: 8px;
+  margin-right: 8px;
+  list-style-type: decimal;
+}
+.IndexItem
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  margin-left: 6pt;
+  list-style-type: NONE;
+}
+.RowHeaderStrong
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.HeadersAndFooters
+{
+  font-family: Times Roman;
+  font-size: 11pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.RowHeaderEmphasisFixed
+{
+  font-family: Courier;
+  font-size: 9pt;
+  font-weight: normal;
+  font-style: italic;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.ErrorBanner
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+}
+.ContentProcName
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  margin-left: 15%;
+  margin-right: 15%;
+  list-style-type: decimal;
+  text-align: left;
+}
+.PagesItem
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  list-style-type: NONE;
+}
+.RowHeader
+{
+  font-family: Times Roman;
+  font-size: 11pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.FooterStrongFixed
+{
+  font-family: Courier;
+  font-size: 9pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.AfterCaption
+{
+  font-family: Times Roman;
+  font-size: 11pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+}
+.RowHeaderStrongFixed
+{
+  font-family: Courier;
+  font-size: 9pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.RowHeaderEmphasis
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: italic;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.DataStrongFixed
+{
+  font-family: Courier;
+  font-size: 9pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+}
+.FolderAction
+{
+  font-family: Times Roman;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  margin-left: 6pt;
+  list-style-type: NONE;
+}
+.Footer
+{
+  font-family: Times Roman;
+  font-size: 11pt;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.HeaderEmphasisFixed
+{
+  font-family: Courier;
+  font-size: 9pt;
+  font-weight: normal;
+  font-style: italic;
+  color: #000000;
+  background-color: #BBBBBB;
+}
+.systemtitle
+{
+  font-family: Arial;
+  font-size: large;
+  font-weight: bold;
+}
+.ErrorContentFixed
+{
+  font-family: Courier;
+  font-size: 9pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+.systemfooter
+{
+  font-family: Arial;
+  font-size: small;
+}
+.body
+{
+  color: #000000;
+  background-color: #FFFFFF;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: "." }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+<noscript></noscript>
+</head>
+<body onload="startup()" onunload="shutdown()" class="body" style="  text-align: center;">
+
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+
+//-->
+</script>
+
+<noscript></noscript>
+<div class="branch">
+<a name="IDX"></a>
+<h1 class="systemtitle">Forth  Economic  Census</h1>
+<h1 class="systemtitle">Distribution Of Enterprises And Employment By Type Of Activity</h1>
+<h1 class="systemtitle">State : Maharashtra</h1>
+<h1 class="systemtitle">Year : 1998</h1>
+<h1 class="systemtitle">                               </h1>
+<div>
+<div align="center">
+<table class="table" style="  text-align: center;" cellspacing="0px" cellpadding="5px" border="1" bordercolor="#000000" summary="Procedure Report: Detailed and/or summarized report">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="header" style="  text-align: center;" colspan="2" scope="colgroup">&nbsp;</th>
+<th class="header" style="  text-align: center;" colspan="12" scope="colgroup">Total No Of Establishments</th>
+</tr>
+<tr>
+<th class="header" style="  text-align: center;" colspan="2" scope="colgroup">&nbsp;</th>
+<th class="header" style="  text-align: center;" colspan="4" scope="colgroup">Rural</th>
+<th class="header" style="  text-align: center;" colspan="4" scope="colgroup">Urban</th>
+<th class="header" style="  text-align: center;" colspan="4" scope="colgroup">Combined</th>
+</tr>
+<tr>
+<th class="header" style="  text-align: center;" scope="col">Sr. No.</th>
+<th class="header" style="  text-align: center;" scope="col">Activity</th>
+<th class="header" style="  text-align: center;" scope="col">OAE</th>
+<th class="header" style="  text-align: center;" scope="col">Establishments*</th>
+<th class="header" style="  text-align: center;" scope="col">OAE Employment</th>
+<th class="header" style="  text-align: center;" scope="col">ESTT. Employment</th>
+<th class="header" style="  text-align: center;" scope="col">OAE</th>
+<th class="header" style="  text-align: center;" scope="col">Establishments*</th>
+<th class="header" style="  text-align: center;" scope="col">OAE Employment</th>
+<th class="header" style="  text-align: center;" scope="col">ESTT. Employment</th>
+<th class="header" style="  text-align: center;" scope="col">OAE</th>
+<th class="header" style="  text-align: center;" scope="col">Establishments*</th>
+<th class="header" style="  text-align: center;" scope="col">OAE Employment</th>
+<th class="header" style="  text-align: center;" scope="col">ESTT. Employment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="data" style="  text-align: right;">        1</td>
+<td class="data" style="  text-align: left;">Agriculture, hunting, forestry and fishing</td>
+<td class="data" style="  text-align: right;">   467435</td>
+<td class="data" style="  text-align: right;">    21257</td>
+<td class="data" style="  text-align: right;">   822153</td>
+<td class="data" style="  text-align: right;">    80709</td>
+<td class="data" style="  text-align: right;">    24676</td>
+<td class="data" style="  text-align: right;">     4164</td>
+<td class="data" style="  text-align: right;">    39938</td>
+<td class="data" style="  text-align: right;">    25551</td>
+<td class="data" style="  text-align: right;">   492111</td>
+<td class="data" style="  text-align: right;">    25421</td>
+<td class="data" style="  text-align: right;">   862091</td>
+<td class="data" style="  text-align: right;">   106260</td>
+</tr>
+<tr>
+<td class="data" style="  text-align: right;">        2</td>
+<td class="data" style="  text-align: left;">Mining, quarrying and Manufacturing</td>
+<td class="data" style="  text-align: right;">   177622</td>
+<td class="data" style="  text-align: right;">    40648</td>
+<td class="data" style="  text-align: right;">   287171</td>
+<td class="data" style="  text-align: right;">   595649</td>
+<td class="data" style="  text-align: right;">   102470</td>
+<td class="data" style="  text-align: right;">   125973</td>
+<td class="data" style="  text-align: right;">   158962</td>
+<td class="data" style="  text-align: right;">  1410571</td>
+<td class="data" style="  text-align: right;">   280092</td>
+<td class="data" style="  text-align: right;">   166621</td>
+<td class="data" style="  text-align: right;">   446133</td>
+<td class="data" style="  text-align: right;">  2006220</td>
+</tr>
+<tr>
+<td class="data" style="  text-align: right;">        3</td>
+<td class="data" style="  text-align: left;">Electricity, gas and water</td>
+<td class="data" style="  text-align: right;">       36</td>
+<td class="data" style="  text-align: right;">      564</td>
+<td class="data" style="  text-align: right;">       45</td>
+<td class="data" style="  text-align: right;">     8853</td>
+<td class="data" style="  text-align: right;">       62</td>
+<td class="data" style="  text-align: right;">      609</td>
+<td class="data" style="  text-align: right;">       85</td>
+<td class="data" style="  text-align: right;">    21967</td>
+<td class="data" style="  text-align: right;">       98</td>
+<td class="data" style="  text-align: right;">     1173</td>
+<td class="data" style="  text-align: right;">      130</td>
+<td class="data" style="  text-align: right;">    30820</td>
+</tr>
+<tr>
+<td class="data" style="  text-align: right;">        4</td>
+<td class="data" style="  text-align: left;">Construction</td>
+<td class="data" style="  text-align: right;">    34080</td>
+<td class="data" style="  text-align: right;">     3922</td>
+<td class="data" style="  text-align: right;">    47594</td>
+<td class="data" style="  text-align: right;">    22571</td>
+<td class="data" style="  text-align: right;">    12203</td>
+<td class="data" style="  text-align: right;">     8103</td>
+<td class="data" style="  text-align: right;">    15520</td>
+<td class="data" style="  text-align: right;">    51335</td>
+<td class="data" style="  text-align: right;">    46283</td>
+<td class="data" style="  text-align: right;">    12025</td>
+<td class="data" style="  text-align: right;">    63114</td>
+<td class="data" style="  text-align: right;">    73906</td>
+</tr>
+<tr>
+<td class="data" style="  text-align: right;">        5</td>
+<td class="data" style="  text-align: left;">Wholesale and retail trade &amp; restaurants and hotels</td>
+<td class="data" style="  text-align: right;">   395855</td>
+<td class="data" style="  text-align: right;">    71500</td>
+<td class="data" style="  text-align: right;">   567469</td>
+<td class="data" style="  text-align: right;">   232181</td>
+<td class="data" style="  text-align: right;">   539410</td>
+<td class="data" style="  text-align: right;">   290790</td>
+<td class="data" style="  text-align: right;">   724932</td>
+<td class="data" style="  text-align: right;">  1203196</td>
+<td class="data" style="  text-align: right;">   935265</td>
+<td class="data" style="  text-align: right;">   362290</td>
+<td class="data" style="  text-align: right;">  1292401</td>
+<td class="data" style="  text-align: right;">  1435377</td>
+</tr>
+<tr>
+<td class="data" style="  text-align: right;">        6</td>
+<td class="data" style="  text-align: left;">Transport, storage and communication services</td>
+<td class="data" style="  text-align: right;">    27050</td>
+<td class="data" style="  text-align: right;">    14894</td>
+<td class="data" style="  text-align: right;">    34571</td>
+<td class="data" style="  text-align: right;">    48649</td>
+<td class="data" style="  text-align: right;">    81940</td>
+<td class="data" style="  text-align: right;">    31236</td>
+<td class="data" style="  text-align: right;">    91000</td>
+<td class="data" style="  text-align: right;">   369506</td>
+<td class="data" style="  text-align: right;">   108990</td>
+<td class="data" style="  text-align: right;">    46130</td>
+<td class="data" style="  text-align: right;">   125571</td>
+<td class="data" style="  text-align: right;">   418155</td>
+</tr>
+<tr>
+<td class="data" style="  text-align: right;">        7</td>
+<td class="data" style="  text-align: left;">Financial, insurance, real estate and business services</td>
+<td class="data" style="  text-align: right;">     1605</td>
+<td class="data" style="  text-align: right;">      701</td>
+<td class="data" style="  text-align: right;">     2172</td>
+<td class="data" style="  text-align: right;">     7723</td>
+<td class="data" style="  text-align: right;">     7713</td>
+<td class="data" style="  text-align: right;">    13661</td>
+<td class="data" style="  text-align: right;">    10922</td>
+<td class="data" style="  text-align: right;">   126769</td>
+<td class="data" style="  text-align: right;">     9318</td>
+<td class="data" style="  text-align: right;">    14362</td>
+<td class="data" style="  text-align: right;">    13094</td>
+<td class="data" style="  text-align: right;">   134492</td>
+</tr>
+<tr>
+<td class="data" style="  text-align: right;">        8</td>
+<td class="data" style="  text-align: left;">Financial, insurance, real e~tate and business services</td>
+<td class="data" style="  text-align: right;">    16919</td>
+<td class="data" style="  text-align: right;">    13749</td>
+<td class="data" style="  text-align: right;">    22916</td>
+<td class="data" style="  text-align: right;">    55989</td>
+<td class="data" style="  text-align: right;">    24685</td>
+<td class="data" style="  text-align: right;">    31896</td>
+<td class="data" style="  text-align: right;">    31225</td>
+<td class="data" style="  text-align: right;">   402734</td>
+<td class="data" style="  text-align: right;">    41604</td>
+<td class="data" style="  text-align: right;">    45645</td>
+<td class="data" style="  text-align: right;">    54141</td>
+<td class="data" style="  text-align: right;">   458723</td>
+</tr>
+<tr>
+<td class="data" style="  text-align: right;">        9</td>
+<td class="data" style="  text-align: left;">Community, social and personal services</td>
+<td class="data" style="  text-align: right;">   173898</td>
+<td class="data" style="  text-align: right;">   151576</td>
+<td class="data" style="  text-align: right;">   224294</td>
+<td class="data" style="  text-align: right;">   627353</td>
+<td class="data" style="  text-align: right;">   174872</td>
+<td class="data" style="  text-align: right;">   144303</td>
+<td class="data" style="  text-align: right;">   231345</td>
+<td class="data" style="  text-align: right;">  1830652</td>
+<td class="data" style="  text-align: right;">   348770</td>
+<td class="data" style="  text-align: right;">   295879</td>
+<td class="data" style="  text-align: right;">   455639</td>
+<td class="data" style="  text-align: right;">  2458005</td>
+</tr>
+<tr>
+<td class="data" style="  text-align: right;">       10</td>
+<td class="data" style="  text-align: left;">Activities not adequately defined</td>
+<td class="data" style="  text-align: right;">       17</td>
+<td class="data" style="  text-align: right;">       24</td>
+<td class="data" style="  text-align: right;">       23</td>
+<td class="data" style="  text-align: right;">      169</td>
+<td class="data" style="  text-align: right;">      640</td>
+<td class="data" style="  text-align: right;">     1264</td>
+<td class="data" style="  text-align: right;">     1051</td>
+<td class="data" style="  text-align: right;">     9203</td>
+<td class="data" style="  text-align: right;">      657</td>
+<td class="data" style="  text-align: right;">     1288</td>
+<td class="data" style="  text-align: right;">     1074</td>
+<td class="data" style="  text-align: right;">     9372</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<h1 class="systemfooter">Note:- Establishments*- Establishments with atleast one hired worker</h1>
+<h1 class="systemfooter">OAE- Own Account Establishment</h1>
+<h1 class="systemfooter"> </h1>
+<h1 class="systemfooter">Source :</h1>
+<h1 class="systemfooter">Directorate Of Economics And Statistics, GOM</h1>
+<h1 class="systemfooter"></h1>
+<h1 class="systemfooter">Navigation Path :</h1>
+<h1 class="systemfooter">www.mahasdb.maharashtra.gov.in &gt; Home &gt; Economic Census &gt; Standard Reports</h1>
+</div>
+</body>
+</html>

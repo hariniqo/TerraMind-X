@@ -1,0 +1,125 @@
+{
+  "name": "LandCropPlan",
+  "type": "object",
+  "properties": {
+    "field_name": {
+      "type": "string"
+    },
+    "field_area_acres": {
+      "type": "number"
+    },
+    "state": {
+      "type": "string"
+    },
+    "district_or_cluster": {
+      "type": "string"
+    },
+    "planned_crop": {
+      "type": "string"
+    },
+    "planned_sowing_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "target_festival": {
+      "type": "string"
+    },
+    "desired_sale_start": {
+      "type": "string",
+      "format": "date"
+    },
+    "desired_sale_end": {
+      "type": "string",
+      "format": "date"
+    },
+    "expected_quantity_kg": {
+      "type": "number"
+    },
+    "water_availability": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "storage_available": {
+      "type": "boolean"
+    },
+    "buyer_pre_booked": {
+      "type": "boolean"
+    },
+    "festival_sd_index": {
+      "type": "number"
+    },
+    "risk_level": {
+      "type": "string"
+    },
+    "confidence_score": {
+      "type": "number"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "planned",
+        "active",
+        "harvested"
+      ],
+      "default": "planned"
+    },
+    "source": {
+      "type": "string",
+      "default": "farmer_entry"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "planned_crop",
+    "planned_sowing_date",
+    "source"
+  ],
+  "rls": {
+    "read": {
+      "$or": [
+        {
+          "created_by_id": "{{user.id}}"
+        },
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        }
+      ]
+    },
+    "create": {
+      "created_by_id": "{{user.id}}"
+    },
+    "update": {
+      "$or": [
+        {
+          "created_by_id": "{{user.id}}"
+        },
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        }
+      ]
+    },
+    "delete": {
+      "$or": [
+        {
+          "created_by_id": "{{user.id}}"
+        },
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        }
+      ]
+    }
+  }
+}

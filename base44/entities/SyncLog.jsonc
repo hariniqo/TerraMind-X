@@ -1,0 +1,62 @@
+{
+  "name": "SyncLog",
+  "type": "object",
+  "properties": {
+    "source": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "request_time": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "response_time": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "records_received": {
+      "type": "number"
+    },
+    "records_inserted": {
+      "type": "number"
+    },
+    "records_rejected": {
+      "type": "number"
+    },
+    "error": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "success",
+        "partial",
+        "failed"
+      ]
+    }
+  },
+  "required": [
+    "source",
+    "status"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}
