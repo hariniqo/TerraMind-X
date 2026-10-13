@@ -1,6 +1,7 @@
 import { useState } from "react";
 import React from "react";
 import { AIChat } from "./components/ai/AIChat";
+import { LandingScreen } from "./components/landing/LandingScreen";
 import {
   AreaChart, Area, BarChart, Bar, LineChart, Line,
   XAxis, YAxis, Tooltip, ResponsiveContainer, RadarChart,
@@ -9,7 +10,7 @@ import {
 
 // ── Types ──────────────────────────────────────────────────────────────────
 type Screen =
-  | "dashboard" | "land" | "climate" | "agents"
+  | "landing" | "dashboard" | "land" | "climate" | "agents"
   | "market" | "crop" | "competition" | "selling"
   | "buyer" | "action" | "chat";
 
@@ -1184,7 +1185,7 @@ function ChatScreen() {
 
 // ── Main App ───────────────────────────────────────────────────────────────
 export default function App() {
-  const [screen, setScreen] = useState<Screen>("dashboard");
+  const [screen, setScreen] = useState<Screen>("landing");
   const [lang, setLang] = useState<Lang>("en");
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
@@ -1201,6 +1202,10 @@ export default function App() {
     action:      <ActionScreen />,
     chat:        <ChatScreen />,
   };
+
+  if (screen === "landing") {
+    return <LandingScreen onGetStarted={() => setScreen("dashboard")} />;
+  }
 
   return (
     <div className="min-h-screen flex" style={{ background: "#f5f2eb", fontFamily: "Outfit, sans-serif" }}>
