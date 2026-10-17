@@ -27,7 +27,7 @@ TerraMind-X is an enterprise-grade agricultural decision-intelligence platform b
 5. **Explainability & Sensitivity Layer**:
    - Every recommendation explains **"WHY was this recommended?"** with ground-truth evidence and **"WHAT COULD CHANGE THIS DECISION?"** triggers.
 6. **Multilingual & Voice Interaction**:
-   - Supports natural Tamil (தமிழ்), English, Thanglish, and Marathi (मराठी) with Web Speech API integration.
+   - Supports natural Tamil (தமிழ்), English and Marathi (मराठी) with Web Speech API integration.
 7. **Transparent Data Provenance**:
    - Every metric displays verification provenance tags (`LIVE`, `CACHED`, `FALLBACK`, `SIMULATED`, `DEMO_DATASET`).
 8. **System Health & Observability (`/system-status`)**:
